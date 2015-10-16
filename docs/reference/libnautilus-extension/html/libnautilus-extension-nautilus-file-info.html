@@ -1,0 +1,830 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Nautilus Extension Reference Manual: nautilus-file-info</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Nautilus Extension Reference Manual">
+<link rel="up" href="ch01.html" title="Extension Interfaces">
+<link rel="prev" href="libnautilus-extension-nautilus-extension-types.html" title="nautilus-extension-types">
+<link rel="next" href="libnautilus-extension-nautilus-info-provider.html" title="nautilus-info-provider">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-file-info.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-file-info.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_prerequisites">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-file-info.prerequisites" class="shortcut">Prerequisites</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="libnautilus-extension-nautilus-extension-types.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libnautilus-extension-nautilus-info-provider.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="libnautilus-extension-nautilus-file-info"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libnautilus-extension-nautilus-file-info.top_of_page"></a>nautilus-file-info</span></h2>
+<p>nautilus-file-info</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-create" title="nautilus_file_info_create ()">nautilus_file_info_create</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-create-for-uri" title="nautilus_file_info_create_for_uri ()">nautilus_file_info_create_for_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-getter" title="nautilus_file_info_getter ()">*nautilus_file_info_getter</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-lookup" title="nautilus_file_info_lookup ()">nautilus_file_info_lookup</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-lookup-for-uri" title="nautilus_file_info_lookup_for_uri ()">nautilus_file_info_lookup_for_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-list-copy" title="nautilus_file_info_list_copy ()">nautilus_file_info_list_copy</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-list-free" title="nautilus_file_info_list_free ()">nautilus_file_info_list_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-is-gone" title="nautilus_file_info_is_gone ()">nautilus_file_info_is_gone</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GFileType</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-file-type" title="nautilus_file_info_get_file_type ()">nautilus_file_info_get_file_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GFile</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-location" title="nautilus_file_info_get_location ()">nautilus_file_info_get_location</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-name" title="nautilus_file_info_get_name ()">nautilus_file_info_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-uri" title="nautilus_file_info_get_uri ()">nautilus_file_info_get_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-activation-uri" title="nautilus_file_info_get_activation_uri ()">nautilus_file_info_get_activation_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GFile</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-parent-location" title="nautilus_file_info_get_parent_location ()">nautilus_file_info_get_parent_location</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-parent-uri" title="nautilus_file_info_get_parent_uri ()">nautilus_file_info_get_parent_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GMount</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-mount" title="nautilus_file_info_get_mount ()">nautilus_file_info_get_mount</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-uri-scheme" title="nautilus_file_info_get_uri_scheme ()">nautilus_file_info_get_uri_scheme</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-parent-info" title="nautilus_file_info_get_parent_info ()">nautilus_file_info_get_parent_info</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-mime-type" title="nautilus_file_info_get_mime_type ()">nautilus_file_info_get_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-is-mime-type" title="nautilus_file_info_is_mime_type ()">nautilus_file_info_is_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-is-directory" title="nautilus_file_info_is_directory ()">nautilus_file_info_is_directory</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-can-write" title="nautilus_file_info_can_write ()">nautilus_file_info_can_write</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-add-emblem" title="nautilus_file_info_add_emblem ()">nautilus_file_info_add_emblem</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-get-string-attribute" title="nautilus_file_info_get_string_attribute ()">nautilus_file_info_get_string_attribute</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-add-string-attribute" title="nautilus_file_info_add_string_attribute ()">nautilus_file_info_add_string_attribute</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-invalidate-extension-info" title="nautilus_file_info_invalidate_extension_info ()">nautilus_file_info_invalidate_extension_info</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="NautilusFileInfo"></a><div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NAUTILUS-FILE-DEFINED:CAPS" title="NAUTILUS_FILE_DEFINED">NAUTILUS_FILE_DEFINED</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFile" title="NautilusFile">NautilusFile</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo">NautilusFileInfo</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfoIface" title="struct NautilusFileInfoIface">NautilusFileInfoIface</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GInterface
+    <span class="lineart">╰──</span> NautilusFileInfo
+</pre>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.prerequisites"></a><h2>Prerequisites</h2>
+<p>
+NautilusFileInfo requires
+ GObject.</p>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="nautilus-file-info-create"></a><h3>nautilus_file_info_create ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+nautilus_file_info_create (<em class="parameter"><code><span class="type">GFile</span> *location</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.2.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>location</p></td>
+<td class="parameter_description"><p>the location to create the file info for</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.2.5"></a><h4>Returns</h4>
+<p> a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-create-for-uri"></a><h3>nautilus_file_info_create_for_uri ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+nautilus_file_info_create_for_uri (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.3.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>the URI to lookup the file info for</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.3.5"></a><h4>Returns</h4>
+<p> a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-getter"></a><h3>nautilus_file_info_getter ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+<span class="c_punctuation">(</span>*nautilus_file_info_getter<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">GFile</span> *location</code></em>,
+                              <em class="parameter"><code><span class="type">gboolean</span> create</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.4.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-lookup"></a><h3>nautilus_file_info_lookup ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+nautilus_file_info_lookup (<em class="parameter"><code><span class="type">GFile</span> *location</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.5.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>location</p></td>
+<td class="parameter_description"><p>the location to lookup the file info for</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.5.5"></a><h4>Returns</h4>
+<p> a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-lookup-for-uri"></a><h3>nautilus_file_info_lookup_for_uri ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+nautilus_file_info_lookup_for_uri (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.6.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>the URI to lookup the file info for</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.6.5"></a><h4>Returns</h4>
+<p> a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a>. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-list-copy"></a><h3>nautilus_file_info_list_copy ()</h3>
+<pre class="programlisting"><span class="returnvalue">GList</span> *
+nautilus_file_info_list_copy (<em class="parameter"><code><span class="type">GList</span> *files</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.7.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>files</p></td>
+<td class="parameter_description"><p> the files to copy. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> NautilusFileInfo]</span></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.7.5"></a><h4>Returns</h4>
+<p> a copy of <em class="parameter"><code>files</code></em>
+.
+Use <a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-list-free" title="nautilus_file_info_list_free ()"><span class="type">nautilus_file_info_list_free</span></a> to free the list and unref its contents. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> NautilusFileInfo][<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-list-free"></a><h3>nautilus_file_info_list_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_file_info_list_free (<em class="parameter"><code><span class="type">GList</span> *files</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.8.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>files</p></td>
+<td class="parameter_description"><p> a list created with
+<a class="link" href="libnautilus-extension-nautilus-file-info.html#nautilus-file-info-list-copy" title="nautilus_file_info_list_copy ()"><span class="type">nautilus_file_info_list_copy</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> NautilusFileInfo]</span></td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-is-gone"></a><h3>nautilus_file_info_is_gone ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+nautilus_file_info_is_gone (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.9.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-file-type"></a><h3>nautilus_file_info_get_file_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">GFileType</span>
+nautilus_file_info_get_file_type (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.10.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-location"></a><h3>nautilus_file_info_get_location ()</h3>
+<pre class="programlisting"><span class="returnvalue">GFile</span> *
+nautilus_file_info_get_location (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.11.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>file</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.11.5"></a><h4>Returns</h4>
+<p> a <span class="type">GFile</span> for the location of <em class="parameter"><code>file</code></em>
+. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-name"></a><h3>nautilus_file_info_get_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_name (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.12.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-uri"></a><h3>nautilus_file_info_get_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_uri (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.13.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-activation-uri"></a><h3>nautilus_file_info_get_activation_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_activation_uri (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.14.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-parent-location"></a><h3>nautilus_file_info_get_parent_location ()</h3>
+<pre class="programlisting"><span class="returnvalue">GFile</span> *
+nautilus_file_info_get_parent_location
+                               (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.15.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>file</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.15.5"></a><h4>Returns</h4>
+<p> a <span class="type">GFile</span> for the parent location of <em class="parameter"><code>file</code></em>
+,
+or <code class="literal">NULL</code> if <em class="parameter"><code>file</code></em>
+has no parent. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/allow-none"><span class="acronym">allow-none</span></a>][<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-parent-uri"></a><h3>nautilus_file_info_get_parent_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_parent_uri (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.16.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-mount"></a><h3>nautilus_file_info_get_mount ()</h3>
+<pre class="programlisting"><span class="returnvalue">GMount</span> *
+nautilus_file_info_get_mount (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.17.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>file</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.17.5"></a><h4>Returns</h4>
+<p> a <span class="type">GMount</span> for the mount of <em class="parameter"><code>file</code></em>
+,
+or <code class="literal">NULL</code> if <em class="parameter"><code>file</code></em>
+has no mount. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/allow-none"><span class="acronym">allow-none</span></a>][<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-uri-scheme"></a><h3>nautilus_file_info_get_uri_scheme ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_uri_scheme (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.18.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-parent-info"></a><h3>nautilus_file_info_get_parent_info ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="returnvalue">NautilusFileInfo</span></a> *
+nautilus_file_info_get_parent_info (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.19.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>file</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.19.5"></a><h4>Returns</h4>
+<p> a <a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> for the parent of <em class="parameter"><code>file</code></em>
+,
+or <code class="literal">NULL</code> if <em class="parameter"><code>file</code></em>
+has no parent. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/allow-none"><span class="acronym">allow-none</span></a>][<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-mime-type"></a><h3>nautilus_file_info_get_mime_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_mime_type (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.20.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-is-mime-type"></a><h3>nautilus_file_info_is_mime_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+nautilus_file_info_is_mime_type (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>,
+                                 <em class="parameter"><code>const <span class="type">char</span> *mime_type</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.21.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-is-directory"></a><h3>nautilus_file_info_is_directory ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+nautilus_file_info_is_directory (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.22.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-can-write"></a><h3>nautilus_file_info_can_write ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+nautilus_file_info_can_write (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.23.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-add-emblem"></a><h3>nautilus_file_info_add_emblem ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_file_info_add_emblem (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>,
+                               <em class="parameter"><code>const <span class="type">char</span> *emblem_name</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-get-string-attribute"></a><h3>nautilus_file_info_get_string_attribute ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+nautilus_file_info_get_string_attribute
+                               (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *attribute_name</code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.5.9.25.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-add-string-attribute"></a><h3>nautilus_file_info_add_string_attribute ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_file_info_add_string_attribute
+                               (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *attribute_name</code></em>,
+                                <em class="parameter"><code>const <span class="type">char</span> *value</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-file-info-invalidate-extension-info"></a><h3>nautilus_file_info_invalidate_extension_info ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_file_info_invalidate_extension_info
+                               (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-file-info.html#NautilusFileInfo"><span class="type">NautilusFileInfo</span></a> *file</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-file-info.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="NAUTILUS-FILE-DEFINED:CAPS"></a><h3>NAUTILUS_FILE_DEFINED</h3>
+<pre class="programlisting">#define NAUTILUS_FILE_DEFINED
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusFile"></a><h3>NautilusFile</h3>
+<pre class="programlisting">typedef struct NautilusFile          NautilusFile;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusFileInfo"></a><h3>NautilusFileInfo</h3>
+<pre class="programlisting">typedef NautilusFile                  NautilusFileInfo;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusFileInfoIface"></a><h3>struct NautilusFileInfoIface</h3>
+<pre class="programlisting">struct NautilusFileInfoIface {
+	GTypeInterface g_iface;
+
+	gboolean          (*is_gone)              (NautilusFileInfo *file);
+	
+	char *            (*get_name)             (NautilusFileInfo *file);
+	char *            (*get_uri)              (NautilusFileInfo *file);
+	char *            (*get_parent_uri)       (NautilusFileInfo *file);
+	char *            (*get_uri_scheme)       (NautilusFileInfo *file);
+	
+	char *            (*get_mime_type)        (NautilusFileInfo *file);
+	gboolean          (*is_mime_type)         (NautilusFileInfo *file,
+						   const char       *mime_Type);
+	gboolean          (*is_directory)         (NautilusFileInfo *file);
+	
+	void              (*add_emblem)           (NautilusFileInfo *file,
+						   const char       *emblem_name);
+	char *            (*get_string_attribute) (NautilusFileInfo *file,
+						   const char       *attribute_name);
+	void              (*add_string_attribute) (NautilusFileInfo *file,
+						   const char       *attribute_name,
+						   const char       *value);
+	void              (*invalidate_extension_info) (NautilusFileInfo *file);
+	
+	char *            (*get_activation_uri)   (NautilusFileInfo *file);
+
+	GFileType         (*get_file_type)        (NautilusFileInfo *file);
+	GFile *           (*get_location)         (NautilusFileInfo *file);
+	GFile *           (*get_parent_location)  (NautilusFileInfo *file);
+	NautilusFileInfo* (*get_parent_info)      (NautilusFileInfo *file);
+	GMount *          (*get_mount)            (NautilusFileInfo *file);
+	gboolean          (*can_write)            (NautilusFileInfo *file);
+};
+</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

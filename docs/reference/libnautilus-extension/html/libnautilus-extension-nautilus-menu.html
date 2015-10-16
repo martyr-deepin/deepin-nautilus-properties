@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Nautilus Extension Reference Manual: NautilusMenuItem</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Nautilus Extension Reference Manual">
+<link rel="up" href="ch01.html" title="Extension Interfaces">
+<link rel="prev" href="libnautilus-extension-nautilus-menu-provider.html" title="nautilus-menu-provider">
+<link rel="next" href="libnautilus-extension-nautilus-property-page-provider.html" title="nautilus-property-page-provider">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-menu.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-menu.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-menu.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-menu.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="libnautilus-extension-nautilus-menu-provider.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libnautilus-extension-nautilus-property-page-provider.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="libnautilus-extension-nautilus-menu"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libnautilus-extension-nautilus-menu.top_of_page"></a>NautilusMenuItem</span></h2>
+<p>NautilusMenuItem</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-TYPE-MENU-ITEM:CAPS" title="NAUTILUS_TYPE_MENU_ITEM">NAUTILUS_TYPE_MENU_ITEM</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-MENU-ITEM:CAPS" title="NAUTILUS_MENU_ITEM()">NAUTILUS_MENU_ITEM</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-MENU-ITEM-CLASS:CAPS" title="NAUTILUS_MENU_ITEM_CLASS()">NAUTILUS_MENU_ITEM_CLASS</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-MENU-IS-ITEM:CAPS" title="NAUTILUS_MENU_IS_ITEM()">NAUTILUS_MENU_IS_ITEM</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-MENU-IS-ITEM-CLASS:CAPS" title="NAUTILUS_MENU_IS_ITEM_CLASS()">NAUTILUS_MENU_IS_ITEM_CLASS</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NAUTILUS-MENU-ITEM-GET-CLASS:CAPS" title="NAUTILUS_MENU_ITEM_GET_CLASS()">NAUTILUS_MENU_ITEM_GET_CLASS</a><span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="returnvalue">NautilusMenu</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-new" title="nautilus_menu_new ()">nautilus_menu_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-append-item" title="nautilus_menu_append_item ()">nautilus_menu_append_item</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-get-items" title="nautilus_menu_get_items ()">nautilus_menu_get_items</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-item-list-free" title="nautilus_menu_item_list_free ()">nautilus_menu_item_list_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GType</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-item-get-type" title="nautilus_menu_item_get_type ()">nautilus_menu_item_get_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="returnvalue">NautilusMenuItem</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-item-new" title="nautilus_menu_item_new ()">nautilus_menu_item_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-item-activate" title="nautilus_menu_item_activate ()">nautilus_menu_item_activate</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#nautilus-menu-item-set-submenu" title="nautilus_menu_item_set_submenu ()">nautilus_menu_item_set_submenu</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--icon" title="The “icon” property">icon</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--label" title="The “label” property">label</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--menu" title="The “menu” property">menu</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--name" title="The “name” property">name</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--priority" title="The “priority” property">priority</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--sensitive" title="The “sensitive” property">sensitive</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem--tip" title="The “tip” property">tip</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem-activate" title="The “activate” signal">activate</a></td>
+<td class="signal_flags">Run Last</td>
+</tr></tbody>
+</table></div>
+</div>
+<a name="NautilusMenu"></a><a name="NautilusMenuItem"></a><div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuPrivate" title="NautilusMenuPrivate">NautilusMenuPrivate</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItemDetails" title="NautilusMenuItemDetails">NautilusMenuItemDetails</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu-struct" title="struct NautilusMenu">NautilusMenu</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem-struct" title="struct NautilusMenuItem">NautilusMenuItem</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">├──</span> NautilusMenu
+    <span class="lineart">╰──</span> NautilusMenuItem
+</pre>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="NAUTILUS-TYPE-MENU-ITEM:CAPS"></a><h3>NAUTILUS_TYPE_MENU_ITEM</h3>
+<pre class="programlisting">#define NAUTILUS_TYPE_MENU_ITEM            (nautilus_menu_item_get_type())
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NAUTILUS-MENU-ITEM:CAPS"></a><h3>NAUTILUS_MENU_ITEM()</h3>
+<pre class="programlisting">#define NAUTILUS_MENU_ITEM(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), NAUTILUS_TYPE_MENU_ITEM, NautilusMenuItem))
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NAUTILUS-MENU-ITEM-CLASS:CAPS"></a><h3>NAUTILUS_MENU_ITEM_CLASS()</h3>
+<pre class="programlisting">#define NAUTILUS_MENU_ITEM_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), NAUTILUS_TYPE_MENU_ITEM, NautilusMenuItemClass))
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NAUTILUS-MENU-IS-ITEM:CAPS"></a><h3>NAUTILUS_MENU_IS_ITEM()</h3>
+<pre class="programlisting">#define NAUTILUS_MENU_IS_ITEM(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), NAUTILUS_TYPE_MENU_ITEM))
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NAUTILUS-MENU-IS-ITEM-CLASS:CAPS"></a><h3>NAUTILUS_MENU_IS_ITEM_CLASS()</h3>
+<pre class="programlisting">#define NAUTILUS_MENU_IS_ITEM_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((obj), NAUTILUS_TYPE_MENU_ITEM))
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NAUTILUS-MENU-ITEM-GET-CLASS:CAPS"></a><h3>NAUTILUS_MENU_ITEM_GET_CLASS()</h3>
+<pre class="programlisting">#define NAUTILUS_MENU_ITEM_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS((obj), NAUTILUS_TYPE_MENU_ITEM, NautilusMenuItemClass))
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-new"></a><h3>nautilus_menu_new ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="returnvalue">NautilusMenu</span></a> *
+nautilus_menu_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.8.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-append-item"></a><h3>nautilus_menu_append_item ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_menu_append_item (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> *menu</code></em>,
+                           <em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a> *item</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-get-items"></a><h3>nautilus_menu_get_items ()</h3>
+<pre class="programlisting"><span class="returnvalue">GList</span> *
+nautilus_menu_get_items (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> *menu</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.10.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>menu</p></td>
+<td class="parameter_description"><p>a <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.10.5"></a><h4>Returns</h4>
+<p> the provided <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a> list. </p>
+<p><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> NautilusMenuItem][<a href="http://foldoc.org/transfer%20full"><span class="acronym">transfer full</span></a>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-item-list-free"></a><h3>nautilus_menu_item_list_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_menu_item_list_free (<em class="parameter"><code><span class="type">GList</span> *item_list</code></em>);</pre>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.11.4"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>item_list</p></td>
+<td class="parameter_description"><p> a list of <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<a href="http://foldoc.org/element-type"><span class="acronym">element-type</span></a> NautilusMenuItem]</span></td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-item-get-type"></a><h3>nautilus_menu_item_get_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">GType</span>
+nautilus_menu_item_get_type (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.12.5"></a><h4>Returns</h4>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-item-new"></a><h3>nautilus_menu_item_new ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="returnvalue">NautilusMenuItem</span></a> *
+nautilus_menu_item_new (<em class="parameter"><code>const <span class="type">char</span> *name</code></em>,
+                        <em class="parameter"><code>const <span class="type">char</span> *label</code></em>,
+                        <em class="parameter"><code>const <span class="type">char</span> *tip</code></em>,
+                        <em class="parameter"><code>const <span class="type">char</span> *icon</code></em>);</pre>
+<p>Creates a new menu item that can be added to the toolbar or to a contextual menu.</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>the identifier for the menu item</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>label</p></td>
+<td class="parameter_description"><p>the user-visible label of the menu item</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>tip</p></td>
+<td class="parameter_description"><p>the tooltip of the menu item</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>icon</p></td>
+<td class="parameter_description"><p>the name of the icon to display in the menu item</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.13.6"></a><h4>Returns</h4>
+<p> a newly create <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-item-activate"></a><h3>nautilus_menu_item_activate ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_menu_item_activate (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a> *item</code></em>);</pre>
+<p>emits the activate signal.</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.14.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>item</p></td>
+<td class="parameter_description"><p>pointer to a <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="nautilus-menu-item-set-submenu"></a><h3>nautilus_menu_item_set_submenu ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+nautilus_menu_item_set_submenu (<em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a> *item</code></em>,
+                                <em class="parameter"><code><a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> *menu</code></em>);</pre>
+<p>Attachs a menu to the given <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.11.15.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>item</p></td>
+<td class="parameter_description"><p>pointer to a <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>menu</p></td>
+<td class="parameter_description"><p>pointer to a <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> to attach to the button</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="NautilusMenuPrivate"></a><h3>NautilusMenuPrivate</h3>
+<pre class="programlisting">typedef struct _NautilusMenuPrivate NautilusMenuPrivate;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItemDetails"></a><h3>NautilusMenuItemDetails</h3>
+<pre class="programlisting">typedef struct _NautilusMenuItemDetails NautilusMenuItemDetails;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenu-struct"></a><h3>struct NautilusMenu</h3>
+<pre class="programlisting">struct NautilusMenu;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem-struct"></a><h3>struct NautilusMenuItem</h3>
+<pre class="programlisting">struct NautilusMenuItem;</pre>
+<p>
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="NautilusMenuItem--icon"></a><h3>The <code class="literal">“icon”</code> property</h3>
+<pre class="programlisting">  “icon”                     <span class="type">gchar</span> *</pre>
+<p>Name of the icon to display in the menu item.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--label"></a><h3>The <code class="literal">“label”</code> property</h3>
+<pre class="programlisting">  “label”                    <span class="type">gchar</span> *</pre>
+<p>Label to display to the user.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--menu"></a><h3>The <code class="literal">“menu”</code> property</h3>
+<pre class="programlisting">  “menu”                     <a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenu"><span class="type">NautilusMenu</span></a> *</pre>
+<p>The menu belonging to this item. May be null.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--name"></a><h3>The <code class="literal">“name”</code> property</h3>
+<pre class="programlisting">  “name”                     <span class="type">gchar</span> *</pre>
+<p>Name of the item.</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--priority"></a><h3>The <code class="literal">“priority”</code> property</h3>
+<pre class="programlisting">  “priority”                 <span class="type">gboolean</span></pre>
+<p>Show priority text in toolbars.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--sensitive"></a><h3>The <code class="literal">“sensitive”</code> property</h3>
+<pre class="programlisting">  “sensitive”                <span class="type">gboolean</span></pre>
+<p>Whether the menu item is sensitive.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusMenuItem--tip"></a><h3>The <code class="literal">“tip”</code> property</h3>
+<pre class="programlisting">  “tip”                      <span class="type">gchar</span> *</pre>
+<p>Tooltip for the menu item.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-menu.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="NautilusMenuItem-activate"></a><h3>The <code class="literal">“activate”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="libnautilus-extension-nautilus-menu.html#NautilusMenuItem"><span class="type">NautilusMenuItem</span></a> *nautilusmenuitem,
+               <span class="type">gpointer</span>          user_data)</pre>
+<p>
+</p>
+<div class="refsect3">
+<a name="id-1.2.2.9.14.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>nautilusmenuitem</p></td>
+<td class="parameter_description"><p>the object which received the signal.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

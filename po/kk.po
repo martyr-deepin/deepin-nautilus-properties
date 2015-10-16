@@ -1,0 +1,6085 @@
+# Kazakh translation for nautilus.
+# Copyright (C) 2012 The Nautilus authors.
+# This file is distributed under the same license as the nautilus package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010-2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus&keywords=I18N+L10N&component=Internationalization (i18n)\n"
+"POT-Creation-Date: 2013-09-15 16:37+0000\n"
+"PO-Revision-Date: 2013-09-22 14:41+0600\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../data/nautilus-autorun-software.desktop.in.in.h:1
+msgid "Run Software"
+msgstr "Бағд. қамтаманы жөнелту"
+
+#. set dialog properties
+#: ../data/nautilus-connect-server.desktop.in.in.h:1
+#: ../src/nautilus-connect-server-dialog.c:588
+msgid "Connect to Server"
+msgstr "Сервермен байланыс орнату"
+
+#. Set initial window title
+#: ../data/nautilus.desktop.in.in.h:1
+#: ../src/nautilus-file-management-properties.ui.h:29
+#: ../src/nautilus-properties-window.c:4476 ../src/nautilus-window.c:2200
+#: ../src/nautilus-window.c:2397
+msgid "Files"
+msgstr "Файлдар"
+
+#: ../data/nautilus.desktop.in.in.h:2
+msgid "Access and organize files"
+msgstr "Файлдарға қатынау және реттеу"
+
+#: ../data/nautilus.desktop.in.in.h:3
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "бума;басқарушы;шолу;диск;файлдық жүйе;"
+
+#: ../data/nautilus.xml.in.h:1
+msgid "Saved search"
+msgstr "Сақталған іздеу"
+
+#: ../eel/eel-canvas.c:1255 ../eel/eel-canvas.c:1256
+msgid "X"
+msgstr "X"
+
+#: ../eel/eel-canvas.c:1262 ../eel/eel-canvas.c:1263
+msgid "Y"
+msgstr "Y"
+
+#: ../eel/eel-editable-label.c:313 ../libnautilus-private/nautilus-file.c:6172
+#: ../libnautilus-private/nautilus-file.c:6173
+msgid "Text"
+msgstr "Мәтін"
+
+#: ../eel/eel-editable-label.c:314
+msgid "The text of the label."
+msgstr "Белгі мәтіні."
+
+#: ../eel/eel-editable-label.c:320
+msgid "Justification"
+msgstr "Туралауы"
+
+#: ../eel/eel-editable-label.c:321
+msgid ""
+"The alignment of the lines in the text of the label relative to each other. "
+"This does NOT affect the alignment of the label within its allocation. See "
+"GtkMisc::xalign for that."
+msgstr ""
+
+#: ../eel/eel-editable-label.c:329
+msgid "Line wrap"
+msgstr "Жолды тасымалдау"
+
+#: ../eel/eel-editable-label.c:330
+msgid "If set, wrap lines if the text becomes too wide."
+msgstr "Орнатылса, мәтін тым кең болған кезде жолдар тасымалданады."
+
+#: ../eel/eel-editable-label.c:337
+msgid "Cursor Position"
+msgstr "Курсор орны"
+
+#: ../eel/eel-editable-label.c:338
+msgid "The current position of the insertion cursor in chars."
+msgstr "Әріптер есебіндегі енгізу курсорының орны."
+
+#: ../eel/eel-editable-label.c:347
+msgid "Selection Bound"
+msgstr "Таңдау шекаралары"
+
+#: ../eel/eel-editable-label.c:348
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars."
+msgstr ""
+"Әріптер есебіндегі таңдаудың қарама-қарсы шеттерінің курсордан орналасуы."
+
+#. name, stock id
+#. label, accelerator
+#: ../eel/eel-editable-label.c:3080
+#: ../libnautilus-private/nautilus-clipboard.c:358 ../src/nautilus-view.c:7206
+#: ../src/nautilus-view.c:7359
+msgid "Cu_t"
+msgstr "Қ_иып алу"
+
+#. name, stock id
+#. label, accelerator
+#: ../eel/eel-editable-label.c:3082
+#: ../libnautilus-private/nautilus-clipboard.c:362 ../src/nautilus-view.c:7210
+#: ../src/nautilus-view.c:7363
+msgid "_Copy"
+msgstr "_Көшіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../eel/eel-editable-label.c:3084
+#: ../libnautilus-private/nautilus-clipboard.c:366 ../src/nautilus-view.c:7214
+msgid "_Paste"
+msgstr "Кірі_стіру"
+
+#: ../eel/eel-editable-label.c:3087
+msgid "Select All"
+msgstr "Барлығын таңдау"
+
+#: ../eel/eel-gtk-extensions.c:327
+msgid "Show more _details"
+msgstr "_Көбірек ақпарат шығару"
+
+#. Put up the timed wait window.
+#: ../eel/eel-stock-dialogs.c:196
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:544
+#: ../libnautilus-private/nautilus-file-operations.c:185
+#: ../src/nautilus-connect-server-dialog.c:701
+#: ../src/nautilus-location-entry.c:275 ../src/nautilus-mime-actions.c:672
+#: ../src/nautilus-mime-actions.c:676 ../src/nautilus-mime-actions.c:747
+#: ../src/nautilus-mime-actions.c:1090 ../src/nautilus-mime-actions.c:1596
+#: ../src/nautilus-mime-actions.c:1820
+#: ../src/nautilus-properties-window.c:4467
+#: ../src/nautilus-properties-window.c:5465 ../src/nautilus-query-editor.c:520
+#: ../src/nautilus-view.c:970 ../src/nautilus-view.c:1496
+#: ../src/nautilus-view.c:1616 ../src/nautilus-view.c:5995
+msgid "_Cancel"
+msgstr "Ба_с тарту"
+
+#: ../eel/eel-stock-dialogs.c:205
+msgid "You can stop this operation by clicking cancel."
+msgstr "Бұл әрекетті бас тарту батырмасына басу арқылы тоқтата аласыз."
+
+#: ../eel/eel-vfs-extensions.c:99
+msgid " (invalid Unicode)"
+msgstr " (қате Unicode)"
+
+#: ../libnautilus-private/nautilus-bookmark.c:108
+#: ../libnautilus-private/nautilus-desktop-link.c:134
+#: ../libnautilus-private/nautilus-file-utilities.c:275
+#: ../src/nautilus-list-view.c:1827 ../src/nautilus-pathbar.c:295
+#: ../src/nautilus-query-editor.c:1094
+#: ../src/nautilus-shell-search-provider.c:288
+msgid "Home"
+msgstr "Үй бумасы"
+
+#: ../libnautilus-private/nautilus-canvas-container.c:2448
+msgid "The selection rectangle"
+msgstr "Таңдау төртбұрышы"
+
+#. tooltip
+#: ../libnautilus-private/nautilus-clipboard.c:359
+msgid "Cut the selected text to the clipboard"
+msgstr "Таңдалған мәтінді алмасу буферіне қиып алу"
+
+#. tooltip
+#: ../libnautilus-private/nautilus-clipboard.c:363
+msgid "Copy the selected text to the clipboard"
+msgstr "Таңдалған мәтінді алмасу буферіне көшіру"
+
+#. tooltip
+#: ../libnautilus-private/nautilus-clipboard.c:367
+msgid "Paste the text stored on the clipboard"
+msgstr "Алмасу буферіндегі сақталған мәтінді кірістіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../libnautilus-private/nautilus-clipboard.c:370 ../src/nautilus-view.c:7230
+msgid "Select _All"
+msgstr "Б_арлығын таңдау"
+
+#. tooltip
+#: ../libnautilus-private/nautilus-clipboard.c:371
+msgid "Select all the text in a text field"
+msgstr "Мәтіндік өрісіндегі барлық мәтінді іздеу"
+
+#: ../libnautilus-private/nautilus-column-chooser.c:375
+msgid "Move _Up"
+msgstr "Ж_оғары апару"
+
+#: ../libnautilus-private/nautilus-column-chooser.c:384
+msgid "Move Dow_n"
+msgstr "Тө_мен апару"
+
+#: ../libnautilus-private/nautilus-column-chooser.c:397
+msgid "Use De_fault"
+msgstr "Бас_тапқысын қолдану"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:57
+#: ../src/nautilus-list-view.c:2040
+msgid "Name"
+msgstr "Аты"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:58
+msgid "The name and icon of the file."
+msgstr "Файлдың аты мен таңбашасы."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:64
+msgid "Size"
+msgstr "Өлшемі"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:65
+msgid "The size of the file."
+msgstr "Файлдың өлшемі."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:72
+msgid "Type"
+msgstr "Түрі"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:73
+msgid "The type of the file."
+msgstr "Файл түрі."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:79
+msgid "Modified"
+msgstr "Өзгертілген"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:80
+msgid "The date the file was modified."
+msgstr "Файл өзгертілген күні."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:87
+msgid "Accessed"
+msgstr "Қатынаған"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:88
+msgid "The date the file was accessed."
+msgstr "Файлға қатынау күні."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:96
+msgid "Owner"
+msgstr "Иесі"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:97
+msgid "The owner of the file."
+msgstr "Файл иесі."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:104
+msgid "Group"
+msgstr "Топ"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:105
+msgid "The group of the file."
+msgstr "Файл жататын топ."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:112
+#: ../src/nautilus-properties-window.c:4538
+msgid "Permissions"
+msgstr "Рұқсаттар"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:113
+msgid "The permissions of the file."
+msgstr "Файл рұқсаттары."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:120
+msgid "MIME Type"
+msgstr "MIME түрі"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:121
+msgid "The mime type of the file."
+msgstr "Файлдың mime түрі."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:128
+#: ../src/nautilus-image-properties-page.c:415
+msgid "Location"
+msgstr "Орналасуы"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:129
+msgid "The location of the file."
+msgstr "Файл орналасуы."
+
+#: ../libnautilus-private/nautilus-column-utilities.c:170
+msgid "Trashed On"
+msgstr "Қоқыс шелегін тасталған кезі"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:171
+msgid "Date when file was moved to the Trash"
+msgstr "Файл қоқыс шелегіне тасталған күні"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:177
+msgid "Original Location"
+msgstr "Бастапқы орналасуы"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:178
+msgid "Original location of file before moved to the Trash"
+msgstr "Файл қоқыс шелегіне тасталғанға дейін орналасқан жері"
+
+#: ../libnautilus-private/nautilus-column-utilities.c:195
+msgid "Relevance"
+msgstr ""
+
+#: ../libnautilus-private/nautilus-column-utilities.c:196
+msgid "Relevance rank for search"
+msgstr ""
+
+#: ../libnautilus-private/nautilus-desktop-directory-file.c:435
+#: ../libnautilus-private/nautilus-desktop-icon-file.c:151
+msgid "on the desktop"
+msgstr "жұмыс үстелінде"
+
+#: ../libnautilus-private/nautilus-desktop-link-monitor.c:89
+#, c-format
+msgid "You cannot move the volume “%s” to the trash."
+msgstr "Сіз “%s” томын қоқыс шелегіне тастай алмайсыз."
+
+#: ../libnautilus-private/nautilus-desktop-link-monitor.c:99
+msgid ""
+"If you want to eject the volume, please use Eject in the popup menu of the "
+"volume."
+msgstr ""
+"Егер томды шығарғыңыз келсе, томның қалқымалы мәзіріндегі Шығаруды таңдаңыз."
+
+#: ../libnautilus-private/nautilus-desktop-link-monitor.c:101
+#: ../libnautilus-private/nautilus-desktop-link-monitor.c:110
+#: ../src/nautilus-location-entry.c:275 ../src/nautilus-mime-actions.c:1090
+#: ../src/nautilus-mime-actions.c:1267 ../src/nautilus-mime-actions.c:1820
+#: ../src/nautilus-view.c:970 ../src/nautilus-view.c:1498
+msgid "_OK"
+msgstr "_ОК"
+
+#: ../libnautilus-private/nautilus-desktop-link-monitor.c:108
+msgid ""
+"If you want to unmount the volume, please use Unmount Volume in the popup "
+"menu of the volume."
+msgstr ""
+"Егер томды тіркеуден босатқыңыз келсе, томның қалқымалы мәзіріндегі Томды "
+"тіркеуден босатуды таңдаңыз."
+
+#. Translators: this is of the format "hostname (uri-scheme)"
+#: ../libnautilus-private/nautilus-directory.c:523
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../libnautilus-private/nautilus-dnd.c:774
+msgid "_Move Here"
+msgstr "О_сында жылжыту"
+
+#: ../libnautilus-private/nautilus-dnd.c:779
+msgid "_Copy Here"
+msgstr "_Осында көшіру"
+
+#: ../libnautilus-private/nautilus-dnd.c:784
+msgid "_Link Here"
+msgstr "Ос_ында сілтеме жасау"
+
+#: ../libnautilus-private/nautilus-dnd.c:789
+msgid "Set as _Background"
+msgstr "Ф_он суреті ретінде орнату"
+
+#: ../libnautilus-private/nautilus-dnd.c:796
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#: ../libnautilus-private/nautilus-file.c:1209
+#: ../libnautilus-private/nautilus-vfs-file.c:371
+msgid "This file cannot be mounted"
+msgstr "Файлды тіркеу мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1254
+msgid "This file cannot be unmounted"
+msgstr "Файлды тіркеуден босату мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1288
+msgid "This file cannot be ejected"
+msgstr "Бұл файлды шығару мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1321
+#: ../libnautilus-private/nautilus-vfs-file.c:549
+msgid "This file cannot be started"
+msgstr "Бұл файлды іске қосу мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1373
+#: ../libnautilus-private/nautilus-file.c:1404
+msgid "This file cannot be stopped"
+msgstr "Бұл файлды тоқтату мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1823
+#, c-format
+msgid "Slashes are not allowed in filenames"
+msgstr "Файл атауларында көлбеу сызықты қолдануға болмайды"
+
+#: ../libnautilus-private/nautilus-file.c:1841
+#, c-format
+msgid "File not found"
+msgstr "Файл табылмады"
+
+#: ../libnautilus-private/nautilus-file.c:1869
+#, c-format
+msgid "Toplevel files cannot be renamed"
+msgstr "Жоғары деңгейлі файлдардың атауларын өзгерту мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1892
+#, c-format
+msgid "Unable to rename desktop icon"
+msgstr "Жұмыс үстел таңбашасының атауын өзгерту мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file.c:1921
+#, c-format
+msgid "Unable to rename desktop file"
+msgstr "Жұмыс үстел файлы атауын өзгерту мүмкін емес"
+
+#.
+#. * Note to localizers: You can look at man strftime
+#. * for details on the format, but you should only use
+#. * the specifiers from the C standard, not extensions.
+#. * These include "%" followed by one of
+#. * "aAbBcdHIjmMpSUwWxXyYZ". There are two extensions
+#. * in the Nautilus version of strftime that can be
+#. * used (and match GNU extensions). Putting a "-"
+#. * between the "%" and any numeric directive will turn
+#. * off zero padding, and putting a "_" there will use
+#. * space padding instead of zero padding.
+#.
+#: ../libnautilus-private/nautilus-file.c:4443
+msgid "%R"
+msgstr "%R"
+
+#: ../libnautilus-private/nautilus-file.c:4444
+msgid "%-I:%M %P"
+msgstr "%-I:%M %P"
+
+#: ../libnautilus-private/nautilus-file.c:4445
+#: ../libnautilus-private/nautilus-file.c:4446
+msgid "%b %-e"
+msgstr "%b %-e"
+
+#: ../libnautilus-private/nautilus-file.c:4447
+msgid "%b %-d %Y"
+msgstr "%b %-d %Y"
+
+#: ../libnautilus-private/nautilus-file.c:4448
+msgid "%a, %b %e %Y %I:%M:%S %p"
+msgstr "%a, %b %e %Y %I:%M:%S %p"
+
+#: ../libnautilus-private/nautilus-file.c:4449
+msgid "%a, %b %e %Y %T"
+msgstr "%a, %b %e %Y %T"
+
+#: ../libnautilus-private/nautilus-file.c:4948
+#, c-format
+msgid "Not allowed to set permissions"
+msgstr "Рұқсаттарды орнату рұқсат етілмеген"
+
+#: ../libnautilus-private/nautilus-file.c:5243
+#, c-format
+msgid "Not allowed to set owner"
+msgstr "Иесін орнату рұқсат етілмеген"
+
+#: ../libnautilus-private/nautilus-file.c:5261
+#, c-format
+msgid "Specified owner '%s' doesn't exist"
+msgstr "Көрсетілген '%s' иесі жоқ болып тұр"
+
+#: ../libnautilus-private/nautilus-file.c:5525
+#, c-format
+msgid "Not allowed to set group"
+msgstr "Топты орнату рұқсат етілмеген"
+
+#: ../libnautilus-private/nautilus-file.c:5543
+#, c-format
+msgid "Specified group '%s' doesn't exist"
+msgstr "Көрсетілген '%s' бумасы жоқ болып тұр"
+
+#. Translators: "Me" is used to indicate the file is owned by me (the current user)
+#: ../libnautilus-private/nautilus-file.c:5677
+msgid "Me"
+msgstr "Мен"
+
+#: ../libnautilus-private/nautilus-file.c:5701
+#, c-format
+msgid "%'u item"
+msgid_plural "%'u items"
+msgstr[0] "%'u нәрсе"
+
+#: ../libnautilus-private/nautilus-file.c:5702
+#, c-format
+msgid "%'u folder"
+msgid_plural "%'u folders"
+msgstr[0] "%'u бума"
+
+#: ../libnautilus-private/nautilus-file.c:5703
+#, c-format
+msgid "%'u file"
+msgid_plural "%'u files"
+msgstr[0] "%'u файл"
+
+#. This means no contents at all were readable
+#: ../libnautilus-private/nautilus-file.c:6099
+#: ../libnautilus-private/nautilus-file.c:6115
+msgid "? items"
+msgstr "? нәрсе"
+
+#. This means no contents at all were readable
+#: ../libnautilus-private/nautilus-file.c:6105
+msgid "? bytes"
+msgstr "%s байт"
+
+#: ../libnautilus-private/nautilus-file.c:6122
+#: ../libnautilus-private/nautilus-file.c:6202
+msgid "Unknown"
+msgstr "Белгісіз"
+
+#. Fallback, use for both unknown attributes and attributes
+#. * for which we have no more appropriate default.
+#.
+#: ../libnautilus-private/nautilus-file.c:6136
+#: ../src/nautilus-properties-window.c:1183
+msgid "unknown"
+msgstr "белгісіз"
+
+#: ../libnautilus-private/nautilus-file.c:6166
+#: ../libnautilus-private/nautilus-file.c:6174
+#: ../libnautilus-private/nautilus-file.c:6225
+msgid "Program"
+msgstr "Бағдарлама"
+
+#: ../libnautilus-private/nautilus-file.c:6167
+msgid "Audio"
+msgstr "Аудио"
+
+#: ../libnautilus-private/nautilus-file.c:6168
+msgid "Font"
+msgstr "Қаріп"
+
+#: ../libnautilus-private/nautilus-file.c:6169
+#: ../src/nautilus-image-properties-page.c:769
+msgid "Image"
+msgstr "Сурет"
+
+#: ../libnautilus-private/nautilus-file.c:6170
+msgid "Archive"
+msgstr "Архив"
+
+#: ../libnautilus-private/nautilus-file.c:6171
+msgid "Markup"
+msgstr ""
+
+#: ../libnautilus-private/nautilus-file.c:6175
+#: ../src/nautilus-query-editor.c:355
+msgid "Video"
+msgstr "Видео"
+
+#: ../libnautilus-private/nautilus-file.c:6176
+msgid "Contacts"
+msgstr "Контакттар"
+
+#: ../libnautilus-private/nautilus-file.c:6177
+msgid "Calendar"
+msgstr "Күнтізбе"
+
+#: ../libnautilus-private/nautilus-file.c:6178
+msgid "Document"
+msgstr "Құжат"
+
+#: ../libnautilus-private/nautilus-file.c:6179
+#: ../src/nautilus-query-editor.c:421
+msgid "Presentation"
+msgstr "Презентация"
+
+#: ../libnautilus-private/nautilus-file.c:6180
+#: ../src/nautilus-query-editor.c:405
+msgid "Spreadsheet"
+msgstr "Кесте"
+
+#: ../libnautilus-private/nautilus-file.c:6227
+msgid "Binary"
+msgstr "Бинарлы"
+
+#: ../libnautilus-private/nautilus-file.c:6231
+msgid "Folder"
+msgstr "Бума"
+
+#: ../libnautilus-private/nautilus-file.c:6262
+msgid "Link"
+msgstr "Сілтеме"
+
+#. Note to localizers: convert file type string for file
+#. * (e.g. "folder", "plain text") to file type for symbolic link
+#. * to that kind of file (e.g. "link to folder").
+#.
+#. appended to new link file
+#: ../libnautilus-private/nautilus-file.c:6268
+#: ../libnautilus-private/nautilus-file-operations.c:379
+#: ../src/nautilus-view-dnd.c:124
+#, c-format
+msgid "Link to %s"
+msgstr "%s үшін сілтеме"
+
+#: ../libnautilus-private/nautilus-file.c:6284
+#: ../libnautilus-private/nautilus-file.c:6298
+msgid "Link (broken)"
+msgstr "Сілтеме (сынық)"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:143
+#, c-format
+msgid "Merge folder “%s”?"
+msgstr "“%s” бумасын біріктіру керек пе?"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:147
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"Біріктіру нәтижесінде көшірілетін файлдармен ерегісетін бумадағы кез-келген "
+"файлды алмастыру алдында растауды сұрайтын болады."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:152
+#, c-format
+msgid "An older folder with the same name already exists in “%s”."
+msgstr "Олай аталатын ескілеу бума “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:156
+#, c-format
+msgid "A newer folder with the same name already exists in “%s”."
+msgstr "Олай аталатын жаңалау бума “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:160
+#, c-format
+msgid "Another folder with the same name already exists in “%s”."
+msgstr "Олай аталатын басқа бума “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:165
+msgid "Replacing it will remove all files in the folder."
+msgstr "Оны алмастыру нәтижесінде ішіндегі барлық файлдар өшіріледі."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:167
+#, c-format
+msgid "Replace folder “%s”?"
+msgstr "“%s” бумасын алмастыру керек пе?"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:169
+#, c-format
+msgid "A folder with the same name already exists in “%s”."
+msgstr "Олай аталатын бума “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:174
+#, c-format
+msgid "Replace file “%s”?"
+msgstr "“%s” файлын алмастыру керек пе?"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:176
+msgid "Replacing it will overwrite its content."
+msgstr "Оны алмастыру нәтижесінде барлық құрамасы үстінен жазылады."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:180
+#, c-format
+msgid "An older file with the same name already exists in “%s”."
+msgstr "Олай аталатын ескілеу файл “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:184
+#, c-format
+msgid "A newer file with the same name already exists in “%s”."
+msgstr "Олай аталатын жаңалау файл “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:188
+#, c-format
+msgid "Another file with the same name already exists in “%s”."
+msgstr "Олай аталатын басқа файл “%s” ішінде бар болып тұр."
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
+msgid "Original file"
+msgstr "Бастапқы файл"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:257
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:288
+#: ../src/nautilus-properties-window.c:3277
+msgid "Size:"
+msgstr "Өлшемі:"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:260
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:291
+#: ../src/nautilus-properties-window.c:3259
+msgid "Type:"
+msgstr "Түрі:"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:263
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:294
+msgid "Last modified:"
+msgstr "Соңғы рет өзгертілген:"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:287
+msgid "Replace with"
+msgstr "Немен алмастыру:"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:316
+msgid "Merge"
+msgstr "Біріктіру"
+
+#. Setup the expander for the rename action
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:509
+msgid "_Select a new name for the destination"
+msgstr "_Мақсат файлы үшін жаңа атын көрсетіңіз"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:523
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:317
+msgid "Reset"
+msgstr "Тастау"
+
+#. Setup the checkbox to apply the action to all files
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:535
+msgid "Apply this action to all files"
+msgstr "Бұл әрекетті барлық файлдарға іске асыру"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:546
+#: ../libnautilus-private/nautilus-file-operations.c:186
+msgid "_Skip"
+msgstr "А_ттап кету"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:551
+msgid "Re_name"
+msgstr "Аты_н ауыстыру"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
+msgid "Replace"
+msgstr "Алмастыру"
+
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:629
+msgid "File conflict"
+msgstr "Файлдар бәсекелесі"
+
+#: ../libnautilus-private/nautilus-file-operations.c:187
+msgid "S_kip All"
+msgstr "Бар_лығын аттап кету"
+
+#: ../libnautilus-private/nautilus-file-operations.c:188
+msgid "_Retry"
+msgstr "Қа_йталау"
+
+#. name, stock id
+#. label, accelerator
+#: ../libnautilus-private/nautilus-file-operations.c:189
+#: ../src/nautilus-view.c:7262 ../src/nautilus-view.c:7376
+#: ../src/nautilus-view.c:8695
+msgid "_Delete"
+msgstr "Ө_шіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:190
+msgid "Delete _All"
+msgstr "Барлығын ө_шіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:191
+msgid "_Replace"
+msgstr "А_лмастыру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:192
+msgid "Replace _All"
+msgstr "Барл_ығын алмастыру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:193
+msgid "_Merge"
+msgstr "Бірі_ктіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:194
+msgid "Merge _All"
+msgstr "Б_арлығын біріктіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:195
+msgid "Copy _Anyway"
+msgstr "Со_нда да көшіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:280
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d секунд"
+
+#: ../libnautilus-private/nautilus-file-operations.c:285
+#: ../libnautilus-private/nautilus-file-operations.c:296
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d минут"
+
+#: ../libnautilus-private/nautilus-file-operations.c:295
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d сағат"
+
+#: ../libnautilus-private/nautilus-file-operations.c:303
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "шамамен %'d сағат"
+
+#. appended to new link file
+#: ../libnautilus-private/nautilus-file-operations.c:383
+#, c-format
+msgid "Another link to %s"
+msgstr "%s үшін басқа сілтеме"
+
+#. Localizers: Feel free to leave out the "st" suffix
+#. * if there's no way to do that nicely for a
+#. * particular language.
+#.
+#: ../libnautilus-private/nautilus-file-operations.c:399
+#, c-format
+msgid "%'dst link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: ../libnautilus-private/nautilus-file-operations.c:403
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: ../libnautilus-private/nautilus-file-operations.c:407
+#, c-format
+msgid "%'drd link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: ../libnautilus-private/nautilus-file-operations.c:411
+#, c-format
+msgid "%'dth link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:450
+msgid " (copy)"
+msgstr " (көшірме)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:452
+msgid " (another copy)"
+msgstr " (басқа көшірме)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:455
+#: ../libnautilus-private/nautilus-file-operations.c:457
+#: ../libnautilus-private/nautilus-file-operations.c:459
+#: ../libnautilus-private/nautilus-file-operations.c:469
+msgid "th copy)"
+msgstr " көшірме)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:462
+msgid "st copy)"
+msgstr " көшірме)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:464
+msgid "nd copy)"
+msgstr " көшірме)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../libnautilus-private/nautilus-file-operations.c:466
+msgid "rd copy)"
+msgstr " көшірме)"
+
+#. localizers: appended to first file copy
+#: ../libnautilus-private/nautilus-file-operations.c:483
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (көшірме)%s"
+
+#. localizers: appended to second file copy
+#: ../libnautilus-private/nautilus-file-operations.c:485
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (басқа көшірме)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../libnautilus-private/nautilus-file-operations.c:488
+#: ../libnautilus-private/nautilus-file-operations.c:490
+#: ../libnautilus-private/nautilus-file-operations.c:492
+#: ../libnautilus-private/nautilus-file-operations.c:506
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. * strings look like "%s (copy %'d)%s".
+#.
+#. localizers: appended to x1st file copy
+#: ../libnautilus-private/nautilus-file-operations.c:500
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../libnautilus-private/nautilus-file-operations.c:502
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../libnautilus-private/nautilus-file-operations.c:504
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../libnautilus-private/nautilus-file-operations.c:605
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../libnautilus-private/nautilus-file-operations.c:613
+#, c-format
+msgid " (%'d"
+msgstr " (нөмірі %'d"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1356
+msgid "Are you sure you want to permanently delete “%B” from the trash?"
+msgstr "Қоқыс шелегінен “%B” толығымен өшіруді шынымен қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1359
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] "Қоқыс шелегінен %'d нәрсені толығымен өшіруді шынымен қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1369
+#: ../libnautilus-private/nautilus-file-operations.c:1435
+msgid "If you delete an item, it will be permanently lost."
+msgstr "Нәрсені өшірсеңіз, ол толығымен жоғалады."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1389
+msgid "Empty all items from Trash?"
+msgstr "Қоқыс шелегінен барлық нәрселерді өшіру керек пе?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1393
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Қоқыс шелегіндегі барлық нәрсе толығымен өшірілетін болады."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1396
+#: ../libnautilus-private/nautilus-file-operations.c:2272
+#: ../src/nautilus-window.c:805
+msgid "Empty _Trash"
+msgstr "Қ_оқыс шелегін тазарту"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1423
+msgid "Are you sure you want to permanently delete “%B”?"
+msgstr "“%B” толығымен өшіруді шынымен қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1426
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] "Таңдалған %'d нәрсені толығымен өшіруді шынымен қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1469
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "Өшіру үшін %'d файлы қалды"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1475
+msgid "Deleting files"
+msgstr "Файлдарды өшіру"
+
+#. To translators: %T will expand to a time like "2 minutes".
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#.
+#: ../libnautilus-private/nautilus-file-operations.c:1489
+msgid "%T left"
+msgid_plural "%T left"
+msgstr[0] "%T қалды"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1556
+#: ../libnautilus-private/nautilus-file-operations.c:1590
+#: ../libnautilus-private/nautilus-file-operations.c:1629
+#: ../libnautilus-private/nautilus-file-operations.c:1705
+#: ../libnautilus-private/nautilus-file-operations.c:2532
+msgid "Error while deleting."
+msgstr "Өшіру кезіндегі қате."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1560
+msgid ""
+"Files in the folder “%B” cannot be deleted because you do not have "
+"permissions to see them."
+msgstr ""
+"“%B” бумасындағы файлдарды өшіру мүмкін емес, өйткені сізде оларды қарауға "
+"рұқсатыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1563
+#: ../libnautilus-private/nautilus-file-operations.c:2591
+#: ../libnautilus-private/nautilus-file-operations.c:3601
+msgid ""
+"There was an error getting information about the files in the folder “%B”."
+msgstr "“%B” бумасындағы файлдар жөнінде ақпаратты алу кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1572
+#: ../libnautilus-private/nautilus-file-operations.c:3610
+msgid "_Skip files"
+msgstr "Файлдарды аттап _кету"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1593
+msgid ""
+"The folder “%B” cannot be deleted because you do not have permissions to "
+"read it."
+msgstr ""
+"“%B” бумасын өшіру мүмкін емес, өйткені сізде оны оқуға рұқсатыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1596
+#: ../libnautilus-private/nautilus-file-operations.c:2630
+#: ../libnautilus-private/nautilus-file-operations.c:3646
+msgid "There was an error reading the folder “%B”."
+msgstr "“%B” бумасын оқу кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1630
+msgid "Could not remove the folder %B."
+msgstr "“%B” бумасын өшіру мүмкін емес."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1706
+msgid "There was an error deleting %B."
+msgstr "“%B” бумасын өшіру кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:1785
+msgid "Moving files to trash"
+msgstr "Файлдарды қоқыс шелегіне тастау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1787
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "Қоқыс шелегіне тастау үшін %'d файл қалды"
+
+#. Translators: %B is a file name
+#: ../libnautilus-private/nautilus-file-operations.c:1839
+msgid "“%B” can't be put in the trash. Do you want to delete it immediately?"
+msgstr ""
+"“%B” қоқыс шелегіне тастау мүмкін емес. Оны толығымен өшіруді қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:1845
+msgid "This remote location does not support sending items to the trash."
+msgstr "Қашықтағы орналасу нәрселерді қоқыс шелегіне тастауды қолдамайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2019
+msgid "Trashing Files"
+msgstr "Файлдарды қоқыс шелегіне тастау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2021
+msgid "Deleting Files"
+msgstr "Файлдарды өшіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2103
+msgid "Unable to eject %V"
+msgstr "%V шығару мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2105
+msgid "Unable to unmount %V"
+msgstr "%V тіркеуден босату мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2262
+msgid "Do you want to empty the trash before you unmount?"
+msgstr "Тіркеуден босату алдында қоқыс шелегін тазартуды қалайсыз ба?"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2264
+msgid ""
+"In order to regain the free space on this volume the trash must be emptied. "
+"All trashed items on the volume will be permanently lost."
+msgstr ""
+"Бұл томдағы бос орынды алып қалу үшін қоқыс шелегін тазарту керек. Томның "
+"қоқыс шелегіндегі барлық нәрселер қайтарылмайтындай жоғалады."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2270
+msgid "Do _not Empty Trash"
+msgstr "Қоқыс шелегін та_зартпау"
+
+#. Translators: %s is a file name formatted for display
+#: ../libnautilus-private/nautilus-file-operations.c:2403
+#: ../src/nautilus-view.c:6481
+#, c-format
+msgid "Unable to access “%s”"
+msgstr "“%s” файлына қатынау мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2479
+#, c-format
+msgid "Preparing to copy %'d file (%S)"
+msgid_plural "Preparing to copy %'d files (%S)"
+msgstr[0] "%'d файлды көшіруге дайындау (%S)"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2485
+#, c-format
+msgid "Preparing to move %'d file (%S)"
+msgid_plural "Preparing to move %'d files (%S)"
+msgstr[0] "%'d файлды жылжытуға дайындау (%S)"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2491
+#, c-format
+msgid "Preparing to delete %'d file (%S)"
+msgid_plural "Preparing to delete %'d files (%S)"
+msgstr[0] "%'d файлды өшіруге дайындау (%S)"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2497
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "%'d файлды қоқыс шелегіне тастауға дайындау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2528
+#: ../libnautilus-private/nautilus-file-operations.c:3461
+#: ../libnautilus-private/nautilus-file-operations.c:3593
+#: ../libnautilus-private/nautilus-file-operations.c:3638
+msgid "Error while copying."
+msgstr "Көшіру кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2530
+#: ../libnautilus-private/nautilus-file-operations.c:3591
+#: ../libnautilus-private/nautilus-file-operations.c:3636
+msgid "Error while moving."
+msgstr "Жылжыту кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2534
+msgid "Error while moving files to trash."
+msgstr "Қоқыс шелегіне тастау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2588
+msgid ""
+"Files in the folder “%B” cannot be handled because you do not have "
+"permissions to see them."
+msgstr ""
+"“%B” бумасындағы файлдарды басқару мүмкін емес, өйткені сізде оларды қарауға "
+"рұқсатыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2627
+msgid ""
+"The folder “%B” cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+"“%B” бумасын басқару мүмкін емес, өйткені сізде оны оқуға рұқсатыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2704
+msgid ""
+"The file “%B” cannot be handled because you do not have permissions to read "
+"it."
+msgstr ""
+"“%B” файлын басқару мүмкін емес, өйткені сізде оны оқуға рұқсатыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2707
+msgid "There was an error getting information about “%B”."
+msgstr "“%B” туралы ақпаратты алу кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2809
+#: ../libnautilus-private/nautilus-file-operations.c:2857
+#: ../libnautilus-private/nautilus-file-operations.c:2896
+#: ../libnautilus-private/nautilus-file-operations.c:2926
+msgid "Error while copying to “%B”."
+msgstr "“%B” ішіне көшіру кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2813
+msgid "You do not have permissions to access the destination folder."
+msgstr "Мақсат бумасына қатынау үшін керек рұқсаттарыңыз жоқ."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2815
+msgid "There was an error getting information about the destination."
+msgstr "Мақсат орналасуы туралы ақпаратты алу кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2858
+msgid "The destination is not a folder."
+msgstr "Мақсат орналасуы бума емес."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2897
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr ""
+"Мақсат бумасында бос орын жеткіліксіз. Орынды босату үшін файлдарды өшіріп "
+"көріңіз."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2899
+#, c-format
+msgid "%S more space is required to copy to the destination."
+msgstr "Мақсат орналасуға көшіру үшін қосымша %S орын керек болып тұр."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2927
+msgid "The destination is read-only."
+msgstr "Мақсат орны тек оқу үшін қолжетерлік."
+
+#: ../libnautilus-private/nautilus-file-operations.c:2986
+msgid "Moving “%B” to “%B”"
+msgstr "“%B” “%B” ішіне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2987
+msgid "Copying “%B” to “%B”"
+msgstr "“%B” “%B” ішіне көшіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:2994
+msgid "Duplicating “%B”"
+msgstr "“%B” көшірмесін жасау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3002
+msgid "Moving file %'d of %'d (in “%B”) to “%B”"
+msgstr "Файлды жылжыту: %'d, барлығы %'d (“%B” ішінде), мақсаты “%B”"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3004
+msgid "Copying file %'d of %'d (in “%B”) to “%B”"
+msgstr "Файлды көшіру: %'d, барлығы %'d (“%B” ішінде), мақсаты “%B”"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3011
+msgid "Duplicating file %'d of %'d (in “%B”)"
+msgstr "Файл көшірмесін жасау: %'d, барлығы %'d (“%B” ішінде), мақсаты “%B”"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3020
+msgid "Moving file %'d of %'d to “%B”"
+msgstr "Файлды жылжыту: %'d, барлығы %'d, мақсаты “%B”"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3022
+msgid "Copying file %'d of %'d to “%B”"
+msgstr "Файлды көшіру: %'d, барлығы %'d, мақсаты “%B”"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3028
+#, c-format
+msgid "Duplicating file %'d of %'d"
+msgstr "Көшірмені жасау: файл %'d, барлығы %'d"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb of 4 MB"
+#: ../libnautilus-private/nautilus-file-operations.c:3047
+#, c-format
+msgid "%S of %S"
+msgstr "%S бар, барлығы %S"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. *
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#.
+#: ../libnautilus-private/nautilus-file-operations.c:3058
+msgid "%S of %S — %T left (%S/sec)"
+msgid_plural "%S of %S — %T left (%S/sec)"
+msgstr[0] "%S бар, барлығы %S — %T қалды (%S/сек)"
+
+#: ../libnautilus-private/nautilus-file-operations.c:3465
+msgid ""
+"The folder “%B” cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+"“%B” бумасын көшіру мүмкін емес, өйткені сізде оны мақсат орналасуда жасау "
+"үшін рұқсаттарыңыз жетпейді."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3468
+msgid "There was an error creating the folder “%B”."
+msgstr "“%B” бумасын жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3598
+msgid ""
+"Files in the folder “%B” cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+"“%B” бумасындағы файлдарды көшіру мүмкін емес, өйткені сізде оларды қарау "
+"үшін рұқсаттарыңыз жетпейді."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3643
+msgid ""
+"The folder “%B” cannot be copied because you do not have permissions to read "
+"it."
+msgstr ""
+"“%B” бумасын көшіру мүмкін емес, өйткені сізде оны оқуға рұқсаттарыңыз "
+"жетпейді."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3688
+#: ../libnautilus-private/nautilus-file-operations.c:4378
+#: ../libnautilus-private/nautilus-file-operations.c:4992
+msgid "Error while moving “%B”."
+msgstr "“%B” жылжыту кезіндегі қате."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3689
+msgid "Could not remove the source folder."
+msgstr "Қайнар көз бумасын өшіру мүмкін емес."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3773
+#: ../libnautilus-private/nautilus-file-operations.c:3814
+#: ../libnautilus-private/nautilus-file-operations.c:4380
+#: ../libnautilus-private/nautilus-file-operations.c:4451
+msgid "Error while copying “%B”."
+msgstr "“%B” көшіру кезіндегі қате."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3774
+#, c-format
+msgid "Could not remove files from the already existing folder %F."
+msgstr "Бар болып тұрған %F бумасынан файлдарды өшіру мүмкін емес."
+
+#: ../libnautilus-private/nautilus-file-operations.c:3815
+#, c-format
+msgid "Could not remove the already existing file %F."
+msgstr "Бар болып тұрған %F файлын өшіру мүмкін емес."
+
+#. the run_warning() frees all strings passed in automatically
+#: ../libnautilus-private/nautilus-file-operations.c:4135
+#: ../libnautilus-private/nautilus-file-operations.c:4835
+msgid "You cannot move a folder into itself."
+msgstr "Буманы оның өзінің ішіне жылжытуға болмайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4136
+#: ../libnautilus-private/nautilus-file-operations.c:4836
+msgid "You cannot copy a folder into itself."
+msgstr "Буманы оның өзінің ішіне көшіуге болмайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4137
+#: ../libnautilus-private/nautilus-file-operations.c:4837
+msgid "The destination folder is inside the source folder."
+msgstr "Мақсат бумасы қайнар көз бумасының ішінде орналасқан."
+
+#. the run_warning() frees all strings passed in automatically
+#: ../libnautilus-private/nautilus-file-operations.c:4167
+msgid "You cannot move a file over itself."
+msgstr "Файлды оның өзінің үстіне жылжытуға болмайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4168
+msgid "You cannot copy a file over itself."
+msgstr "Файлды оның өзінің үстіне көшіруге болмайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4169
+msgid "The source file would be overwritten by the destination."
+msgstr "Қайнар көз файлы мақсат файлымен алмастырылады."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4382
+#, c-format
+msgid "Could not remove the already existing file with the same name in %F."
+msgstr "%F ішінен дәл солай аталатын файлды өшіру мүмкін емес."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4452
+#, c-format
+msgid "There was an error copying the file into %F."
+msgstr "Файлды %F ішіне көшіру кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:4683
+#: ../libnautilus-private/nautilus-file-operations.c:4717
+msgid "Copying Files"
+msgstr "Файлдарды көшіру"
+
+#: ../libnautilus-private/nautilus-file-operations.c:4745
+msgid "Preparing to Move to “%B”"
+msgstr "“%B” ішіне жылжытуға дайындау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:4749
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "%'d файлды жылжытуға дайындау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:4993
+#, c-format
+msgid "There was an error moving the file into %F."
+msgstr "Файлды %F ішіне жылжыту кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:5255
+msgid "Moving Files"
+msgstr "Файлдарды жылжыту"
+
+#: ../libnautilus-private/nautilus-file-operations.c:5290
+msgid "Creating links in “%B”"
+msgstr "“%B” ішінде сілтемелерді жасау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:5294
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "%'d файлға сілтеме жасау"
+
+#: ../libnautilus-private/nautilus-file-operations.c:5429
+msgid "Error while creating link to %B."
+msgstr "%B үшін сілтеме жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:5431
+msgid "Symbolic links only supported for local files"
+msgstr "Символдық сілтемелердің тек жергілікті файлдар үшін қолдауы бар"
+
+#: ../libnautilus-private/nautilus-file-operations.c:5434
+msgid "The target doesn't support symbolic links."
+msgstr "Мақсат орналасуы символдық сілтемелерді қолдамайды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:5437
+#, c-format
+msgid "There was an error creating the symlink in %F."
+msgstr "%F жерінде символдық сілтемені жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:5756
+msgid "Setting permissions"
+msgstr "Рұқсаттарды орнату"
+
+#. localizers: the initial name of a new folder
+#: ../libnautilus-private/nautilus-file-operations.c:6021
+msgid "Untitled Folder"
+msgstr "Атаусыз бума"
+
+#. localizers: the initial name of a new template document
+#: ../libnautilus-private/nautilus-file-operations.c:6027
+#, c-format
+msgid "Untitled %s"
+msgstr "Атаусыз %s"
+
+#. localizers: the initial name of a new empty document
+#: ../libnautilus-private/nautilus-file-operations.c:6033
+msgid "Untitled Document"
+msgstr "Атаусыз құжат"
+
+#: ../libnautilus-private/nautilus-file-operations.c:6211
+msgid "Error while creating directory %B."
+msgstr "%B бумасын жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:6213
+msgid "Error while creating file %B."
+msgstr "%B файлын жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:6215
+#, c-format
+msgid "There was an error creating the directory in %F."
+msgstr "%F жерінде буманы жасау кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-file-operations.c:6484
+msgid "Emptying Trash"
+msgstr "Қоқыс шелегін тазарту"
+
+#: ../libnautilus-private/nautilus-file-operations.c:6532
+#: ../libnautilus-private/nautilus-file-operations.c:6573
+#: ../libnautilus-private/nautilus-file-operations.c:6608
+#: ../libnautilus-private/nautilus-file-operations.c:6643
+msgid "Unable to mark launcher trusted (executable)"
+msgstr "Жөнелткішті сенімді (орындалатын) етіп белгілеу мүмкін емес"
+
+#. Reset to default info
+#: ../libnautilus-private/nautilus-file-undo-operations.c:135
+#: ../src/nautilus-view.c:2553
+msgid "Undo"
+msgstr "Болдырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:138
+#: ../src/nautilus-view.c:2554
+msgid "Undo last action"
+msgstr "Соңғы әрекетті болдырмау"
+
+#. Reset to default info
+#: ../libnautilus-private/nautilus-file-undo-operations.c:142
+#: ../src/nautilus-view.c:2572
+msgid "Redo"
+msgstr "Қайталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:145
+#: ../src/nautilus-view.c:2573
+msgid "Redo last undone action"
+msgstr "Соңғы болдырмаған әрекетті қайталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:367
+#, c-format
+msgid "Move %d item back to '%s'"
+msgid_plural "Move %d items back to '%s'"
+msgstr[0] "%d нәрсені кері '%s' жеріне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:370
+#, c-format
+#| msgid "_Undo Move %d items"
+msgid "Move %d item to '%s'"
+msgid_plural "Move %d items to '%s'"
+msgstr[0] "%d нәрсені '%s' ішіне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:374
+#, c-format
+#| msgid "_Undo Move %d items"
+msgid "_Undo Move %d item"
+msgid_plural "_Undo Move %d items"
+msgstr[0] "%d нәрсені жылжытуды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:377
+#, c-format
+#| msgid "_Redo Move %d items"
+msgid "_Redo Move %d item"
+msgid_plural "_Redo Move %d items"
+msgstr[0] "%d нәрсені жылжытуды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:381
+#, c-format
+msgid "Move '%s' back to '%s'"
+msgstr "'%s' кері '%s' жеріне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:382
+#, c-format
+msgid "Move '%s' to '%s'"
+msgstr "'%s' '%s' ішіне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:384
+msgid "_Undo Move"
+msgstr "Жылжытуды бол_дырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:385
+msgid "_Redo Move"
+msgstr "Жы_лжытуды қайталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:388
+msgid "_Undo Restore from Trash"
+msgstr "Қоқыс шелегінен қайтаруды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:389
+msgid "_Redo Restore from Trash"
+msgstr "Қоқыс шелегінен қайтаруды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:392
+#, c-format
+#| msgid "Move each selected item to the Trash"
+msgid "Move %d item back to trash"
+msgid_plural "Move %d items back to trash"
+msgstr[0] "%d нәрсені қоқыс шелегіне қайта тастау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:395
+#: ../libnautilus-private/nautilus-file-undo-operations.c:981
+#, c-format
+msgid "Restore %d item from trash"
+msgid_plural "Restore %d items from trash"
+msgstr[0] "%d нәрсені қоқыс шелегінен қайтару"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:399
+#, c-format
+msgid "Move '%s' back to trash"
+msgstr "'%s' қайта қоқыс шелегіне жылжыту"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:400
+#, c-format
+msgid "Restore '%s' from trash"
+msgstr "'%s' қоқыс шелегінен қайтару"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:404
+#, c-format
+#| msgid "Another link to %s"
+msgid "Delete %d copied item"
+msgid_plural "Delete %d copied items"
+msgstr[0] "%d көшірілген нәрсені өшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:407
+#, c-format
+msgid "Copy %d item to '%s'"
+msgid_plural "Copy %d items to '%s'"
+msgstr[0] "%d нәрсені '%s' ішіне көшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:411
+#, c-format
+#| msgid "_Undo Move %d items"
+msgid "_Undo Copy %d item"
+msgid_plural "_Undo Copy %d items"
+msgstr[0] "%d нәрсені көшіруді болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:414
+#, c-format
+#| msgid "_Redo Move %d items"
+msgid "_Redo Copy %d item"
+msgid_plural "_Redo Copy %d items"
+msgstr[0] "%d нәрсені көшіруді қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:418
+#: ../libnautilus-private/nautilus-file-undo-operations.c:440
+#: ../libnautilus-private/nautilus-file-undo-operations.c:673
+#, c-format
+msgid "Delete '%s'"
+msgstr "'%s' өшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:419
+#, c-format
+msgid "Copy '%s' to '%s'"
+msgstr "'%s' '%s' ішіне көшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:421
+msgid "_Undo Copy"
+msgstr "Көшіруді бол_дырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:422
+msgid "_Redo Copy"
+msgstr "Көшіруді қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:426
+#, c-format
+#| msgid "Another link to %s"
+msgid "Delete %d duplicated item"
+msgid_plural "Delete %d duplicated items"
+msgstr[0] "%d көшірме жасалған нәрсені өшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:429
+#, c-format
+msgid "Duplicate %d item in '%s'"
+msgid_plural "Duplicate %d items in '%s'"
+msgstr[0] "%d нәрсенің '%s' ішінде көшірмелерін жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:433
+#, c-format
+#| msgid "_Undo Move %d items"
+msgid "_Undo Duplicate %d item"
+msgid_plural "_Undo Duplicate %d items"
+msgstr[0] "%d нәрсенің көшірмесін жасауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:436
+#, c-format
+#| msgid "_Replace"
+msgid "_Redo Duplicate %d item"
+msgid_plural "_Redo Duplicate %d items"
+msgstr[0] "%d нәрсенің көшірмесін жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:441
+#, c-format
+msgid "Duplicate '%s' in '%s'"
+msgstr "'%s' үшін '%s' ішінде көшірмені жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:444
+msgid "_Undo Duplicate"
+msgstr "Көшірмені жасауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:445
+#| msgid "_Replace"
+msgid "_Redo Duplicate"
+msgstr "Көшірмені жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:449
+#, c-format
+#| msgid "Another link to %s"
+msgid "Delete links to %d item"
+msgid_plural "Delete links to %d items"
+msgstr[0] "%d нәрсеге сілтемелерді өшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:452
+#, c-format
+#| msgid "Another link to %s"
+msgid "Create links to %d item"
+msgid_plural "Create links to %d items"
+msgstr[0] "%d нәрсеге сілтемені жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:456
+#, c-format
+#| msgid "Another link to %s"
+msgid "Delete link to '%s'"
+msgstr "'%s' үшін сілтемені өшіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:457
+#, c-format
+#| msgid "Another link to %s"
+msgid "Create link to '%s'"
+msgstr "'%s' үшін сілтемені жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:459
+msgid "_Undo Create Link"
+msgstr "Сілтемені жасауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:460
+msgid "_Redo Create Link"
+msgstr "Сілтемені жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:676
+#, c-format
+msgid "Create an empty file '%s'"
+msgstr "'%s' бос файлын жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:678
+#| msgid "_Empty File"
+msgid "_Undo Create Empty File"
+msgstr "Бос файлды жасауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:679
+#| msgid "_Empty File"
+msgid "_Redo Create Empty File"
+msgstr "Бос файлды жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:681
+#, c-format
+msgid "Create a new folder '%s'"
+msgstr "Жаңа '%s' бумасын жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:683
+msgid "_Undo Create Folder"
+msgstr "Буманы жасауды б_олдырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:684
+msgid "_Redo Create Folder"
+msgstr "Буманы жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:686
+#, c-format
+msgid "Create new file '%s' from template "
+msgstr "Жаңа '%s' құжатын үлгіден жасау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:688
+#| msgid "Create Document from template \"%s\""
+msgid "_Undo Create from Template"
+msgstr "Үлгіден жасауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:689
+#| msgid "Create Document from template \"%s\""
+msgid "_Redo Create from Template"
+msgstr "Үлгіден жасауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:869
+#: ../libnautilus-private/nautilus-file-undo-operations.c:870
+#, c-format
+msgid "Rename '%s' as '%s'"
+msgstr "'%s' атауын '%s' етіп ауыстыру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:872
+#| msgid "Rename"
+msgid "_Undo Rename"
+msgstr "Атын ауыстыруды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:873
+#| msgid "Rename"
+msgid "_Redo Rename"
+msgstr "Атын ауыстыруды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:984
+#, c-format
+#| msgid "Move each selected item to the Trash"
+msgid "Move %d item to trash"
+msgid_plural "Move %d items to trash"
+msgstr[0] "%d нәрсені қоқыс шелегіне тастау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:996
+#, c-format
+msgid "Restore '%s' to '%s'"
+msgstr "'%s' '%s' етіп қалпына келтіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1003
+#, c-format
+msgid "Move '%s' to trash"
+msgstr "'%s' қоқыс шелегіне тастау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1007
+#| msgid "_Trash"
+msgid "_Undo Trash"
+msgstr "Қоқыс шелегіне тастауды болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1008
+#| msgid "_Trash"
+msgid "_Redo Trash"
+msgstr "Қоқыс шелегіне тастауды қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1299
+#, c-format
+msgid "Restore original permissions of items enclosed in '%s'"
+msgstr "'%s' ішіндегі нәрселердің бастапқы рұқсаттарын қалпына келтіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1300
+#, c-format
+msgid "Set permissions of items enclosed in '%s'"
+msgstr "'%s' ішіндегі нәрселердің рұқсаттарын орнату"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1302
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1457
+#| msgid "Folder Permissions:"
+msgid "_Undo Change Permissions"
+msgstr "Рұқсаттарды өзгертуді болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1303
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1458
+#| msgid "Folder Permissions:"
+msgid "_Redo Change Permissions"
+msgstr "Рұқсаттарды өзгертуді қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1454
+#, c-format
+msgid "Restore original permissions of '%s'"
+msgstr "'%s' бастапқы рұқсаттарын қалпына келтіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1455
+#, c-format
+msgid "Set permissions of '%s'"
+msgstr "'%s' рұқсаттарын орнату"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1565
+#, c-format
+msgid "Restore group of '%s' to '%s'"
+msgstr "'%s' үшін топты '%s' етіп қалпына келтіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1567
+#, c-format
+msgid "Set group of '%s' to '%s'"
+msgstr "'%s' үшін топты '%s' етіп орнату"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1570
+msgid "_Undo Change Group"
+msgstr "Топты өзгертуді болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1571
+msgid "_Redo Change Group"
+msgstr "Топты өзгертуді қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1573
+#, c-format
+msgid "Restore owner of '%s' to '%s'"
+msgstr "'%s' үшін иесін '%s' етіп қалпына келтіру"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1575
+#, c-format
+msgid "Set owner of '%s' to '%s'"
+msgstr "'%s' үшін иесін '%s' етіп орнату"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1578
+msgid "_Undo Change Owner"
+msgstr "Иесін өзгертуді болд_ырмау"
+
+#: ../libnautilus-private/nautilus-file-undo-operations.c:1579
+msgid "_Redo Change Owner"
+msgstr "Иесін өзгертуді қа_йталау"
+
+#: ../libnautilus-private/nautilus-file-utilities.c:1256
+#, c-format
+msgid "Could not determine original location of “%s” "
+msgstr "“%s” үшін бастапқы орналасуды анықтау мүмкін емес"
+
+#: ../libnautilus-private/nautilus-file-utilities.c:1260
+msgid "The item cannot be restored from trash"
+msgstr "Нәрсені қоқыс шелегінен қалпына келтіру мүмкін емес"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:81
+#, c-format
+msgid "Error while adding “%s”: %s"
+msgstr "“%s” қосу кезінде қате орын алды: %s"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:83
+msgid "Could not add application"
+msgstr "Қолданбаны қосу мүмкін емес"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:111
+msgid "Could not forget association"
+msgstr "Сәйкестікті ұмыту мүмкін емес"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:135
+msgid "Forget association"
+msgstr "Сәйкестілікті ұмыту"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:173
+#, c-format
+msgid "Error while setting “%s” as default application: %s"
+msgstr "“%s” үнсіз келісім қолданбасы ретінде орнату қатемен аяқталды: %s"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:175
+msgid "Could not set as default"
+msgstr "Негізгі ретінде орнату мүмкін емес"
+
+#. Translators: the %s here is a file extension
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:253
+#, c-format
+msgid "%s document"
+msgstr "%s құжаты"
+
+#. Translators; %s here is a mime-type description
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:260
+#, c-format
+msgid "Open all files of type “%s” with"
+msgstr "“%s” түріндегі барлық файлдарды көмегімен ашу:"
+
+#. Translators: first %s is filename, second %s is mime-type description
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:267
+#, c-format
+msgid "Select an application to open “%s” and other files of type “%s”"
+msgstr ""
+"“%s” және басқа да “%s” түріндегі файлдарды ашу үшін қолданбаны таңдаңыз"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:325
+msgid "_Add"
+msgstr "Қо_су"
+
+#: ../libnautilus-private/nautilus-mime-application-chooser.c:333
+msgid "Set as default"
+msgstr "Бастапқы ретінде орнату"
+
+#: ../libnautilus-private/nautilus-program-choosing.c:313
+msgid "Sorry, but you cannot execute commands from a remote site."
+msgstr "Кешіріңіз, қашықтағы жақтан командаларды орындай алмайсыз."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:315
+msgid "This is disabled due to security considerations."
+msgstr "Бұл қауіпсіздік мақсатында сөндірілген."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:326
+#: ../libnautilus-private/nautilus-program-choosing.c:394
+msgid "There was an error launching the application."
+msgstr "Қолданбаны жөнелту кезінде қате орын алды."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:351
+#: ../libnautilus-private/nautilus-program-choosing.c:362
+msgid "This drop target only supports local files."
+msgstr "Бұл тастау мақсаты тек жергілікті файлдарды қолдайды."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:352
+msgid ""
+"To open non-local files copy them to a local folder and then drop them again."
+msgstr ""
+"Жергілікті емес файлдарды тастау үшін, оларды жергілікті бумаға көшіріп "
+"алып, қайта апарып тастап көріңіз."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:363
+msgid ""
+"To open non-local files copy them to a local folder and then drop them "
+"again. The local files you dropped have already been opened."
+msgstr ""
+"Жергілікті емес файлдарды тастау үшін, оларды жергілікті бумаға көшіріп "
+"алып, қайта апарып тастап көріңіз. Сіз тастаған жергілікті файлдар ашылды."
+
+#: ../libnautilus-private/nautilus-program-choosing.c:392
+msgid "Details: "
+msgstr "Көбірек:"
+
+#: ../libnautilus-private/nautilus-progress-info.c:192
+#: ../libnautilus-private/nautilus-progress-info.c:210
+msgid "Preparing"
+msgstr "Дайындау"
+
+#: ../libnautilus-private/nautilus-query.c:208
+#: ../libnautilus-private/nautilus-search-directory-file.c:161
+#: ../libnautilus-private/nautilus-search-directory-file.c:213
+#: ../libnautilus-private/nautilus-search-directory-file.c:258
+msgid "Search"
+msgstr "Іздеу"
+
+#: ../libnautilus-private/nautilus-query.c:211
+#, c-format
+msgid "Search for “%s”"
+msgstr "“%s” іздеу"
+
+#: ../libnautilus-private/nautilus-search-engine.c:190
+msgid "Unable to complete the requested search"
+msgstr "Сұралған іздеуді аяқтау мүмкін емес"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:1
+msgid "Where to position newly open tabs in browser windows."
+msgstr "Шолушы терезелерінде жаңадан ашылған беттерді қайда орнату."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:2
+msgid ""
+"If set to \"after-current-tab\", then new tabs are inserted after the "
+"current tab. If set to \"end\", then new tabs are appended to the end of the "
+"tab list."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:3
+msgid "Always use the location entry, instead of the pathbar"
+msgstr "Жол жолағының орнына әрқашан орналасу элементін қолдану"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:4
+msgid ""
+"If set to true, then Nautilus browser windows will always use a textual "
+"input entry for the location toolbar, instead of the pathbar."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:5
+msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
+msgstr ""
+"Файлдарды өшіру не қоқыс шелегін тазарту алдында растауды сұрау керек пе, "
+"соны көрсетеді"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:6
+msgid ""
+"If set to true, then Nautilus will ask for confirmation when you attempt to "
+"delete files, or empty the Trash."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:7
+msgid "Whether to enable immediate deletion"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:8
+msgid ""
+"If set to true, then Nautilus will have a feature allowing you to delete a "
+"file immediately and in-place, instead of moving it to the trash. This "
+"feature can be dangerous, so use caution."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:9
+msgid "When to show number of items in a folder"
+msgstr "Бумадағы нәрселер санын көрсету керек пе"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:10
+msgid ""
+"Speed tradeoff for when to show the number of items in a folder. If set to "
+"\"always\" then always show item counts, even if the folder is on a remote "
+"server. If set to \"local-only\" then only show counts for local file "
+"systems. If set to \"never\" then never bother to compute item counts."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:11
+msgid "Type of click used to launch/open files"
+msgstr "Файлдарды жөнелту/ашу үшін қолданылатын шерту түрі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:12
+msgid ""
+"Possible values are \"single\" to launch files on a single click, or \"double"
+"\" to launch them on a double click."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:13
+msgid "What to do with executable text files when activated"
+msgstr "Орындалатын файлдар белсендірілген кезде олармен не істеу керек"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:14
+msgid ""
+"What to do with executable text files when they are activated (single or "
+"double clicked). Possible values are \"launch\" to launch them as programs, "
+"\"ask\" to ask what to do via a dialog, and \"display\" to display them as "
+"text files."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:15
+msgid "Show the package installer for unknown mime types"
+msgstr "Белгісіз mime түріндегі файлдары үшін дестелер орнатушысын көрсету"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:16
+msgid ""
+"Whether to show the user a package installer dialog in case an unknown mime "
+"type is opened, in order to search for an application to handle it."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:17
+msgid "Use extra mouse button events in Nautilus' browser window"
+msgstr "Nautilus шолу терезесінде тышқанның қосымша батырмаларын қолдану"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:18
+msgid ""
+"For users with mice that have \"Forward\" and \"Back\" buttons, this key "
+"will determine if any action is taken inside of Nautilus when either is "
+"pressed."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:19
+msgid "Mouse button to activate the \"Forward\" command in browser window"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:20
+msgid ""
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
+"will set which button activates the \"Forward\" command in a browser window. "
+"Possible values range between 6 and 14."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:21
+msgid "Mouse button to activate the \"Back\" command in browser window"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:22
+msgid ""
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
+"will set which button activates the \"Back\" command in a browser window. "
+"Possible values range between 6 and 14."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:23
+msgid "When to show thumbnails of files"
+msgstr "Файлдар үлгілерін қашан көрсету керек"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:24
+msgid ""
+"Speed tradeoff for when to show a file as a thumbnail. If set to \"always\" "
+"then always thumbnail, even if the folder is on a remote server. If set to "
+"\"local-only\" then only show thumbnails for local file systems. If set to "
+"\"never\" then never bother to thumbnail files, just use a generic icon. "
+"Despite what the name may suggest, this applies to any previewable file type."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:25
+msgid "Maximum image size for thumbnailing"
+msgstr "Үлгіні көрсету үшін суреттің максималды өлшемі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:26
+msgid ""
+"Images over this size (in bytes) won't be thumbnailed. The purpose of this "
+"setting is to avoid thumbnailing large images that may take a long time to "
+"load or use lots of memory."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:27
+msgid "Show folders first in windows"
+msgstr "Терезелерде бумаларды алдында көрсету"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:28
+msgid ""
+"If set to true, then Nautilus shows folders prior to showing files in the "
+"icon and list views."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:29
+msgid "Default sort order"
+msgstr "Негізгі сұрыптау тәсілі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:30
+msgid ""
+"The default sort-order for items in the icon view. Possible values are \"name"
+"\", \"size\", \"type\" and \"mtime\"."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:31
+msgid "Reverse sort order in new windows"
+msgstr "Жаңа терезелерде кері ретпен сұрыптау"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:32
+msgid ""
+"If true, files in new windows will be sorted in reverse order. ie, if sorted "
+"by name, then instead of sorting the files from \"a\" to \"z\", they will be "
+"sorted from \"z\" to \"a\"; if sorted by size, instead of being "
+"incrementally they will be sorted decrementally."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:33
+msgid "Default folder viewer"
+msgstr "Бумалардың бастапқы көрсетушісі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:34
+msgid ""
+"When a folder is visited this viewer is used unless you have selected "
+"another view for that particular folder. Possible values are \"list-view\", "
+"and \"icon-view\"."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:35
+msgid "Whether to show hidden files"
+msgstr "Жасырын файлдарды көрсету керек пе"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:36
+msgid ""
+"This key is deprecated and ignored. The \"show-hidden\" key from \"org.gtk."
+"Settings.FileChooser\" is now used instead."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:37
+msgid "Bulk rename utility"
+msgstr "Топтап атын ауыстыру қолданбасы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:38
+msgid ""
+"If set, Nautilus will append URIs of selected files and treat the result as "
+"a command line for bulk renaming. Bulk rename applications can register "
+"themselves in this key by setting the key to a space-separated string of "
+"their executable name and any command line options. If the executable name "
+"is not set to a full path, it will be searched for in the search path."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:39
+msgid "List of possible captions on icons"
+msgstr "Таңбашалардың мүмкін сипаттамаларының тізімі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:40
+msgid ""
+"A list of captions below an icon in the icon view and the desktop. The "
+"actual number of captions shown depends on the zoom level. Some possible "
+"values are: \"size\", \"type\", \"date_modified\", \"owner\", \"group\", "
+"\"permissions\", and \"mime_type\"."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:41
+msgid "Default icon zoom level"
+msgstr "Таңбашалардың бастапқы масштабы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:42
+msgid "Default zoom level used by the icon view."
+msgstr "Таңбаша көрінісіндегі бастапқы масштабы."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:43
+msgid "Default Thumbnail Icon Size"
+msgstr "Үлгі таңбашаларының бастапқы өлшемі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:44
+msgid "The default size of an icon for a thumbnail in the icon view."
+msgstr "Таңбаша көрінісіндегі үлгілердің бастапқы масштабы."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:45
+msgid "Text Ellipsis Limit"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:47
+#, no-c-format
+msgid ""
+"A string specifying how parts of overlong file names should be replaced by "
+"ellipses, depending on the zoom level. Each of the list entries is of the "
+"form \"Zoom Level:Integer\". For each specified zoom level, if the given "
+"integer is larger than 0, the file name will not exceed the given number of "
+"lines. If the integer is 0 or smaller, no limit is imposed on the specified "
+"zoom level. A default entry of the form \"Integer\" without any specified "
+"zoom level is also allowed. It defines the maximum number of lines for all "
+"other zoom levels. Examples: 0 - always display overlong file names; 3 - "
+"shorten file names if they exceed three lines; smallest:5,smaller:4,0 - "
+"shorten file names if they exceed five lines for zoom level \"smallest\". "
+"Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
+"not shorten file names for other zoom levels. Available zoom levels: "
+"smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), "
+"larger (200%), largest (400%)"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:48
+msgid "Default list zoom level"
+msgstr "Тізімнің бастапқы масштабы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:49
+msgid "Default zoom level used by the list view."
+msgstr "Тізім көрінісіндегі қолданылатын бастапқы масштабы."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:50
+msgid "Default list of columns visible in the list view"
+msgstr "Тізім көрінісіндегі көрінетін бағандардың бастапқы тізімі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:51
+msgid "Default list of columns visible in the list view."
+msgstr "Тізім көрінісіндегі көрінетін бағандардың бастапқы тізімі."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:52
+msgid "Default column order in the list view"
+msgstr "Тізім көрінісіндегі бағандардың бастапқы реті"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:53
+msgid "Default column order in the list view."
+msgstr "Тізім көрінісіндегі бағандардың бастапқы реті."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:54
+msgid "Use tree view"
+msgstr "Ағаш тектес көрінісін қолдану"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:55
+msgid ""
+"Whether a tree should be used for list view navigation instead of a flat list"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:56
+msgid "Desktop font"
+msgstr "Жұмыс үстел қарібі"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:57
+msgid "The font _description used for the icons on the desktop."
+msgstr "Жұмыс үстеліндегі таңбашалары үшін қолданылатын қарі_п анықтамасы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:58
+msgid "Home icon visible on desktop"
+msgstr "Үй бумасы таңбашасы жұмыс үстелінде көрінеді"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:59
+msgid ""
+"If this is set to true, an icon linking to the home folder will be put on "
+"the desktop."
+msgstr "Орнатылса, үй бумасына сілтейтін таңбаша жұмыс үстеліне орнатылады."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:60
+msgid "Trash icon visible on desktop"
+msgstr "Қоқыс шелегі таңбашасы жұмыс үстелінде көрінеді"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:61
+msgid ""
+"If this is set to true, an icon linking to the trash will be put on the "
+"desktop."
+msgstr "Орнатылса, қоқыс шелегіне сілтейтін таңбаша жұмыс үстеліне орнатылады."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:62
+msgid "Show mounted volumes on the desktop"
+msgstr "Тіркелген бөлімдер таңбашалары жұмыс үстелінде көрінеді"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:63
+msgid ""
+"If this is set to true, icons linking to mounted volumes will be put on the "
+"desktop."
+msgstr ""
+"Орнатылса, тіркелген томдарға сілтейтін таңбашалар жұмыс үстеліне орнатылады."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:64
+msgid "Network Servers icon visible on the desktop"
+msgstr "Желілік серверлер жұмыс үстелінде көрінеді"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:65
+msgid ""
+"If this is set to true, an icon linking to the Network Servers view will be "
+"put on the desktop."
+msgstr ""
+"Орнатылса, желілік серверлерге сілтейтін таңбаша жұмыс үстеліне орнатылады."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:66
+msgid "Desktop home icon name"
+msgstr "Жұмыс үстел үй бумасы таңбашасының атауы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:67
+msgid ""
+"This name can be set if you want a custom name for the home icon on the "
+"desktop."
+msgstr ""
+"Жұмыс үстеліндегі үй бумасы таңбашасы үшін таңдауыңызша атын қаласаңыз, осы "
+"атауды орната аласыз."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:68
+msgid "Desktop trash icon name"
+msgstr "Жұмыс үстел қоқыс шелегі таңбашасының атауы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:69
+msgid ""
+"This name can be set if you want a custom name for the trash icon on the "
+"desktop."
+msgstr ""
+"Жұмыс үстеліндегі қоқыс шелегі таңбашасы үшін таңдауыңызша атын қаласаңыз, "
+"осы атауды орната аласыз."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:70
+msgid "Network servers icon name"
+msgstr "Желілік серверлер таңбашасының атауы"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:71
+msgid ""
+"This name can be set if you want a custom name for the network servers icon "
+"on the desktop."
+msgstr ""
+"Жұмыс үстеліндегі желілік серверлер таңбашасы үшін таңдауыңызша атын "
+"қаласаңыз, осы атауды орната аласыз."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:72
+msgid ""
+"An integer specifying how parts of overlong file names should be replaced by "
+"ellipses on the desktop. If the number is larger than 0, the file name will "
+"not exceed the given number of lines. If the number is 0 or smaller, no "
+"limit is imposed on the number of displayed lines."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:73
+msgid "Fade the background on change"
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:74
+msgid ""
+"If set to true, then Nautilus will use a fade effect to change the desktop "
+"background."
+msgstr ""
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:75
+msgid "The geometry string for a navigation window."
+msgstr "Навигация терезесі үшін өлшемдер жолы."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:76
+msgid ""
+"A string containing the saved geometry and coordinates string for navigation "
+"windows."
+msgstr ""
+"Навигация терезелері үшін өлшемдері және орналасу координаталарын сақтайтын "
+"жол."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:77
+msgid "Whether the navigation window should be maximized."
+msgstr "Навигация терезесі жазық болуы тиіс пе, соны көрсетеді."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:78
+msgid "Whether the navigation window should be maximized by default."
+msgstr ""
+"Навигация терезесі үнсіз келісім бойынша жазық болуы тиіс пе, соны көрсетеді."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:79
+msgid "Width of the side pane"
+msgstr "Бүйір панелінің ені"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:80
+msgid "The default width of the side pane in new windows."
+msgstr "Жаңа терезелердегі бүйір панелінің бастапқы ені."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:81
+msgid "Show location bar in new windows"
+msgstr "Жаңа терезелерде орналасу өрісін көрсету"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:82
+msgid ""
+"If set to true, newly opened windows will have the location bar visible."
+msgstr "Іске қосылған болса, жаңа терезелерде орналасу өрісі көрінетін болады."
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:83
+msgid "Show side pane in new windows"
+msgstr "Жаңа терезелерде бүйір панельді көрсету"
+
+#: ../libnautilus-private/org.gnome.nautilus.gschema.xml.in.h:84
+msgid "If set to true, newly opened windows will have the side pane visible."
+msgstr "Іске қосылған болса, жаңа терезелерде бүйір панелі көрінетін болады."
+
+#: ../nautilus-sendto-extension/nautilus-nste.c:97
+#: ../nautilus-sendto-extension/nautilus-nste.c:102
+msgid "Email…"
+msgstr "Эл. пошта…"
+
+#: ../nautilus-sendto-extension/nautilus-nste.c:98
+msgid "Send file by mail…"
+msgstr "Файлды эл. пошта арқылы жіберу…"
+
+#: ../nautilus-sendto-extension/nautilus-nste.c:103
+msgid "Send files by mail…"
+msgstr "Файлдарды эл. пошта арқылы жіберу…"
+
+#. Some sort of failure occurred. How 'bout we tell the user?
+#: ../src/nautilus-application.c:225 ../src/nautilus-window-slot.c:1604
+msgid "Oops! Something went wrong."
+msgstr "Қап! Бірнәрсе қате кетті."
+
+#: ../src/nautilus-application.c:227
+#, c-format
+msgid ""
+"Unable to create a required folder. Please create the following folder, or "
+"set permissions such that it can be created:\n"
+"%s"
+msgstr ""
+"Сұралған буманы жасау мүмкін емес. Келесі буманы жасаңыз, немесе оны жасауға "
+"болатындай рұқсаттарды орнатыңыз:\n"
+"%s"
+
+#: ../src/nautilus-application.c:232
+#, c-format
+msgid ""
+"Unable to create required folders. Please create the following folders, or "
+"set permissions such that they can be created:\n"
+"%s"
+msgstr ""
+"Сұралған бумаларды жасау мүмкін емес. Келесі бумаларды жасаңыз, немесе "
+"оларды жасауға болатындай рұқсаттарды орнатыңыз:\n"
+"%s"
+
+#: ../src/nautilus-application.c:366
+msgid ""
+"Nautilus 3.0 deprecated this directory and tried migrating this "
+"configuration to ~/.config/nautilus"
+msgstr ""
+"Nautilus 3.0 бұл буманы ескірген деп есептейді және бұл баптауларды ~/."
+"config/nautilus ішіне жылжытып көрді"
+
+#: ../src/nautilus-application.c:911
+#: ../src/nautilus-file-management-properties.c:197
+#: ../src/nautilus-window-menus.c:254
+#, c-format
+msgid ""
+"There was an error displaying help: \n"
+"%s"
+msgstr ""
+"Көмекті көрсету кезінде қате кетті: \n"
+"%s"
+
+#: ../src/nautilus-application.c:1085
+msgid "--check cannot be used with other options."
+msgstr "--check басқа опциялармен бірге қолдануға болмайды."
+
+#: ../src/nautilus-application.c:1091
+msgid "--quit cannot be used with URIs."
+msgstr "--quit опциясын URI-мен бірге қолдануға болмайды."
+
+#: ../src/nautilus-application.c:1098
+msgid "--geometry cannot be used with more than one URI."
+msgstr "--geometry опциясын бірден көп URI-мен бірге қолдануға болмайды."
+
+#: ../src/nautilus-application.c:1104
+msgid "--select must be used with at least an URI."
+msgstr "--select опциясын кем дегенде бір URI-мен қолдануға керек."
+
+#: ../src/nautilus-application.c:1110
+msgid "--no-desktop and --force-desktop cannot be used together."
+msgstr "--no-desktop және --force-desktop бірге қолдануға болмайды."
+
+#: ../src/nautilus-application.c:1209
+msgid "Perform a quick set of self-check tests."
+msgstr "Өз-өзін тексеретін сынаулардың жылдам жиынын орындау."
+
+#: ../src/nautilus-application.c:1215
+msgid "Show the version of the program."
+msgstr "Бағдарлама нұсқасын көрсету."
+
+#: ../src/nautilus-application.c:1217
+msgid "Create the initial window with the given geometry."
+msgstr "Бастапқы терезені көрсетілген өлшемдерімен жасау."
+
+#: ../src/nautilus-application.c:1217
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: ../src/nautilus-application.c:1219
+msgid "Always open a new window for browsing specified URIs"
+msgstr "Көрсетілген URI-лар үшін әрқашан жаңа терезені ашу."
+
+#: ../src/nautilus-application.c:1221
+msgid "Only create windows for explicitly specified URIs."
+msgstr "Терезелерді тек арнайы көрсетілген URI-лар үшін жасау."
+
+#: ../src/nautilus-application.c:1223
+msgid "Never manage the desktop (ignore the GSettings preference)."
+msgstr "Жұмыс үстелін ешқашан басқармау (GSettings баптауын елемеу)."
+
+#: ../src/nautilus-application.c:1225
+msgid "Always manage the desktop (ignore the GSettings preference)."
+msgstr "Жұмыс үстелін әрқашан басқару (GSettings баптауын елемеу)."
+
+#: ../src/nautilus-application.c:1227
+msgid "Quit Nautilus."
+msgstr "Nautilus жұмысын аяқтау."
+
+#: ../src/nautilus-application.c:1229
+msgid "Select specified URI in parent folder."
+msgstr "Көрсетілген URI-ді аталық бумасында таңдау."
+
+#: ../src/nautilus-application.c:1230
+msgid "[URI...]"
+msgstr "[URI...]"
+
+#: ../src/nautilus-application.c:1242
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"Файлдық жүйені файлдар басқарушысымен шолу"
+
+#. Translators: this is a fatal error quit message printed on the
+#. * command line
+#: ../src/nautilus-application.c:1252
+msgid "Could not parse arguments"
+msgstr "Аргументтерді талдау мүмкін емес"
+
+#. Translators: this is a fatal error quit message printed on the
+#. * command line
+#: ../src/nautilus-application.c:1285
+msgid "Could not register the application"
+msgstr "Қолданбаны тіркеу мүмкін емес"
+
+#. name, stock id
+#: ../src/nautilus-app-menu.ui.h:1 ../src/nautilus-window-menus.c:551
+msgid "New _Window"
+msgstr "Жаңа _Терезе"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-app-menu.ui.h:2 ../src/nautilus-window-menus.c:543
+msgid "Connect to _Server…"
+msgstr "_Сервермен байланыс орнату…"
+
+#. name, stock id
+#: ../src/nautilus-app-menu.ui.h:3 ../src/nautilus-window-menus.c:571
+msgid "Enter _Location…"
+msgstr "Орна_ласуды енгізу…"
+
+#: ../src/nautilus-app-menu.ui.h:4
+msgid "_Bookmarks"
+msgstr "Б_етбелгілер"
+
+#: ../src/nautilus-app-menu.ui.h:5 ../src/nautilus-window-menus.c:475
+msgid "Prefere_nces"
+msgstr "Бап_таулар"
+
+#: ../src/nautilus-app-menu.ui.h:6
+msgid "_About Files"
+msgstr "Files тур_алы"
+
+#. name, stock id, label
+#: ../src/nautilus-app-menu.ui.h:7 ../src/nautilus-properties-window.c:4945
+#: ../src/nautilus-view.c:1494 ../src/nautilus-window-menus.c:469
+msgid "_Help"
+msgstr "_Көмек"
+
+#: ../src/nautilus-app-menu.ui.h:8
+msgid "_Quit"
+msgstr "_Шығу"
+
+#: ../src/nautilus-autorun-software.c:143
+#: ../src/nautilus-autorun-software.c:146
+#, c-format
+msgid ""
+"Unable to start the program:\n"
+"%s"
+msgstr ""
+"Бағдарламаны іске қосу мүмкін емес:\n"
+"%s"
+
+#: ../src/nautilus-autorun-software.c:149
+#, c-format
+msgid "Unable to locate the program"
+msgstr "Бағдарламаны табу мүмкін емес"
+
+#: ../src/nautilus-autorun-software.c:171
+msgid "Oops! There was a problem running this software."
+msgstr "Қап! Бұл БҚ жөнелткен кезде қате орын алды."
+
+#: ../src/nautilus-autorun-software.c:202
+#, c-format
+msgid ""
+"“%s” contains software intended to be automatically started. Would you like "
+"to run it?"
+msgstr ""
+"“%s” құрамында автоматты іске қосылатын БҚ бар. Оны жөнелтуді қалайсыз ба?"
+
+#: ../src/nautilus-autorun-software.c:206
+msgid "If you don't trust this location or aren't sure, press Cancel."
+msgstr ""
+"Егер сіз бұл орналасуға сенбей, не сенімді болмасаңыз, Бас тартуды басыңыз."
+
+#: ../src/nautilus-autorun-software.c:241 ../src/nautilus-mime-actions.c:748
+msgid "_Run"
+msgstr "О_рындау"
+
+#: ../src/nautilus-bookmarks-window.c:168
+msgid "No bookmarks defined"
+msgstr "Сақталған бетбелгілер жоқ"
+
+#: ../src/nautilus-bookmarks-window.c:710
+msgid "Bookmarks"
+msgstr "Бетбелгілер"
+
+#: ../src/nautilus-bookmarks-window.ui.h:1
+msgid "Remove"
+msgstr "Өшіру"
+
+#: ../src/nautilus-bookmarks-window.ui.h:2
+msgid "Move Up"
+msgstr "Жоғары жылжыту"
+
+#: ../src/nautilus-bookmarks-window.ui.h:3
+msgid "Move Down"
+msgstr "Төменге жылжыту"
+
+#: ../src/nautilus-bookmarks-window.ui.h:4
+msgid "_Name"
+msgstr "_Аты"
+
+#: ../src/nautilus-bookmarks-window.ui.h:5
+msgid "_Location"
+msgstr "Орна_ласуы"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-canvas-view.c:1109
+msgid "Re_versed Order"
+msgstr "Ке_рі ретпен"
+
+#. tooltip
+#: ../src/nautilus-canvas-view.c:1110
+msgid "Display icons in the opposite order"
+msgstr "Таңбашаларды кері ретпен көрсету"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-canvas-view.c:1114
+msgid "_Keep Aligned"
+msgstr "Реттелген түрінде ұ_стау"
+
+#. tooltip
+#: ../src/nautilus-canvas-view.c:1115
+msgid "Keep icons lined up on a grid"
+msgstr "Таңбашаларды тормен реттеп ұстау"
+
+#: ../src/nautilus-canvas-view.c:1122
+msgid "_Manually"
+msgstr "Қол_мен"
+
+#: ../src/nautilus-canvas-view.c:1123
+msgid "Leave icons wherever they are dropped"
+msgstr "Таңбашаларды олар тасталған жерінде қалдыру"
+
+#: ../src/nautilus-canvas-view.c:1126
+msgid "By _Name"
+msgstr "А_ты бойынша"
+
+#: ../src/nautilus-canvas-view.c:1127
+msgid "Keep icons sorted by name in rows"
+msgstr "Таңбашаларды бағандарда атауларымен реттеу"
+
+#: ../src/nautilus-canvas-view.c:1130
+msgid "By _Size"
+msgstr "Өлше_мі бойынша"
+
+#: ../src/nautilus-canvas-view.c:1131
+msgid "Keep icons sorted by size in rows"
+msgstr "Таңбашаларды бағандарда өлшемдерімен реттеу"
+
+#: ../src/nautilus-canvas-view.c:1134
+msgid "By _Type"
+msgstr "_Түрі бойынша"
+
+#: ../src/nautilus-canvas-view.c:1135
+msgid "Keep icons sorted by type in rows"
+msgstr "Таңбашаларды бағандарда түрлері бойынша реттеу"
+
+#: ../src/nautilus-canvas-view.c:1138
+msgid "By Modification _Date"
+msgstr "Түз_ету уақыты бойынша"
+
+#: ../src/nautilus-canvas-view.c:1139
+msgid "Keep icons sorted by modification date in rows"
+msgstr "Таңбашаларды бағандарда өзгерту уақытымен реттеу"
+
+#: ../src/nautilus-canvas-view.c:1142
+msgid "By _Access Date"
+msgstr "Қ_атынау уақыты бойынша"
+
+#: ../src/nautilus-canvas-view.c:1143
+msgid "Keep icons sorted by access date in rows"
+msgstr "Таңбашаларды бағандарда қатынау уақытымен реттеу"
+
+#: ../src/nautilus-canvas-view.c:1146
+msgid "By T_rash Time"
+msgstr "Қоқ_ысқа тасталған уақыты бойынша"
+
+#: ../src/nautilus-canvas-view.c:1147
+msgid "Keep icons sorted by trash time in rows"
+msgstr "Таңбашаларды қоқысқа тасталған уақытымен реттеу"
+
+#: ../src/nautilus-canvas-view.c:1150
+msgid "By Search Relevance"
+msgstr ""
+
+#: ../src/nautilus-canvas-view.c:1151
+msgid "Keep icons sorted by search relevance in rows"
+msgstr ""
+
+#: ../src/nautilus-canvas-view-container.c:573
+#: ../src/nautilus-file-management-properties.ui.h:35
+msgid "Icon View"
+msgstr "Таңбашалар көрінісі"
+
+#. if it wasn't cancelled show a dialog
+#: ../src/nautilus-connect-server.c:53 ../src/nautilus-mime-actions.c:1894
+#: ../src/nautilus-mime-actions.c:2166
+msgid "Unable to access location"
+msgstr "Орналасуға қатынау мүмкін емес"
+
+#: ../src/nautilus-connect-server.c:74
+msgid "Unable to display location"
+msgstr "Орналасуды көрсету мүмкін емес"
+
+#: ../src/nautilus-connect-server.c:140
+msgid "Print but do not open the URI"
+msgstr "URI баспаға шығару, бірақ ашпау"
+
+#. Translators: This is the --help description for the connect to server app,
+#. the initial newlines are between the command line arg and the description
+#: ../src/nautilus-connect-server.c:152
+msgid ""
+"\n"
+"\n"
+"Add connect to server mount"
+msgstr ""
+"\n"
+"\n"
+"Сервер тіркеу нүкесіне байланысты қосу"
+
+#: ../src/nautilus-connect-server-dialog.c:104
+#: ../src/nautilus-properties-window.c:5194 ../src/nautilus-view.c:1471
+msgid "There was an error displaying help."
+msgstr "Көмекті көрсету кезінде қате кетті."
+
+#: ../src/nautilus-connect-server-dialog.c:149
+msgid "This file server type is not recognized."
+msgstr "Файл серверінің бұл түрі танылмады."
+
+#: ../src/nautilus-connect-server-dialog.c:156
+msgid "This doesn't look like an address."
+msgstr "Бұл адреске ұқсамайды."
+
+#. Translators: %s is a URI of the form "smb://foo.example.com"
+#: ../src/nautilus-connect-server-dialog.c:265
+#, c-format
+msgid "For example, %s"
+msgstr "Мысалы, %s"
+
+#: ../src/nautilus-connect-server-dialog.c:533
+msgid "_Remove"
+msgstr "Өші_ру"
+
+#: ../src/nautilus-connect-server-dialog.c:542
+msgid "_Clear All"
+msgstr "Барлығын та_зарту"
+
+#: ../src/nautilus-connect-server-dialog.c:604
+#| msgid "Server Details"
+msgid "_Server Address"
+msgstr "_Сервер адресі"
+
+#: ../src/nautilus-connect-server-dialog.c:628
+#| msgid "Connect to Server"
+msgid "_Recent Servers"
+msgstr "Жу_ырдағы серверлер"
+
+#: ../src/nautilus-connect-server-dialog.c:694
+msgid "_Browse"
+msgstr "Қара_п шығу"
+
+#: ../src/nautilus-connect-server-dialog.c:704
+msgid "C_onnect"
+msgstr "Ба_йланысты орнату"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:621 ../src/nautilus-view.c:7202
+#: ../src/nautilus-view.c:8747
+msgid "E_mpty Trash"
+msgstr "Қоқыс шелегін та_зарту"
+
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:645
+#: ../src/nautilus-desktop-canvas-view.c:686
+msgid "Restore Icons' Original Si_zes"
+msgstr "Таңбашалардың бастапқы ө_лшемдерін қалпына келтіру"
+
+#: ../src/nautilus-desktop-canvas-view.c:646
+msgid "Restore Icon's Original Si_ze"
+msgstr "Таңбашаның бастапқы ө_лшемін қалпына келтіру"
+
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:658
+msgid "Change Desktop _Background"
+msgstr "Жұмыс үстелдік ф_он суретін ауыстыру"
+
+#. tooltip
+#: ../src/nautilus-desktop-canvas-view.c:660
+msgid ""
+"Show a window that lets you set your desktop background's pattern or color"
+msgstr ""
+"Жұмыс үстелінің фоны үшін оюды не түсті орнатуға мүмкін ететін терезені "
+"көрсету"
+
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:665
+msgid "Empty Trash"
+msgstr "Қоқыс шелегін тазарту"
+
+#. tooltip
+#: ../src/nautilus-desktop-canvas-view.c:667 ../src/nautilus-trash-bar.c:213
+#: ../src/nautilus-view.c:7203
+msgid "Delete all items in the Trash"
+msgstr "Қоқыс шелегінен барлық нәрсені өшіру"
+
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:672
+msgid "_Organize Desktop by Name"
+msgstr "Жұмыс үстелін атаулары бойынша р_еттеу"
+
+#. tooltip
+#: ../src/nautilus-desktop-canvas-view.c:674
+msgid "Reposition icons to better fit in the window and avoid overlapping"
+msgstr ""
+"Таңбашаларды терезеге жақсырақ сыю және бір-бірінің үстіне шықпау үшін қайта "
+"реттеу"
+
+#. label, accelerator
+#: ../src/nautilus-desktop-canvas-view.c:679
+msgid "Resize Icon…"
+msgstr "Таңбаша өлшемін өзгерту…"
+
+#. tooltip
+#: ../src/nautilus-desktop-canvas-view.c:681
+#| msgid "Mount the selected volume"
+msgid "Make the selected icons resizable"
+msgstr "Таңдалған таңбашаны өлшемі өзгермелі етіп қылу"
+
+#. tooltip
+#: ../src/nautilus-desktop-canvas-view.c:688
+#| msgid "Restore selected items to their original position"
+msgid "Restore each selected icons to its original size"
+msgstr "Әр таңдалған таңбашаны бастапқы өлшемдеріне қайтару"
+
+#: ../src/nautilus-desktop-item-properties.c:405
+#: ../src/nautilus-desktop-item-properties.c:415
+#: ../src/nautilus-image-properties-page.c:370
+msgid "Comment"
+msgstr "Түсіндірме"
+
+#: ../src/nautilus-desktop-item-properties.c:408
+msgid "URL"
+msgstr "URL"
+
+#: ../src/nautilus-desktop-item-properties.c:411
+#: ../src/nautilus-desktop-item-properties.c:421
+#: ../src/nautilus-image-properties-page.c:361
+#: ../src/nautilus-image-properties-page.c:416
+msgid "Description"
+msgstr "Анықтамасы"
+
+#: ../src/nautilus-desktop-item-properties.c:418
+msgid "Command"
+msgstr "Команда"
+
+#. hardcode "Desktop"
+#: ../src/nautilus-desktop-window.c:92 ../src/nautilus-desktop-window.c:245
+msgid "Desktop"
+msgstr "Жұмыс үстелі"
+
+#: ../src/nautilus-error-reporting.c:68
+#, c-format
+msgid "You do not have the permissions necessary to view the contents of “%s”."
+msgstr "Сізде “%s” құрамасын қарау үшін керек рұқсаттарыңыз жоқ."
+
+#: ../src/nautilus-error-reporting.c:72
+#, c-format
+msgid "“%s” could not be found. Perhaps it has recently been deleted."
+msgstr "“%s” табылмады. Мүмкін, ол өшірілген."
+
+#: ../src/nautilus-error-reporting.c:76
+#, c-format
+msgid "Sorry, could not display all the contents of “%s”: %s"
+msgstr "Кешіріңіз, “%s” құрамасының барлығын көрсету мүмкін емес: %s"
+
+#: ../src/nautilus-error-reporting.c:83
+msgid "This location could not be displayed."
+msgstr "Бұл орналасуды көрсету мүмкін емес."
+
+#: ../src/nautilus-error-reporting.c:107
+#, c-format
+msgid "You do not have the permissions necessary to change the group of “%s”."
+msgstr "Сізде “%s” тобын өзгерту үшін керек рұқсаттарыңыз жоқ."
+
+#. fall through
+#: ../src/nautilus-error-reporting.c:120
+#, c-format
+msgid "Sorry, could not change the group of “%s”: %s"
+msgstr "Кешіріңіз, “%s” тобын өзгерту мүмкін емес: %s"
+
+#: ../src/nautilus-error-reporting.c:125
+msgid "The group could not be changed."
+msgstr "Топты өзгерту мүмкін емес."
+
+#: ../src/nautilus-error-reporting.c:145
+#, c-format
+msgid "Sorry, could not change the owner of “%s”: %s"
+msgstr "Кешіріңіз, “%s” иесін өзгерту мүмкін емес: %s"
+
+#: ../src/nautilus-error-reporting.c:147
+msgid "The owner could not be changed."
+msgstr "Иесін өзгерту мүмкін емес."
+
+#: ../src/nautilus-error-reporting.c:167
+#, c-format
+msgid "Sorry, could not change the permissions of “%s”: %s"
+msgstr "Кешіріңіз, “%s” рұқсаттарын өзгерту мүмкін емес: %s"
+
+#: ../src/nautilus-error-reporting.c:169
+msgid "The permissions could not be changed."
+msgstr "Рұқсаттарын өзгерту мүмкін емес."
+
+#: ../src/nautilus-error-reporting.c:204
+#, c-format
+msgid ""
+"The name “%s” is already used in this location. Please use a different name."
+msgstr "“%s” атауы бұл жерде қолдануда болып тұр. Басқа атауын таңдаңыз."
+
+#: ../src/nautilus-error-reporting.c:209
+#, c-format
+msgid ""
+"There is no “%s” in this location. Perhaps it was just moved or deleted?"
+msgstr "Бұл жерде “%s” жоқ болып тұр. Мүмкін, ол жылжытылған не өшірілген?"
+
+#: ../src/nautilus-error-reporting.c:214
+#, c-format
+msgid "You do not have the permissions necessary to rename “%s”."
+msgstr "Сізде “%s” атауын өзгерту үшін керек рұқсаттарыңыз жоқ."
+
+#: ../src/nautilus-error-reporting.c:219
+#, c-format
+msgid ""
+"The name “%s” is not valid because it contains the character “/”. Please use "
+"a different name."
+msgstr ""
+"“%s” атауы жарамсыз, өйткені оның құрамында “/” таңбасы бар. Басқа атауын "
+"таңдаңыз."
+
+#: ../src/nautilus-error-reporting.c:223
+#, c-format
+msgid "The name “%s” is not valid. Please use a different name."
+msgstr "“%s” атауы жарамсыз. Басқа атауын таңдаңыз."
+
+#: ../src/nautilus-error-reporting.c:229
+#, c-format
+msgid "The name “%s” is too long. Please use a different name."
+msgstr "“%s” атауы тым ұзын. Басқа атауын таңдаңыз."
+
+#. fall through
+#: ../src/nautilus-error-reporting.c:243
+#, c-format
+msgid "Sorry, could not rename “%s” to “%s”: %s"
+msgstr "Кешіріңіз, “%s” атауын “%s” етіп орнату мүмкін емес: %s"
+
+#: ../src/nautilus-error-reporting.c:251
+msgid "The item could not be renamed."
+msgstr "Нәрсенің атын ауыстыру мүмкін емес."
+
+#: ../src/nautilus-error-reporting.c:348
+#, c-format
+msgid "Renaming “%s” to “%s”."
+msgstr "“%s” атауын “%s” етіп ауыстыру."
+
+#. Translators: this is referred to captions under icons.
+#: ../src/nautilus-file-management-properties.c:281
+#: ../src/nautilus-properties-window.c:4051
+#: ../src/nautilus-properties-window.c:4078
+msgid "None"
+msgstr "Ешнәрсе"
+
+#: ../src/nautilus-file-management-properties.ui.h:1
+msgid "Files Preferences"
+msgstr "Files баптаулары"
+
+#: ../src/nautilus-file-management-properties.ui.h:2
+msgid "Default View"
+msgstr "Бастапқы көрінісі"
+
+#: ../src/nautilus-file-management-properties.ui.h:3
+msgid "View _new folders using:"
+msgstr "Жаңа б_умаларды қалайша қарау:"
+
+#: ../src/nautilus-file-management-properties.ui.h:4
+msgid "_Arrange items:"
+msgstr "_Құраманы реттеу:"
+
+#: ../src/nautilus-file-management-properties.ui.h:5
+msgid "Sort _folders before files"
+msgstr "Бу_маларды файлдардың алдына қою"
+
+#: ../src/nautilus-file-management-properties.ui.h:6
+msgid "Show hidden and _backup files"
+msgstr "Жасырын мен қ_ор көшірме файлдарын көрсету"
+
+#: ../src/nautilus-file-management-properties.ui.h:7
+msgid "Icon View Defaults"
+msgstr "Таңбашалар көріністің бастапқы баптаулары"
+
+#: ../src/nautilus-file-management-properties.ui.h:8
+msgid "Default _zoom level:"
+msgstr "Баста_пқы масштабы:"
+
+#: ../src/nautilus-file-management-properties.ui.h:9
+msgid "List View Defaults"
+msgstr "Тізім көріністің бастапқы баптаулары"
+
+#: ../src/nautilus-file-management-properties.ui.h:10
+msgid "D_efault zoom level:"
+msgstr "Бас_тапқы масштабы:"
+
+#: ../src/nautilus-file-management-properties.ui.h:11
+msgid "Views"
+msgstr "Көріністер"
+
+#: ../src/nautilus-file-management-properties.ui.h:12
+msgid "Behavior"
+msgstr "Мінез-құлығы"
+
+#: ../src/nautilus-file-management-properties.ui.h:13
+msgid "_Single click to open items"
+msgstr "Нәр_селерді ашу үшін бірлік шертуді қолдану"
+
+#: ../src/nautilus-file-management-properties.ui.h:14
+msgid "_Double click to open items"
+msgstr "Нәрселерді а_шу үшін қос шертуді қолдану"
+
+#: ../src/nautilus-file-management-properties.ui.h:15
+msgid "Executable Text Files"
+msgstr "Орындалатын мәтіндік файлдары"
+
+#: ../src/nautilus-file-management-properties.ui.h:16
+msgid "_Run executable text files when they are opened"
+msgstr "Орындалатын файлдар ашылған кезде оларды жө_нелту"
+
+#: ../src/nautilus-file-management-properties.ui.h:17
+msgid "_View executable text files when they are opened"
+msgstr "Орындалатын файлдар ашылған кезде оларды _көрсету"
+
+#: ../src/nautilus-file-management-properties.ui.h:18
+msgid "_Ask each time"
+msgstr "Әр р_ет сұрау"
+
+#. trash
+#: ../src/nautilus-file-management-properties.ui.h:19
+#: ../src/nautilus-shell-search-provider.c:293 ../src/nautilus-trash-bar.c:195
+msgid "Trash"
+msgstr "Қоқыс шелегі"
+
+#: ../src/nautilus-file-management-properties.ui.h:20
+msgid "Ask before _emptying the Trash or deleting files"
+msgstr "Қ_оқыс шелегін тазарту не файлдарды өшіру алдында сұрау"
+
+#: ../src/nautilus-file-management-properties.ui.h:21
+msgid "I_nclude a Delete command that bypasses Trash"
+msgstr "Қоқыс шелегіне апармайтын Ө_шіру командасын көрсету"
+
+#: ../src/nautilus-file-management-properties.ui.h:22
+msgid "Icon Captions"
+msgstr "Таңбашалар сипаттамалары"
+
+#: ../src/nautilus-file-management-properties.ui.h:23
+msgid ""
+"Choose the order of information to appear beneath icon names. More "
+"information will appear when zooming in closer."
+msgstr ""
+"Таңбашалардың астында көрсетілетін ақпарат ретін таңдаңыз. Масштабы үлкейген "
+"кезде көбірек ақпарат көрсетіледі."
+
+#: ../src/nautilus-file-management-properties.ui.h:24
+#: ../src/nautilus-list-view.c:2136
+msgid "List View"
+msgstr "Тізім көрінісі"
+
+#: ../src/nautilus-file-management-properties.ui.h:25
+msgid "Navigate folders in a tree"
+msgstr "Бумаларды ағаш түрінде қарау"
+
+#: ../src/nautilus-file-management-properties.ui.h:26
+msgid "Display"
+msgstr "Көрініс"
+
+#: ../src/nautilus-file-management-properties.ui.h:27
+msgid "Choose the order of information to appear in the list view."
+msgstr "Тізім көрінісі үшін көрсетілетін ақпараттың ретін таңдаңыз."
+
+#: ../src/nautilus-file-management-properties.ui.h:28
+msgid "List Columns"
+msgstr "Тізім бағандары"
+
+#: ../src/nautilus-file-management-properties.ui.h:30
+msgid "Show _thumbnails:"
+msgstr "Ү_лгілерін көрсету:"
+
+#: ../src/nautilus-file-management-properties.ui.h:31
+msgid "_Only for files smaller than:"
+msgstr "Өл_шемі келесіден аз файлдар үшін ғана:"
+
+#: ../src/nautilus-file-management-properties.ui.h:32
+#: ../src/nautilus-properties-window.c:4479
+msgid "Folders"
+msgstr "Бумалар"
+
+#: ../src/nautilus-file-management-properties.ui.h:33
+msgid "Count _number of items:"
+msgstr "Нәрселер са_нын анықтау:"
+
+#: ../src/nautilus-file-management-properties.ui.h:34
+msgid "Preview"
+msgstr "Алдын-ала қарау"
+
+#: ../src/nautilus-file-management-properties.ui.h:36
+msgid "Always"
+msgstr "Әрқашан"
+
+#: ../src/nautilus-file-management-properties.ui.h:37
+msgid "Local Files Only"
+msgstr "Тек жергілікті файлдар"
+
+#: ../src/nautilus-file-management-properties.ui.h:38
+msgid "Never"
+msgstr "Ешқашан"
+
+#: ../src/nautilus-file-management-properties.ui.h:39
+msgid "By Name"
+msgstr "Аты бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:40
+msgid "By Size"
+msgstr "Өлшемі бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:41
+msgid "By Type"
+msgstr "Түрі бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:42
+msgid "By Modification Date"
+msgstr "Түзету уақыты бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:43
+msgid "By Access Date"
+msgstr "Қатынау уақыты бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:44
+msgid "By Trashed Date"
+msgstr "Тасталу уақыты бойынша"
+
+#: ../src/nautilus-file-management-properties.ui.h:46
+#, no-c-format
+msgid "33%"
+msgstr "33%"
+
+#: ../src/nautilus-file-management-properties.ui.h:48
+#, no-c-format
+msgid "50%"
+msgstr "50%"
+
+#: ../src/nautilus-file-management-properties.ui.h:50
+#, no-c-format
+msgid "66%"
+msgstr "66%"
+
+#: ../src/nautilus-file-management-properties.ui.h:52
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../src/nautilus-file-management-properties.ui.h:54
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: ../src/nautilus-file-management-properties.ui.h:56
+#, no-c-format
+msgid "200%"
+msgstr "200%"
+
+#: ../src/nautilus-file-management-properties.ui.h:58
+#, no-c-format
+msgid "400%"
+msgstr "400%"
+
+#: ../src/nautilus-file-management-properties.ui.h:59
+msgid "100 KB"
+msgstr "100 КБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:60
+msgid "500 KB"
+msgstr "500 КБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:61
+msgid "1 MB"
+msgstr "1 МБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:62
+msgid "3 MB"
+msgstr "3 МБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:63
+msgid "5 MB"
+msgstr "5 МБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:64
+msgid "10 MB"
+msgstr "10 МБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:65
+msgid "100 MB"
+msgstr "100 МБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:66
+msgid "1 GB"
+msgstr "1 ГБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:67
+msgid "2 GB"
+msgstr "2 ГБ"
+
+#: ../src/nautilus-file-management-properties.ui.h:68
+msgid "4 GB"
+msgstr "4 ГБ"
+
+#: ../src/nautilus-image-properties-page.c:331
+msgid "Image Type"
+msgstr "Сурет түрі"
+
+#: ../src/nautilus-image-properties-page.c:333
+#: ../src/nautilus-image-properties-page.c:339
+#, c-format
+msgid "%d pixel"
+msgid_plural "%d pixels"
+msgstr[0] "%d пиксель"
+
+#: ../src/nautilus-image-properties-page.c:337
+msgid "Width"
+msgstr "Ені"
+
+#: ../src/nautilus-image-properties-page.c:343
+msgid "Height"
+msgstr "Биіктігі"
+
+#: ../src/nautilus-image-properties-page.c:356
+#: ../src/nautilus-image-properties-page.c:357
+msgid "Title"
+msgstr "Атауы"
+
+#: ../src/nautilus-image-properties-page.c:358
+#: ../src/nautilus-image-properties-page.c:359
+msgid "Author"
+msgstr "Авторы"
+
+#: ../src/nautilus-image-properties-page.c:362
+#: ../src/nautilus-image-properties-page.c:419
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../src/nautilus-image-properties-page.c:363
+msgid "Created On"
+msgstr "Жасалған күні"
+
+#: ../src/nautilus-image-properties-page.c:364
+msgid "Created By"
+msgstr "Жасаған"
+
+#. Translators: this refers to a legal disclaimer string embedded in
+#. * the metadata of an image
+#: ../src/nautilus-image-properties-page.c:367
+msgid "Disclaimer"
+msgstr ""
+
+#: ../src/nautilus-image-properties-page.c:368
+msgid "Warning"
+msgstr "Ескерту"
+
+#: ../src/nautilus-image-properties-page.c:369
+msgid "Source"
+msgstr "Қайнар көзі"
+
+#: ../src/nautilus-image-properties-page.c:384
+msgid "Camera Brand"
+msgstr "Камера жасаушысы"
+
+#: ../src/nautilus-image-properties-page.c:385
+msgid "Camera Model"
+msgstr "Камера моделі"
+
+#. Choose which date to show in order of relevance
+#: ../src/nautilus-image-properties-page.c:388
+msgid "Date Taken"
+msgstr "Түсірілген күні"
+
+#: ../src/nautilus-image-properties-page.c:389
+msgid "Date Digitized"
+msgstr "Цифрленген күні"
+
+#: ../src/nautilus-image-properties-page.c:390
+msgid "Date Modified"
+msgstr "Өзгертілген күні"
+
+#: ../src/nautilus-image-properties-page.c:394
+msgid "Exposure Time"
+msgstr "Экспозиция уақыты"
+
+#: ../src/nautilus-image-properties-page.c:395
+msgid "Aperture Value"
+msgstr "Диафрагма мәні"
+
+#: ../src/nautilus-image-properties-page.c:396
+msgid "ISO Speed Rating"
+msgstr ""
+
+#: ../src/nautilus-image-properties-page.c:397
+msgid "Flash Fired"
+msgstr "Жарқылдауы"
+
+#: ../src/nautilus-image-properties-page.c:398
+msgid "Metering Mode"
+msgstr "Өлшеулер режимі"
+
+#: ../src/nautilus-image-properties-page.c:399
+msgid "Exposure Program"
+msgstr "Экспозиция бағдарламасы"
+
+#: ../src/nautilus-image-properties-page.c:400
+msgid "Focal Length"
+msgstr "Фокустық қашықтығы"
+
+#: ../src/nautilus-image-properties-page.c:401
+msgid "Software"
+msgstr "Бағд. қамтамасы"
+
+#: ../src/nautilus-image-properties-page.c:417
+msgid "Keywords"
+msgstr "Кілт сөздер"
+
+#: ../src/nautilus-image-properties-page.c:418
+msgid "Creator"
+msgstr "Жасаған"
+
+#: ../src/nautilus-image-properties-page.c:420
+msgid "Rating"
+msgstr ""
+
+#: ../src/nautilus-image-properties-page.c:443
+msgid "Failed to load image information"
+msgstr "Сурет ақпаратын жүктеу сәтсіз"
+
+#: ../src/nautilus-image-properties-page.c:708
+#: ../src/nautilus-list-model.c:392 ../src/nautilus-window-slot.c:611
+#: ../src/nautilus-window-slot.c:2251
+msgid "Loading…"
+msgstr "Жүктеу..."
+
+#: ../src/nautilus-list-model.c:390
+msgid "(Empty)"
+msgstr "(Бос)"
+
+#: ../src/nautilus-list-view.c:1609
+msgid "Use Default"
+msgstr "Бастапқысын қолдану"
+
+#: ../src/nautilus-list-view.c:2942
+#, c-format
+msgid "%s Visible Columns"
+msgstr "%s көрінетін баған"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-list-view.c:2948 ../src/nautilus-properties-window.c:4946
+#: ../src/nautilus-window-menus.c:471
+msgid "_Close"
+msgstr "_Жабу"
+
+#: ../src/nautilus-list-view.c:2962
+msgid "Choose the order of information to appear in this folder:"
+msgstr "Бұл бумада көрсетілетін ақпараттың ретін таңдаңыз:"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-list-view.c:3017
+msgid "Visible _Columns…"
+msgstr "Көрінетін _бағандар…"
+
+#. tooltip
+#: ../src/nautilus-list-view.c:3018
+msgid "Select the columns visible in this folder"
+msgstr "Бұл бумада көрінетін бағандарды таңдаңыз"
+
+#: ../src/nautilus-location-entry.c:260
+#, c-format
+msgid "Do you want to view %d location?"
+msgid_plural "Do you want to view %d locations?"
+msgstr[0] "%d орналасуды қарауды қалайсыз ба?"
+
+#: ../src/nautilus-location-entry.c:264 ../src/nautilus-mime-actions.c:1086
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Бұл әрекет %d бөлек терезені ашады."
+
+#: ../src/nautilus-mime-actions.c:656
+#, c-format
+msgid "The link “%s” is broken. Move it to Trash?"
+msgstr "“%s” сілтемесі сынық. Оны қоқыс шелегіне тастау керек пе?"
+
+#: ../src/nautilus-mime-actions.c:658
+#, c-format
+msgid "The link “%s” is broken."
+msgstr "“%s” сілтемесі сынық."
+
+#: ../src/nautilus-mime-actions.c:664
+msgid "This link cannot be used because it has no target."
+msgstr "Сілтемені қолдану мүмкін емес, өйткені оның мақсаты жоқ."
+
+#: ../src/nautilus-mime-actions.c:666
+#, c-format
+msgid "This link cannot be used because its target “%s” doesn't exist."
+msgstr ""
+"Сілтемені қолдану мүмкін емес, өйткені оның “%s” мақсаты жоқ болып тұр."
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-mime-actions.c:676 ../src/nautilus-view.c:7258
+#: ../src/nautilus-view.c:7372 ../src/nautilus-view.c:8346
+#: ../src/nautilus-view.c:8664
+msgid "Mo_ve to Trash"
+msgstr "Қоқы_с шелегіне тастау"
+
+#: ../src/nautilus-mime-actions.c:736
+#, c-format
+msgid "Do you want to run “%s”, or display its contents?"
+msgstr "“%s” жөнелтуді, немесе оның құрамасын көрсетуді қалайсыз ба?"
+
+#: ../src/nautilus-mime-actions.c:738
+#, c-format
+msgid "“%s” is an executable text file."
+msgstr "“%s” орындалатын мәтіндік файлы болып тұр."
+
+#: ../src/nautilus-mime-actions.c:744
+msgid "Run in _Terminal"
+msgstr "_Терминалда орындау"
+
+#: ../src/nautilus-mime-actions.c:745
+msgid "_Display"
+msgstr "Көр_сету"
+
+#: ../src/nautilus-mime-actions.c:1081 ../src/nautilus-mime-actions.c:1816
+#: ../src/nautilus-view.c:961
+msgid "Are you sure you want to open all files?"
+msgstr "Барлық файлдарды ашуды шынымен қалайсыз ба?"
+
+#: ../src/nautilus-mime-actions.c:1083
+#, c-format
+msgid "This will open %d separate tab."
+msgid_plural "This will open %d separate tabs."
+msgstr[0] "Бұл әрекет %d бөлек бетті ашады."
+
+#: ../src/nautilus-mime-actions.c:1148
+#, c-format
+msgid "Could not display “%s”."
+msgstr "“%s” көрсету мүмкін емес."
+
+#: ../src/nautilus-mime-actions.c:1246
+msgid "The file is of an unknown type"
+msgstr "Файл түрі белгісіз"
+
+#: ../src/nautilus-mime-actions.c:1250
+#, c-format
+msgid "There is no application installed for “%s” files"
+msgstr "“%s” түріндегі файлдары үшін орнатылған қолданба жоқ"
+
+#: ../src/nautilus-mime-actions.c:1265
+msgid "_Select Application"
+msgstr "Қо_лданбаны таңдау"
+
+#: ../src/nautilus-mime-actions.c:1301
+msgid "There was an internal error trying to search for applications:"
+msgstr "Қолданбаларды іздеу кезінде ішкі қате орын алды:"
+
+#: ../src/nautilus-mime-actions.c:1303
+msgid "Unable to search for application"
+msgstr "Қолданбаны іздеу мүмкін емес"
+
+#: ../src/nautilus-mime-actions.c:1422
+#, c-format
+msgid ""
+"There is no application installed for “%s” files.\n"
+"Do you want to search for an application to open this file?"
+msgstr ""
+"“%s” түріндегі файлдары үшін орнатылған қолданба жоқ.\n"
+"Бұл файлды ашу үшін қолданбаны іздеуді қалайсыз ба?"
+
+#: ../src/nautilus-mime-actions.c:1572
+msgid "Untrusted application launcher"
+msgstr "Сенімсіз қолданба жөнелткіші"
+
+#: ../src/nautilus-mime-actions.c:1575
+#, c-format
+msgid ""
+"The application launcher “%s” has not been marked as trusted. If you do not "
+"know the source of this file, launching it may be unsafe."
+msgstr ""
+"“%s” қолданба жөнелткіші сенімді ретінде белгіленбеген. Егер сіз оның шыққан "
+"көзін білмесеңіз, оны жөнелту қауіпсіз емес болуы мүмкін."
+
+#: ../src/nautilus-mime-actions.c:1590
+msgid "_Launch Anyway"
+msgstr "Сон_да да жөнелту"
+
+#: ../src/nautilus-mime-actions.c:1593
+msgid "Mark as _Trusted"
+msgstr "Сені_мді ретінде белгілеу"
+
+#: ../src/nautilus-mime-actions.c:1817
+#, c-format
+msgid "This will open %d separate application."
+msgid_plural "This will open %d separate applications."
+msgstr[0] "Бұл әрекет %d бөлек қолданбаны ашады."
+
+#: ../src/nautilus-mime-actions.c:2245
+msgid "Unable to start location"
+msgstr "Орналасуды бастау мүмкін емес"
+
+#: ../src/nautilus-mime-actions.c:2329
+#, c-format
+msgid "Opening “%s”."
+msgstr "“%s” ашу."
+
+#: ../src/nautilus-mime-actions.c:2332
+#, c-format
+msgid "Opening %d item."
+msgid_plural "Opening %d items."
+msgstr[0] "%d нәрсе ашылуда"
+
+#: ../src/nautilus-notebook.c:378
+msgid "Close tab"
+msgstr "Бетті жабу"
+
+#: ../src/nautilus-progress-ui-handler.c:108
+#: ../src/nautilus-progress-ui-handler.c:160
+#: ../src/nautilus-progress-ui-handler.c:218
+#: ../src/nautilus-progress-ui-handler.c:274
+msgid "File Operations"
+msgstr "Файл әрекеттері"
+
+#: ../src/nautilus-progress-ui-handler.c:119
+msgid "Show Details"
+msgstr "Көбірек ақпарат шығару"
+
+#: ../src/nautilus-progress-ui-handler.c:154
+#: ../src/nautilus-progress-ui-handler.c:176
+#, c-format
+msgid "%'d file operation active"
+msgid_plural "%'d file operations active"
+msgstr[0] "%'d файлмен әрекет белсенді"
+
+#: ../src/nautilus-progress-ui-handler.c:275
+msgid "All file operations have been successfully completed"
+msgstr "Файлдармен барлық әрекеттер сәтті аяқталды"
+
+#: ../src/nautilus-properties-window.c:500
+msgid "You cannot assign more than one custom icon at a time!"
+msgstr "Бір уақытта бірден көп таңдауыңызша таңбашаны тағайындай алмайсыз!"
+
+#: ../src/nautilus-properties-window.c:501
+msgid "Please drag just one image to set a custom icon."
+msgstr "Таңдауыңызша таңбашаны жасау үшін тек бір суретті тартып апарыңыз."
+
+#: ../src/nautilus-properties-window.c:512
+msgid "The file that you dropped is not local."
+msgstr "Сіз тастаған файл жергілікті емес."
+
+#: ../src/nautilus-properties-window.c:513
+#: ../src/nautilus-properties-window.c:519
+msgid "You can only use local images as custom icons."
+msgstr ""
+"Таңдауыңызша таңбаша ретінде тек жергілікті суреттерді қолдануға болады."
+
+#: ../src/nautilus-properties-window.c:518
+msgid "The file that you dropped is not an image."
+msgstr "Сіз тастаған файл сурет емес болып тұр."
+
+#: ../src/nautilus-properties-window.c:633
+msgid "_Name:"
+msgid_plural "_Names:"
+msgstr[0] "_Атау(лар)ы:"
+
+#: ../src/nautilus-properties-window.c:828
+#, c-format
+msgid "Properties"
+msgstr "Қасиеттері"
+
+#: ../src/nautilus-properties-window.c:836
+#, c-format
+msgid "%s Properties"
+msgstr "%s қасиеттері"
+
+#: ../src/nautilus-properties-window.c:1224
+#, c-format
+msgctxt "MIME type description (MIME type)"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../src/nautilus-properties-window.c:1432
+msgid "Cancel Group Change?"
+msgstr "Топты ауыстырудан бас тарту керек пе?"
+
+#: ../src/nautilus-properties-window.c:1847
+msgid "Cancel Owner Change?"
+msgstr "Иесін ауыстырудан бас тарту керек пе?"
+
+#: ../src/nautilus-properties-window.c:2163
+msgid "nothing"
+msgstr "ешнәрсе"
+
+#: ../src/nautilus-properties-window.c:2165
+msgid "unreadable"
+msgstr "оқылмайды"
+
+#: ../src/nautilus-properties-window.c:2173
+#, c-format
+msgid "%'d item, with size %s"
+msgid_plural "%'d items, totalling %s"
+msgstr[0] "%'d нәрсе, жалпы өлшемі %s"
+
+#: ../src/nautilus-properties-window.c:2182
+msgid "(some contents unreadable)"
+msgstr "(құраманың бір бөлігін оқу мүмкін емес)"
+
+#. Also set the title field here, with a trailing carriage return &
+#. * space if the value field has two lines. This is a hack to get the
+#. * "Contents:" title to line up with the first line of the
+#. * 2-line value. Maybe there's a better way to do this, but I
+#. * couldn't think of one.
+#.
+#: ../src/nautilus-properties-window.c:2199
+msgid "Contents:"
+msgstr "Құрамасы:"
+
+#. Translators: "used" refers to the capacity of the filesystem
+#: ../src/nautilus-properties-window.c:3055
+msgid "used"
+msgstr "қолдануда"
+
+#. Translators: "free" refers to the capacity of the filesystem
+#: ../src/nautilus-properties-window.c:3061
+msgid "free"
+msgstr "бос"
+
+#: ../src/nautilus-properties-window.c:3063
+msgid "Total capacity:"
+msgstr "Жалпы сыйымдылығы:"
+
+#: ../src/nautilus-properties-window.c:3066
+msgid "Filesystem type:"
+msgstr "Файлдық жүйе түрі:"
+
+#: ../src/nautilus-properties-window.c:3202
+msgid "Basic"
+msgstr "Қарапайым"
+
+#: ../src/nautilus-properties-window.c:3267
+msgid "Link target:"
+msgstr "Сілтеме мақсаты:"
+
+#: ../src/nautilus-properties-window.c:3286
+msgid "Location:"
+msgstr "Орналасуы:"
+
+#: ../src/nautilus-properties-window.c:3294
+msgid "Volume:"
+msgstr "Том:"
+
+#: ../src/nautilus-properties-window.c:3303
+msgid "Accessed:"
+msgstr "Қатынаған:"
+
+#: ../src/nautilus-properties-window.c:3307
+msgid "Modified:"
+msgstr "Түзетілген:"
+
+#: ../src/nautilus-properties-window.c:3317
+msgid "Free space:"
+msgstr "Бос орын:"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#.
+#: ../src/nautilus-properties-window.c:3968
+#: ../src/nautilus-properties-window.c:3979
+#: ../src/nautilus-properties-window.c:3991
+msgid "no "
+msgstr "жоқ"
+
+#: ../src/nautilus-properties-window.c:3971
+msgid "list"
+msgstr "тізім"
+
+#: ../src/nautilus-properties-window.c:3973
+msgid "read"
+msgstr "оқу"
+
+#: ../src/nautilus-properties-window.c:3982
+msgid "create/delete"
+msgstr "жасау/өшіру"
+
+#: ../src/nautilus-properties-window.c:3984
+msgid "write"
+msgstr "жазу"
+
+#: ../src/nautilus-properties-window.c:3993
+msgid "access"
+msgstr "қатынау"
+
+#: ../src/nautilus-properties-window.c:4058
+msgid "List files only"
+msgstr "Тек файлдарды көрсету"
+
+#: ../src/nautilus-properties-window.c:4064
+msgid "Access files"
+msgstr "Файлдарға қатынау"
+
+#: ../src/nautilus-properties-window.c:4070
+msgid "Create and delete files"
+msgstr "Файлдарды жасау және өшіру"
+
+#: ../src/nautilus-properties-window.c:4085
+msgid "Read-only"
+msgstr "Тек оқу"
+
+#: ../src/nautilus-properties-window.c:4091
+msgid "Read and write"
+msgstr "Оқу мен жазу"
+
+#: ../src/nautilus-properties-window.c:4118
+msgid "Access:"
+msgstr "Қатынау:"
+
+#: ../src/nautilus-properties-window.c:4120
+msgid "Folder access:"
+msgstr "Бумаға қатынау:"
+
+#: ../src/nautilus-properties-window.c:4122
+msgid "File access:"
+msgstr "Файлға қатынау:"
+
+#: ../src/nautilus-properties-window.c:4211
+msgid "_Owner:"
+msgstr "И_есі:"
+
+#: ../src/nautilus-properties-window.c:4219
+#: ../src/nautilus-properties-window.c:4483
+msgid "Owner:"
+msgstr "Иесі:"
+
+#: ../src/nautilus-properties-window.c:4241
+msgid "_Group:"
+msgstr "_Тобы:"
+
+#: ../src/nautilus-properties-window.c:4249
+#: ../src/nautilus-properties-window.c:4497
+msgid "Group:"
+msgstr "Тобы:"
+
+#: ../src/nautilus-properties-window.c:4270
+msgid "Others"
+msgstr "Басқалар"
+
+#: ../src/nautilus-properties-window.c:4285
+msgid "Execute:"
+msgstr "Орындау:"
+
+#: ../src/nautilus-properties-window.c:4288
+msgid "Allow _executing file as program"
+msgstr "Файлды бағдарла_ма ретінде жөнелтуді рұқсат ету"
+
+#: ../src/nautilus-properties-window.c:4464
+#| msgid "The permissions of the file."
+msgid "Change Permissions for Enclosed Files"
+msgstr "Салынған файлдар үшін рұқсаттарды өзгерту"
+
+#: ../src/nautilus-properties-window.c:4468
+msgid "Change"
+msgstr "Өзгерту"
+
+#: ../src/nautilus-properties-window.c:4511
+msgid "Others:"
+msgstr "Басқалар:"
+
+#: ../src/nautilus-properties-window.c:4552
+msgid "You are not the owner, so you cannot change these permissions."
+msgstr "Сіз осының иесі емессіз, сол үшін бұл рұқсаттарды өзгерте алмайсыз."
+
+#: ../src/nautilus-properties-window.c:4567
+msgid "Security context:"
+msgstr "Қауіпсіздік контексті:"
+
+#: ../src/nautilus-properties-window.c:4582
+#| msgid "The permissions of the file."
+msgid "Change Permissions for Enclosed Files…"
+msgstr "Салынған файлдар үшін рұқсаттарды өзгерту…"
+
+#: ../src/nautilus-properties-window.c:4592
+#, c-format
+msgid "The permissions of “%s” could not be determined."
+msgstr "“%s” рұқсаттарын анықтау мүмкін емес."
+
+#: ../src/nautilus-properties-window.c:4595
+msgid "The permissions of the selected file could not be determined."
+msgstr "Ерекшеленген файлдың рұқсаттарын анықтау мүмкін емес."
+
+#: ../src/nautilus-properties-window.c:4839
+msgid "Open With"
+msgstr "Көмегімен ашу"
+
+#: ../src/nautilus-properties-window.c:5162
+msgid "Creating Properties window."
+msgstr "Қасиеттер терезесін жасау."
+
+#: ../src/nautilus-properties-window.c:5462
+msgid "Select Custom Icon"
+msgstr "Таңдауыңызша таңбашаны көрсетіңіз"
+
+#: ../src/nautilus-properties-window.c:5464
+msgid "_Revert"
+msgstr "Қай_тару"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-properties-window.c:5466 ../src/nautilus-view.c:7170
+#: ../src/nautilus-view.c:8588
+msgid "_Open"
+msgstr "А_шу"
+
+#: ../src/nautilus-query-editor.c:102
+msgid "File Type"
+msgstr "Файл түрі"
+
+#: ../src/nautilus-query-editor.c:322
+msgid "Documents"
+msgstr "Құжаттар"
+
+#: ../src/nautilus-query-editor.c:340
+msgid "Music"
+msgstr "Музыка"
+
+#: ../src/nautilus-query-editor.c:371
+msgid "Picture"
+msgstr "Сурет"
+
+#: ../src/nautilus-query-editor.c:391
+msgid "Illustration"
+msgstr "Бейне"
+
+#: ../src/nautilus-query-editor.c:430
+msgid "Pdf / Postscript"
+msgstr "Pdf / Postscript"
+
+#: ../src/nautilus-query-editor.c:438
+msgid "Text File"
+msgstr "Мәтін файлы"
+
+#: ../src/nautilus-query-editor.c:517
+msgid "Select type"
+msgstr "Түрін таңдаңыз"
+
+#: ../src/nautilus-query-editor.c:521
+msgid "Select"
+msgstr "Таңдау"
+
+#: ../src/nautilus-query-editor.c:602
+msgid "Any"
+msgstr "Кез-келген"
+
+#: ../src/nautilus-query-editor.c:617
+msgid "Other Type…"
+msgstr "Басқа түрі…"
+
+#: ../src/nautilus-query-editor.c:886
+msgid "Remove this criterion from the search"
+msgstr "Бұл шартты іздеуден алып тастау"
+
+#. create the Current/All Files selector
+#: ../src/nautilus-query-editor.c:968
+msgid "Current"
+msgstr "Ағымдағы"
+
+#: ../src/nautilus-query-editor.c:971
+msgid "All Files"
+msgstr "Барлық файлдар"
+
+#: ../src/nautilus-query-editor.c:993
+msgid "Add a new criterion to this search"
+msgstr "Бұл іздеуге жаңа шартты қосу"
+
+#: ../src/nautilus-special-location-bar.c:52
+msgid "Files in this folder will appear in the New Document menu."
+msgstr "Бұл бумадағы файлдар Жаңа құжатты жасау мәзірінде көрсетіледі."
+
+#: ../src/nautilus-special-location-bar.c:55
+msgid "Executable files in this folder will appear in the Scripts menu."
+msgstr "Бұл бумадағы орындалатын файлдар Скрипттер мәзірінде көрсетіледі."
+
+#: ../src/nautilus-toolbar.c:481
+msgid "View options"
+msgstr "Көрініс опциялары"
+
+#. Action Menu
+#: ../src/nautilus-toolbar.c:500
+msgid "Location options"
+msgstr "Орналасудың опциялары"
+
+#: ../src/nautilus-trash-bar.c:203
+msgid "Restore"
+msgstr "Қалпына келтіру"
+
+#: ../src/nautilus-trash-bar.c:206
+msgid "Restore selected items to their original position"
+msgstr "Таңдалған нәрселерді олардың бастапқы орындарына қалпына келтіру"
+
+#. Translators: "Empty" is an action (for the trash) , not a state
+#: ../src/nautilus-trash-bar.c:210
+msgid "Empty"
+msgstr "Бос"
+
+#: ../src/nautilus-view.c:963
+#, c-format
+msgid "This will open %'d separate tab."
+msgid_plural "This will open %'d separate tabs."
+msgstr[0] "Бұл әрекет %'d бөлек бетті ашады."
+
+#: ../src/nautilus-view.c:966
+#, c-format
+msgid "This will open %'d separate window."
+msgid_plural "This will open %'d separate windows."
+msgstr[0] "Бұл әрекет %'d бөлек терезені ашады."
+
+#: ../src/nautilus-view.c:1491
+msgid "Select Items Matching"
+msgstr "Үлгі бойынша таңдау"
+
+#: ../src/nautilus-view.c:1506
+msgid "_Pattern:"
+msgstr "_Шаблон:"
+
+#: ../src/nautilus-view.c:1512
+msgid "Examples: "
+msgstr "Мысалдар:"
+
+#: ../src/nautilus-view.c:1613
+msgid "Save Search as"
+msgstr "Іздеуді қалайша сақтау"
+
+#: ../src/nautilus-view.c:1619
+msgid "_Save"
+msgstr "_Сақтау"
+
+#: ../src/nautilus-view.c:1636
+msgid "Search _name:"
+msgstr "Іздеу а_тауы:"
+
+#: ../src/nautilus-view.c:1653
+msgid "_Folder:"
+msgstr "Бу_ма:"
+
+#: ../src/nautilus-view.c:1658
+msgid "Select Folder to Save Search In"
+msgstr "Іздеуді сақтау үшін буманы таңдаңыз"
+
+#: ../src/nautilus-view.c:2306
+msgid ""
+"Nautilus 3.6 deprecated this directory and tried migrating this "
+"configuration to ~/.local/share/nautilus"
+msgstr ""
+"Nautilus 3.6 бұл буманы ескірген деп есептейді және бұл баптауларды ~/.local/"
+"share/nautilus ішіне жылжытып көрді"
+
+#: ../src/nautilus-view.c:2737
+msgid "Content View"
+msgstr "Құрама көрінісі"
+
+#: ../src/nautilus-view.c:2738
+msgid "View of the current folder"
+msgstr "Ағымдағы бума көрінісі"
+
+#: ../src/nautilus-view.c:2935 ../src/nautilus-view.c:2970
+#, c-format
+msgid "“%s” selected"
+msgstr "“%s” таңдалды"
+
+#: ../src/nautilus-view.c:2937
+#, c-format
+msgid "%'d folder selected"
+msgid_plural "%'d folders selected"
+msgstr[0] "%'d бума таңдалды"
+
+#: ../src/nautilus-view.c:2947
+#, c-format
+msgid "(containing %'d item)"
+msgid_plural "(containing %'d items)"
+msgstr[0] "(құрамында %'d нәрсе бар)"
+
+#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#: ../src/nautilus-view.c:2958
+#, c-format
+msgid "(containing a total of %'d item)"
+msgid_plural "(containing a total of %'d items)"
+msgstr[0] "(құрамында жалпы %'d нәрсе бар)"
+
+#: ../src/nautilus-view.c:2973
+#, c-format
+msgid "%'d item selected"
+msgid_plural "%'d items selected"
+msgstr[0] "%d нәрсе ерекшеленді"
+
+#. Folders selected also, use "other" terminology
+#: ../src/nautilus-view.c:2980
+#, c-format
+msgid "%'d other item selected"
+msgid_plural "%'d other items selected"
+msgstr[0] "%'d басқа нәрсе ерекшеленді"
+
+#. This is marked for translation in case a localiser
+#. * needs to use something other than parentheses. The
+#. * the message in parentheses is the size of the selected items.
+#.
+#: ../src/nautilus-view.c:2994
+#, c-format
+msgid "(%s)"
+msgstr "(%s)"
+
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items.
+#.
+#: ../src/nautilus-view.c:3018
+#, c-format
+msgid "%s %s, %s %s"
+msgstr "%s %s, %s %s"
+
+#: ../src/nautilus-view.c:4391
+#, c-format
+msgid "Open With %s"
+msgstr "%s көмегімен ашу"
+
+#: ../src/nautilus-view.c:4393
+#, c-format
+msgid "Use “%s” to open the selected item"
+msgid_plural "Use “%s” to open the selected items"
+msgstr[0] "Таңдалғанды ашу үшін “%s” қолдану"
+
+#: ../src/nautilus-view.c:5138
+#, c-format
+#| msgid "Rename selected item"
+msgid "Run “%s” on any selected items"
+msgstr "“%s” кез-келген таңдалған нәрсе үшін жөнелту"
+
+#: ../src/nautilus-view.c:5392
+#, c-format
+#| msgid "Create a new document from template \"%s\""
+msgid "Create a new document from template “%s”"
+msgstr "“%s” үлгісінен жаңа құжатты жасау"
+
+#: ../src/nautilus-view.c:5992
+msgid "Select Destination"
+msgstr "Мақсатты таңдау"
+
+#: ../src/nautilus-view.c:5996
+msgid "_Select"
+msgstr "Таң_дау"
+
+#. Translators: %s is a file name formatted for display
+#: ../src/nautilus-view.c:6508
+#, c-format
+msgid "Unable to remove “%s”"
+msgstr "“%s” өшіру мүмкін емес"
+
+#. Translators: %s is a file name formatted for display
+#: ../src/nautilus-view.c:6535
+#, c-format
+msgid "Unable to eject “%s”"
+msgstr "“%s” шығару мүмкін емес"
+
+#: ../src/nautilus-view.c:6557
+msgid "Unable to stop drive"
+msgstr "Дискті тоқтату мүмкін емес"
+
+#. Translators: %s is a file name formatted for display
+#: ../src/nautilus-view.c:6659
+#, c-format
+msgid "Unable to start “%s”"
+msgstr "“%s” іске қосу мүмкін емес"
+
+#. name, stock id, label
+#: ../src/nautilus-view.c:7150
+msgid "New _Document"
+msgstr "Жаңа құ_жат"
+
+#. name, stock id, label
+#: ../src/nautilus-view.c:7151
+msgid "Open Wit_h"
+msgstr "Кө_мегімен ашу"
+
+#: ../src/nautilus-view.c:7152
+msgid "Choose a program with which to open the selected item"
+msgstr "Таңдалған нәрсені ашу үшін бағдарламаны таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7154 ../src/nautilus-view.c:7409
+#: ../src/nautilus-window-menus.c:595
+msgid "P_roperties"
+msgstr "Қас_иеттері"
+
+#. tooltip
+#: ../src/nautilus-view.c:7155 ../src/nautilus-view.c:8735
+msgid "View or modify the properties of each selected item"
+msgstr "Әр таңдалған нәрсенің қасиеттерін қарау және түрлендіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7162
+msgid "New _Folder"
+msgstr "Жаңа бу_ма"
+
+#. tooltip
+#: ../src/nautilus-view.c:7163
+msgid "Create a new empty folder inside this folder"
+msgstr "Бұл буманың ішінде жаңа бос буманы жасау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7166
+#| msgid "_Invert Selection"
+msgid "New Folder with Selection"
+msgstr "Таңдаудан жаңа буманы жасау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7167
+#| msgid "Create a symbolic link for each selected item"
+msgid "Create a new folder containing the selected items"
+msgstr "Таңдалған нәрселер бар жаңа буманы жасау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7171
+msgid "Open the selected item in this window"
+msgstr "Таңдалған нәрсені бұл терезеде ашу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7178
+#| msgid "Open Location"
+msgid "Open _Item Location"
+msgstr "Н_әрсе орналасуын ашу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7179
+#| msgid "Select all items in this window"
+msgid "Open the selected item's location in this window"
+msgstr "Таңдалған нәрсенің орналасуын осы терезеде ашу"
+
+#. name, stock id
+#. label, accelerator
+#. Location-specific actions
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7182 ../src/nautilus-view.c:7350
+msgid "Open in Navigation Window"
+msgstr "Навигация терезесінде ашу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7183
+msgid "Open each selected item in a navigation window"
+msgstr "Әр таңдалған нәрсені навигация терезесінде ашу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7186 ../src/nautilus-view.c:7354
+#: ../src/nautilus-view.c:8295 ../src/nautilus-view.c:8642
+msgid "Open in New _Tab"
+msgstr "Жаңа бе_тте ашу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7187
+msgid "Open each selected item in a new tab"
+msgstr "Әр таңдалған нәрсені жаңа бетте ашу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7190
+msgid "Other _Application…"
+msgstr "Басқа қолд_анба…"
+
+#. tooltip
+#: ../src/nautilus-view.c:7191 ../src/nautilus-view.c:7195
+msgid "Choose another application with which to open the selected item"
+msgstr "Таңдалған нәрсені ашу үшін басқа қолданбаны таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7194
+#| msgid "Open With Other _Application..."
+msgid "Open With Other _Application…"
+msgstr "Басқа қолд_анбамен ашу…"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7198
+msgid "_Open Scripts Folder"
+msgstr "Скрипттер бумасын а_шу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7199
+msgid "Show the folder containing the scripts that appear in this menu"
+msgstr "Бұл мәзірде көрсетілетін скрипттер сақталатын буманы көрсету"
+
+#. tooltip
+#: ../src/nautilus-view.c:7207
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr "Таңдалған файлдарды Кірістіру командасы көмегімен жылжытуға дайындау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7211
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr "Таңдалған файлдарды Кірістіру командасы көмегімен көшіруге дайындау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7215
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "Осыған дейін Қиып алынған не Көшірілген файлдарды жылжыту не кірістіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7218 ../src/nautilus-view.c:7367
+msgid "_Paste Into Folder"
+msgstr "Б_ума ішіне кірістіру"
+
+#. tooltip
+#: ../src/nautilus-view.c:7219
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr ""
+"Ағымдағы бумаға осыған дейін Қиып алынған не Көшірілген файлдарды жылжыту не "
+"кірістіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7222
+msgid "Copy To…"
+msgstr "Қайда көшіру…"
+
+#. tooltip
+#: ../src/nautilus-view.c:7223
+#| msgid "Restore selected items to their original position"
+msgid "Copy selected files to another location"
+msgstr "Таңдалған файлдарды басқа орналасуға көшіріп алу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7226
+msgid "Move To…"
+msgstr "Қайда жылжыту…"
+
+#. tooltip
+#: ../src/nautilus-view.c:7227
+#| msgid "Restore selected items to their original position"
+msgid "Move selected files to another location"
+msgstr "Таңдалған файлдарды басқа орналасуға жылжыту"
+
+#. tooltip
+#: ../src/nautilus-view.c:7231
+msgid "Select all items in this window"
+msgstr "Бұл терезедегі барлық нәрсені таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7234
+msgid "Select I_tems Matching…"
+msgstr "Үл_гі бойынша таңдау..."
+
+#. tooltip
+#: ../src/nautilus-view.c:7235
+msgid "Select items in this window matching a given pattern"
+msgstr "Бұл терезеден берілген үлгіге сәйкес нәрселерді таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7238
+msgid "_Invert Selection"
+msgstr "Таңдауды тері_стеу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7239
+msgid "Select all and only the items that are not currently selected"
+msgstr "Тек ағымдағы таңдалмаған барлық нәрсені таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7242 ../src/nautilus-view.c:8718
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "Сілте_ме(лер) жасау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7243
+msgid "Create a symbolic link for each selected item"
+msgstr "Әр таңдалған нәрсе үшін символдық сілтемені жасау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7246
+msgid "Rena_me…"
+msgstr "Атын ау_ыстыру…"
+
+#. tooltip
+#: ../src/nautilus-view.c:7247
+msgid "Rename selected item"
+msgstr "Белгіленгеннің атын ауыстыру"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7250
+msgid "Set as Wallpaper"
+msgstr "Түсқағаз ретінде орналастыру"
+
+#. tooltip
+#: ../src/nautilus-view.c:7251
+msgid "Make item the wallpaper"
+msgstr "Нәрсені түсқағаз қылу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7259 ../src/nautilus-view.c:8665
+msgid "Move each selected item to the Trash"
+msgstr "Әр таңдалған нәрсені қоқыс шелегіне тастау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7263 ../src/nautilus-view.c:8696
+msgid "Delete each selected item, without moving to the Trash"
+msgstr "Әр таңдалған нәрсені өшіру, қоқыс шелегіне тастамай-ақ"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7266 ../src/nautilus-view.c:7380
+msgid "_Restore"
+msgstr "Қал_пына келтіру"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7270
+msgid "_Undo"
+msgstr "Бол_дырмау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7271
+msgid "Undo the last action"
+msgstr "Соңғы әрекетті болдырмау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7274
+msgid "_Redo"
+msgstr "Қай_талау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7275
+msgid "Redo the last undone action"
+msgstr "Соңғы болдырмаған әрекетті қайталау"
+
+#.
+#. * multiview-TODO: decide whether "Reset to Defaults" should
+#. * be window-wide, and not just view-wide.
+#. * Since this also resets the "Show hidden files" mode,
+#. * it is a mixture of both ATM.
+#.
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7284
+msgid "Reset View to _Defaults"
+msgstr "Көрі_ністің бастапқы баптаулары"
+
+#. tooltip
+#: ../src/nautilus-view.c:7285
+msgid "Reset sorting order and zoom level to match preferences for this view"
+msgstr "Сұрыптау ретін және масштабын бұл көрініс баптауларына сәйкес тастау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7288 ../src/nautilus-view.c:7312
+#: ../src/nautilus-view.c:7384
+msgid "_Mount"
+msgstr "Ті_ркеу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7289
+msgid "Mount the selected volume"
+msgstr "Таңдалған бөлімді тіркеу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7292 ../src/nautilus-view.c:7316
+#: ../src/nautilus-view.c:7388
+msgid "_Unmount"
+msgstr "_Тіркеуден шығару"
+
+#. tooltip
+#: ../src/nautilus-view.c:7293
+msgid "Unmount the selected volume"
+msgstr "Таңдалған бөлімді тіркеуден шығару"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7296 ../src/nautilus-view.c:7320
+#: ../src/nautilus-view.c:7392
+msgid "_Eject"
+msgstr "Ш_ығару"
+
+#. tooltip
+#: ../src/nautilus-view.c:7297
+msgid "Eject the selected volume"
+msgstr "Таңдалған бөлімді шығару"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7300 ../src/nautilus-view.c:7324
+#: ../src/nautilus-view.c:7396 ../src/nautilus-view.c:7982
+#: ../src/nautilus-view.c:7986 ../src/nautilus-view.c:8069
+#: ../src/nautilus-view.c:8073 ../src/nautilus-view.c:8171
+#: ../src/nautilus-view.c:8175
+msgid "_Start"
+msgstr "Ба_стау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7301
+msgid "Start the selected volume"
+msgstr "Таңдалған бөлімді іске қосу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7304 ../src/nautilus-view.c:7328
+#: ../src/nautilus-view.c:7400 ../src/nautilus-view.c:8011
+#: ../src/nautilus-view.c:8098 ../src/nautilus-view.c:8200
+#: ../src/nautilus-window-menus.c:483
+msgid "_Stop"
+msgstr "Т_оқтату"
+
+#. tooltip
+#: ../src/nautilus-view.c:7305 ../src/nautilus-view.c:8201
+msgid "Stop the selected volume"
+msgstr "Таңдалған бөлімді тоқтату"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7308 ../src/nautilus-view.c:7332
+#: ../src/nautilus-view.c:7404
+msgid "_Detect Media"
+msgstr "Тасушыны анық_тау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7309 ../src/nautilus-view.c:7333
+#: ../src/nautilus-view.c:7405
+msgid "Detect media in the selected drive"
+msgstr "Таңдалған диск оқу құрылғысында тасушыны анықтау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7313
+msgid "Mount the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тіркеу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7317
+msgid "Unmount the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тіркеуден босату"
+
+#. tooltip
+#: ../src/nautilus-view.c:7321
+msgid "Eject the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды шығару"
+
+#. tooltip
+#: ../src/nautilus-view.c:7325
+msgid "Start the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды іске қосу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7329
+msgid "Stop the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тоқтату"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7336
+msgid "Open File and Close window"
+msgstr "Файлды ашу және терезені жабу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7340
+msgid "Sa_ve Search"
+msgstr "Іздеуді сақ_тау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7341
+msgid "Save the edited search"
+msgstr "Түзетілген іздеуді сақтау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7344
+msgid "Sa_ve Search As…"
+msgstr "іздеуді қалайша сақ_тау…"
+
+#. tooltip
+#: ../src/nautilus-view.c:7345
+msgid "Save the current search as a file"
+msgstr "Ағымдағы іздеуді файл ретінде сақтау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7351
+msgid "Open this folder in a navigation window"
+msgstr "Бұл буманы навигация терезесінде ашу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7355
+msgid "Open this folder in a new tab"
+msgstr "Бұл буманы жаңа бетте ашу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7360
+msgid "Prepare this folder to be moved with a Paste command"
+msgstr "Бұл буманы Кірістіру командасы көмегімен жылжытуға дайындау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7364
+msgid "Prepare this folder to be copied with a Paste command"
+msgstr "Бұл буманы Кірістіру командасы көмегімен көшіруге дайындау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7368
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into this "
+"folder"
+msgstr ""
+"Бұл бумаға алдында Қиып алу не Көшіру көмегімен таңдалған файлдарды жылжыту "
+"не көшіру"
+
+#. tooltip
+#: ../src/nautilus-view.c:7373
+msgid "Move this folder to the Trash"
+msgstr "Бұл буманы қоқыс шелегіне тастау"
+
+#. tooltip
+#: ../src/nautilus-view.c:7377
+msgid "Delete this folder, without moving to the Trash"
+msgstr "Бұл бұманы қоқыс шелегіне тастамай-ақ, өшіру."
+
+#. tooltip
+#: ../src/nautilus-view.c:7385
+msgid "Mount the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестендірілген томды тіркеу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7389
+msgid "Unmount the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды тіркеуден босату"
+
+#. tooltip
+#: ../src/nautilus-view.c:7393
+msgid "Eject the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды шығару"
+
+#. tooltip
+#: ../src/nautilus-view.c:7397
+msgid "Start the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды іске қосу"
+
+#. tooltip
+#: ../src/nautilus-view.c:7401
+msgid "Stop the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды тоқтату"
+
+#. tooltip
+#: ../src/nautilus-view.c:7410 ../src/nautilus-window-menus.c:596
+msgid "View or modify the properties of this folder"
+msgstr "Бұл буманың қасиеттерін қарау не өзгерту"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-view.c:7416
+msgid "Show _Hidden Files"
+msgstr "Жас_ырын файлдарды көрсету"
+
+#. tooltip
+#: ../src/nautilus-view.c:7417
+msgid "Toggle the display of hidden files in the current window"
+msgstr "Ағымдағы терезеде жасырын файлдардың көрінуін іске қосу/сөндіру"
+
+#: ../src/nautilus-view.c:7478
+msgid "Run or manage scripts"
+msgstr "Скрипттерді жөнелту не басқару"
+
+#. Create a script action here specially because its tooltip is dynamic
+#: ../src/nautilus-view.c:7480
+msgid "_Scripts"
+msgstr "Ск_рипттер"
+
+#: ../src/nautilus-view.c:7830
+#, c-format
+msgid "Move the open folder out of the trash to “%s”"
+msgstr "Ашық буманы қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7834
+#, c-format
+msgid "Move the selected folder out of the trash to “%s”"
+msgstr "Таңдалған буманы қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7837
+#, c-format
+msgid "Move the selected folders out of the trash to “%s”"
+msgstr "Таңдалған бумаларды қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7842
+msgid "Move the selected folder out of the trash"
+msgstr "Таңдалған буманы қоқыс шелегі ішінен жылжыту"
+
+#: ../src/nautilus-view.c:7844
+msgid "Move the selected folders out of the trash"
+msgstr "Таңдалған буманы қоқыс шелегінен жылжыту"
+
+#: ../src/nautilus-view.c:7850
+#, c-format
+msgid "Move the selected file out of the trash to “%s”"
+msgstr "Таңдалған файлды қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7853
+#, c-format
+msgid "Move the selected files out of the trash to “%s”"
+msgstr "Таңдалған файлдарды қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7858
+msgid "Move the selected file out of the trash"
+msgstr "Таңдалған файлды қоқыс шелегі ішінен жылжыту"
+
+#: ../src/nautilus-view.c:7860
+msgid "Move the selected files out of the trash"
+msgstr "Таңдалған файлды қоқыс шелегінен жылжыту"
+
+#: ../src/nautilus-view.c:7866
+#, c-format
+msgid "Move the selected item out of the trash to “%s”"
+msgstr "Таңдалған нәрсені қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7869
+#, c-format
+msgid "Move the selected items out of the trash to “%s”"
+msgstr "Таңдалған нәрселерді қоқыс шелегінен “%s” ішіне жылжыту"
+
+#: ../src/nautilus-view.c:7874
+msgid "Move the selected item out of the trash"
+msgstr "Таңдалған элементті қоқыс шелегі ішінен жылжыту"
+
+#: ../src/nautilus-view.c:7876
+msgid "Move the selected items out of the trash"
+msgstr "Таңдалған нәрселерді қоқыс шелегінен жылжыту"
+
+#: ../src/nautilus-view.c:7983 ../src/nautilus-view.c:7987
+#: ../src/nautilus-view.c:8172 ../src/nautilus-view.c:8176
+msgid "Start the selected drive"
+msgstr "Таңдалған дискті іске қосу"
+
+#: ../src/nautilus-view.c:7990 ../src/nautilus-view.c:8077
+#: ../src/nautilus-view.c:8179
+msgid "_Connect"
+msgstr "Ба_йланысу"
+
+#: ../src/nautilus-view.c:7991 ../src/nautilus-view.c:8180
+msgid "Connect to the selected drive"
+msgstr "Таңдалған дискке байланыс орнату"
+
+#: ../src/nautilus-view.c:7994 ../src/nautilus-view.c:8081
+#: ../src/nautilus-view.c:8183
+msgid "_Start Multi-disk Drive"
+msgstr "Көпдискті жетекті іске қо_су"
+
+#: ../src/nautilus-view.c:7995 ../src/nautilus-view.c:8184
+msgid "Start the selected multi-disk drive"
+msgstr "Таңдалған көпдискті жетегін іске қосу"
+
+#: ../src/nautilus-view.c:7998
+msgid "U_nlock Drive"
+msgstr "Жетекті бо_сату"
+
+#: ../src/nautilus-view.c:7999 ../src/nautilus-view.c:8188
+msgid "Unlock the selected drive"
+msgstr "Таңдалған жетекті босату"
+
+#: ../src/nautilus-view.c:8012
+msgid "Stop the selected drive"
+msgstr "Таңдалған жетекті тоқтату"
+
+#: ../src/nautilus-view.c:8015 ../src/nautilus-view.c:8102
+#: ../src/nautilus-view.c:8204
+msgid "_Safely Remove Drive"
+msgstr "Жетекті қауі_псіз шығару"
+
+#: ../src/nautilus-view.c:8016 ../src/nautilus-view.c:8205
+msgid "Safely remove the selected drive"
+msgstr "Таңдалған жетекті қауіпсіз шығару"
+
+#: ../src/nautilus-view.c:8019 ../src/nautilus-view.c:8106
+#: ../src/nautilus-view.c:8208
+msgid "_Disconnect"
+msgstr "Ба_йланысты үзу"
+
+#: ../src/nautilus-view.c:8020 ../src/nautilus-view.c:8209
+msgid "Disconnect the selected drive"
+msgstr "Таңдалған жетекті ажыратып тастау"
+
+#: ../src/nautilus-view.c:8023 ../src/nautilus-view.c:8110
+#: ../src/nautilus-view.c:8212
+msgid "_Stop Multi-disk Drive"
+msgstr "Көпдискті жетекті тоқта_ту"
+
+#: ../src/nautilus-view.c:8024 ../src/nautilus-view.c:8213
+msgid "Stop the selected multi-disk drive"
+msgstr "Таңдалған көпдискті жетегін тоқтату"
+
+#: ../src/nautilus-view.c:8027 ../src/nautilus-view.c:8114
+#: ../src/nautilus-view.c:8216
+msgid "_Lock Drive"
+msgstr "Жетекті б_локтау"
+
+#: ../src/nautilus-view.c:8028 ../src/nautilus-view.c:8217
+msgid "Lock the selected drive"
+msgstr "Таңдалған жетекті блоктау"
+
+#: ../src/nautilus-view.c:8070 ../src/nautilus-view.c:8074
+msgid "Start the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті іске қосу"
+
+#: ../src/nautilus-view.c:8078
+msgid "Connect to the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетегіне байланысу"
+
+#: ../src/nautilus-view.c:8082
+msgid "Start the multi-disk drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін көпдискті жетекті іске қосу"
+
+#: ../src/nautilus-view.c:8085 ../src/nautilus-view.c:8187
+msgid "_Unlock Drive"
+msgstr "Жетекті бо_сату"
+
+#: ../src/nautilus-view.c:8086
+msgid "Unlock the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті босату"
+
+#: ../src/nautilus-view.c:8099
+msgid "_Stop the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті т_оқтату"
+
+#: ../src/nautilus-view.c:8103
+msgid "Safely remove the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті қауіпсіз шығару"
+
+#: ../src/nautilus-view.c:8107
+msgid "Disconnect the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті ажыратып тастау"
+
+#: ../src/nautilus-view.c:8111
+msgid "Stop the multi-disk drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін көпдискті жетекті тоқтату"
+
+#: ../src/nautilus-view.c:8115
+msgid "Lock the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті блоктау"
+
+#: ../src/nautilus-view.c:8287 ../src/nautilus-view.c:8622
+msgid "Open in New _Window"
+msgstr "Жаңа тере_зеде ашу"
+
+#: ../src/nautilus-view.c:8342 ../src/nautilus-view.c:8660
+msgid "_Delete Permanently"
+msgstr "_Толығымен өшіру"
+
+#: ../src/nautilus-view.c:8343
+msgid "Delete the open folder permanently"
+msgstr "Ашық буманы толығымен өшіру"
+
+#: ../src/nautilus-view.c:8347
+msgid "Move the open folder to the Trash"
+msgstr "Ашық буманы қоқыс шелегіне тастау"
+
+#: ../src/nautilus-view.c:8531
+#, c-format
+msgid "New Folder with Selection (%'d Item)"
+msgid_plural "New Folder with Selection (%'d Items)"
+msgstr[0] "Таңдалғаннан жаңа буманы жасау (%'d нәрсе)"
+
+#: ../src/nautilus-view.c:8575
+#, c-format
+msgid "_Open With %s"
+msgstr "%s _көмегімен ашу"
+
+#: ../src/nautilus-view.c:8586
+msgid "Run"
+msgstr "Жөнелту"
+
+#: ../src/nautilus-view.c:8624
+#, c-format
+msgid "Open in %'d New _Window"
+msgid_plural "Open in %'d New _Windows"
+msgstr[0] "Жаңа %'d терезеде ашу"
+
+#: ../src/nautilus-view.c:8644
+#, c-format
+msgid "Open in %'d New _Tab"
+msgid_plural "Open in %'d New _Tabs"
+msgstr[0] "Жаңа %'d бетте ашу"
+
+#: ../src/nautilus-view.c:8661
+msgid "Delete all selected items permanently"
+msgstr "Барлық таңдалған нәрсені толығымен өшіру"
+
+#: ../src/nautilus-view.c:8692
+msgid "Remo_ve from Recent"
+msgstr "Жуыр_дағы тізімнен өшіру"
+
+#: ../src/nautilus-view.c:8693
+#| msgid "Move each selected item to the Trash"
+msgid "Remove each selected item from the recently used list"
+msgstr "Әр таңдалған нәрсені жуырдағы қолданылған тізімнен өшіру"
+
+#: ../src/nautilus-view.c:8733
+msgid "View or modify the properties of the open folder"
+msgstr "Ашық бумасының қасиеттерін қарау не түзету"
+
+#: ../src/nautilus-view-dnd.c:171 ../src/nautilus-view-dnd.c:205
+#: ../src/nautilus-view-dnd.c:296
+msgid "Drag and drop is not supported."
+msgstr "Ұстап апару мен тастауға қолдау жоқ."
+
+#: ../src/nautilus-view-dnd.c:172
+msgid "Drag and drop is only supported on local file systems."
+msgstr "Ұстап апару мен тастау тек жергілікті файлдық жүйелер үшін істейді."
+
+#: ../src/nautilus-view-dnd.c:206 ../src/nautilus-view-dnd.c:297
+msgid "An invalid drag type was used."
+msgstr "Қате тартып апару түрі қолданылды."
+
+#. Translator: This is the filename used for when you dnd text to a directory
+#: ../src/nautilus-view-dnd.c:384
+msgid "Dropped Text.txt"
+msgstr "Тасталған мәтін.txt"
+
+#. Translator: This is the filename used for when you dnd raw
+#. * data to a directory, if the source didn't supply a name.
+#.
+#: ../src/nautilus-view-dnd.c:482
+msgid "dropped data"
+msgstr "тасталған мәлімет"
+
+#: ../src/nautilus-window.c:819
+msgid "_Properties"
+msgstr "Қас_иеттері"
+
+#: ../src/nautilus-window.c:827
+msgid "_Format…"
+msgstr "Пі_шімі…"
+
+#: ../src/nautilus-window.c:1176
+msgid "_New Tab"
+msgstr "_Жаңа бет"
+
+#: ../src/nautilus-window.c:1186 ../src/nautilus-window-menus.c:588
+msgid "Move Tab _Left"
+msgstr "Бетті со_лға жылжыту"
+
+#: ../src/nautilus-window.c:1194 ../src/nautilus-window-menus.c:591
+msgid "Move Tab _Right"
+msgstr "Бетті _оңға жылжыту"
+
+#: ../src/nautilus-window.c:1205
+msgid "_Close Tab"
+msgstr "Бетті _жабу"
+
+#: ../src/nautilus-window.c:2370
+msgid ""
+"Files is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Files еркін бағдарламалық қамтамаға жатады; сіз оны Free Software Foundation "
+"шығарған GNU General Public License 2 нұсқасы, немесе (тандауыңызша) кез-"
+"келген кейін шыққан нұсқасының аясында еркін тарата не/және өзгерте аласыз."
+
+#: ../src/nautilus-window.c:2374
+msgid ""
+"Files is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Files бағдарламасы пайдалы болады деген сенімімен таратылады, бірақ ЕШҚАНДАЙ "
+"КЕПІЛДЕМЕ берілмейді; КОММЕРЦИЯЛЫҚ ҚҰНДЫЛЫҚ немесе белгілі бір МАҚСАТТАРҒА "
+"СӘЙКЕС КЕЛЕТІНІ үшін де. Көбірек білу үшін GNU General Public License "
+"қараңыз."
+
+#: ../src/nautilus-window.c:2378
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nautilus; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"Сіз Nautilus бағдарламасымен бірге GNU General Public License көшірмесін "
+"алуыңыз керек еді; олай болмаса, Free Software Foundation, Inc. ұйымына "
+"хабарласыңыз, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+
+#. Translators: these two strings here indicate the copyright time span,
+#. * e.g. 1999-2011.
+#.
+#: ../src/nautilus-window.c:2393
+msgid "Copyright © %Id–%Id The Files authors"
+msgstr "Copyright © %Id–%Id Files авторлары"
+
+#: ../src/nautilus-window.c:2399
+msgid "Access and organize your files."
+msgstr "Файлдардарыңызға қатынау және басқару."
+
+#. Translators should localize the following string
+#. * which will be displayed at the bottom of the about
+#. * box to give credit to the translator(s).
+#.
+#: ../src/nautilus-window.c:2409
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010-2012"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:472
+msgid "Close this folder"
+msgstr "Бұл буманы жабу"
+
+#: ../src/nautilus-window-menus.c:476
+msgid "Edit Nautilus preferences"
+msgstr "Nautilus баптауларын түзету"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:479
+msgid "Open _Parent"
+msgstr "А_талық бумасын ашу"
+
+#: ../src/nautilus-window-menus.c:480
+msgid "Open the parent folder"
+msgstr "Аталық бумасын ашу"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:484
+msgid "Stop loading the current location"
+msgstr "Ағымдағы орналасуды жүктеуді тоқтату"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:487
+msgid "_Reload"
+msgstr "Қа_йта жүктеу"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:488
+msgid "Reload the current location"
+msgstr "Ағымдағы орналасуды қайта жүктеу"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:495
+msgid "_All Topics"
+msgstr "_Барлық тақырыптар"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:496
+msgid "Display Nautilus help"
+msgstr "Nautilus көмегін көрсету"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:499
+msgid "Search for files"
+msgstr "Файлдарды іздеу"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:500
+msgid ""
+"Locate files based on file name and type. Save your searches for later use."
+msgstr ""
+"Файлдарды олардың атауы және түрі бойынша табу. Іздеулерді кейін қолдану "
+"үшін сақтау."
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:503
+msgid "Sort files and folders"
+msgstr "Бумалар мен файлдарды сұрыптау"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:504
+msgid "Arrange files by name, size, type, or when they were changed."
+msgstr ""
+"Файлдарды олардың атауы, өлшемі, түрі не өзгерту уақыты бойынша реттеу."
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:507
+msgid "Find a lost file"
+msgstr "Жоғалған файлды табу"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:508
+msgid "Follow these tips if you can't find a file you created or downloaded."
+msgstr ""
+"Сіз жасаған не жүктеліп алынған файлды таба алмасаңыз, мына кеңестерді "
+"қолданыңыз."
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:511
+msgid "Share and transfer files"
+msgstr "Файлдармен бөлісу мен жіберу"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:512
+msgid ""
+"Easily transfer files to your contacts and devices from the file manager."
+msgstr ""
+"Файлдарыңызды контакттар және құрылғыларға файлдар басқарушысынан жеңіл "
+"түрде тасымалдаңыз."
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:515
+msgid "_About"
+msgstr "О_сы туралы"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:516
+msgid "Display credits for the creators of Nautilus"
+msgstr "Nautilus авторларын көрсету"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:519
+msgid "Zoom _In"
+msgstr "Үлке_йту"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:520
+msgid "Increase the view size"
+msgstr "Көрініс түрін үлкейту"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:531
+msgid "Zoom _Out"
+msgstr "Кі_шірейту"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:532
+msgid "Decrease the view size"
+msgstr "Көрініс түрін кішірейту"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:539
+msgid "Normal Si_ze"
+msgstr "Қал_ыпты өлшемі"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:540
+msgid "Use the normal view size"
+msgstr "Қалыпты көрініс өлшемін қолдану"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:544
+msgid "Connect to a remote computer or shared disk"
+msgstr "Қашықтағы компьютерге не ортақ дискіге қатынау"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:547 ../src/nautilus-window-menus.c:731
+msgid "_Home"
+msgstr "Ү_й бумасы"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:548
+msgid "Open your personal folder"
+msgstr "Жеке бумаңызды ашу"
+
+#: ../src/nautilus-window-menus.c:552
+msgid "Open another Nautilus window for the displayed location"
+msgstr "Көрсетілген орналасу үшін жаңа Nautilus терезесін ашу"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:555
+msgid "New _Tab"
+msgstr "Жаңа _бет"
+
+#: ../src/nautilus-window-menus.c:556
+msgid "Open another tab for the displayed location"
+msgstr "Көрсетілген орналасу үшін жаңа бетті ашу"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:559
+msgid "Close _All Windows"
+msgstr "Б_арлық терезелерді жабу"
+
+#: ../src/nautilus-window-menus.c:560
+msgid "Close all Navigation windows"
+msgstr "Барлық навигация терезелерін жабу"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:563
+msgid "_Back"
+msgstr "Ар_тқа"
+
+#: ../src/nautilus-window-menus.c:564
+msgid "Go to the previous visited location"
+msgstr "Алдыңғы жерге өту"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:567
+msgid "_Forward"
+msgstr "А_лға"
+
+#: ../src/nautilus-window-menus.c:568
+msgid "Go to the next visited location"
+msgstr "Келесі жерге өту"
+
+#: ../src/nautilus-window-menus.c:572
+msgid "Specify a location to open"
+msgstr "Ашу үшін жолды көрсетіңіз"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:575
+msgid "Bookmark this Location"
+msgstr "Бұл орналасуды бетбелгілерге қосу"
+
+#: ../src/nautilus-window-menus.c:576
+msgid "Add a bookmark for the current location"
+msgstr "Ағымдағы орналасу үшін бетбелгіні қосу"
+
+#. name, stock id
+#: ../src/nautilus-window-menus.c:579
+msgid "_Bookmarks…"
+msgstr "Б_етбелгілер…"
+
+#: ../src/nautilus-window-menus.c:580
+msgid "Display and edit bookmarks"
+msgstr "Бетбелгілерді көрсету және түзету"
+
+#: ../src/nautilus-window-menus.c:582
+msgid "_Previous Tab"
+msgstr "А_лдыңғы бет"
+
+#: ../src/nautilus-window-menus.c:583
+msgid "Activate previous tab"
+msgstr "Алдыңғы бетті белсендіру"
+
+#: ../src/nautilus-window-menus.c:585
+msgid "_Next Tab"
+msgstr "_Келесі бет"
+
+#: ../src/nautilus-window-menus.c:586
+msgid "Activate next tab"
+msgstr "Келесі бетті белсендіру"
+
+#: ../src/nautilus-window-menus.c:589
+msgid "Move current tab to left"
+msgstr "Ағымдағы бетті солға жылжыту"
+
+#: ../src/nautilus-window-menus.c:592
+msgid "Move current tab to right"
+msgstr "Ағымдағы бетті оңға жылжыту"
+
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:610
+msgid "_Show Sidebar"
+msgstr "Бү_йір панелін көрсету"
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:611
+msgid "Change the visibility of this window's side pane"
+msgstr "Бұл терезенің бүйір панелінің көрсетуін ауыстыру"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: ../src/nautilus-window-menus.c:615
+msgid "_Search for Files…"
+msgstr "Файлдарды і_здеу..."
+
+#. tooltip
+#: ../src/nautilus-window-menus.c:616
+msgid "Search documents and folders by name"
+msgstr "Құжаттар және бумаларды атауы бойынша іздеу"
+
+#: ../src/nautilus-window-menus.c:622 ../src/nautilus-window-menus.c:624
+msgid "List"
+msgstr "Тізім"
+
+#: ../src/nautilus-window-menus.c:623
+msgid "View items as a list"
+msgstr "Элементтерді тізім ретінде қарау"
+
+#: ../src/nautilus-window-menus.c:625
+msgid "View items as a grid of icons"
+msgstr "Элементтерді таңбашалар торы ретінде қарау"
+
+#: ../src/nautilus-window-menus.c:728
+msgid "_Up"
+msgstr "Жоғ_ары"
+
+#: ../src/nautilus-window-slot.c:1281 ../src/nautilus-window-slot.c:1453
+#, c-format
+msgid "Unable to load location"
+msgstr "Орналасуды жүктеу мүмкін емес"
+
+#: ../src/nautilus-window-slot.c:1608
+msgid "Unable to display the contents of this folder."
+msgstr "Бұл буманың құрамасын көрсету мүмкін емес."
+
+#: ../src/nautilus-window-slot.c:1610
+msgid "This location doesn't appear to be a folder."
+msgstr "Бұл орналасу бума емес сияқты."
+
+#: ../src/nautilus-window-slot.c:1615
+msgid ""
+"Unable to find the requested file. Please check the spelling and try again."
+msgstr "Сұралған файлды табу мүмкін емес. Жазылуды тексеріп, қайталап көріңіз."
+
+#: ../src/nautilus-window-slot.c:1620
+#, c-format
+msgid "“%s” locations are not supported."
+msgstr "“%s” орналасуларына қолдау жоқ."
+
+#: ../src/nautilus-window-slot.c:1623
+msgid "Unable to handle this kind of location."
+msgstr "Бұл тектес орналасуларды өндеу мүмкін емес."
+
+#: ../src/nautilus-window-slot.c:1628
+msgid "Unable to access the requested location."
+msgstr "Сұралған орналасуға қатынау мүмкін емес."
+
+#: ../src/nautilus-window-slot.c:1631
+msgid "Don't have permission to access the requested location."
+msgstr "Сұралған орналасуға қатынау үшін рұқсаттар жоқ."
+
+#. This case can be hit for user-typed strings like "foo" due to
+#. * the code that guesses web addresses when there's no initial "/".
+#. * But this case is also hit for legitimate web addresses when
+#. * the proxy is set up wrong.
+#.
+#: ../src/nautilus-window-slot.c:1639
+msgid ""
+"Unable to find the requested location. Please check the spelling or the "
+"network settings."
+msgstr ""
+"Сұралған орналасуды табу мүмкін емес. Оның дұрыс жазылғанын және желі "
+"баптауларын тексеріңіз."
+
+#: ../src/nautilus-window-slot.c:1650
+#, c-format
+msgid "Unhandled error message: %s"
+msgstr "Өнделмеген қате хабарламасы: %s"
+
+#: ../src/nautilus-window-slot.c:2251
+msgid "Searching…"
+msgstr "Іздеу…"
+
+#: ../src/nautilus-x-content-bar.c:93
+msgid "Audio CD"
+msgstr "Аудио CD"
+
+#: ../src/nautilus-x-content-bar.c:95
+msgid "Audio DVD"
+msgstr "Аудио DVD"
+
+#: ../src/nautilus-x-content-bar.c:97
+msgid "Video DVD"
+msgstr "Видео DVD"
+
+#: ../src/nautilus-x-content-bar.c:99
+msgid "Video CD"
+msgstr "Видео CD"
+
+#: ../src/nautilus-x-content-bar.c:101
+msgid "Super Video CD"
+msgstr "Super Video CD"
+
+#: ../src/nautilus-x-content-bar.c:103
+msgid "Photo CD"
+msgstr "Фото CD"
+
+#: ../src/nautilus-x-content-bar.c:105
+msgid "Picture CD"
+msgstr "Суреттер CD"
+
+#: ../src/nautilus-x-content-bar.c:107 ../src/nautilus-x-content-bar.c:140
+msgid "Contains digital photos"
+msgstr "Цифрлық фотосуреттерді сақтайды"
+
+#: ../src/nautilus-x-content-bar.c:109
+msgid "Contains music"
+msgstr "Музыка бар"
+
+#: ../src/nautilus-x-content-bar.c:111
+msgid "Contains software"
+msgstr "Бағд. қамтаманы сақтайды"
+
+#. fallback to generic greeting
+#: ../src/nautilus-x-content-bar.c:114
+#, c-format
+msgid "Detected as “%s”"
+msgstr "“%s” ретінде танылды"
+
+#: ../src/nautilus-x-content-bar.c:136
+msgid "Contains music and photos"
+msgstr "Музыка және фотосуреттерді сақтайды"
+
+#: ../src/nautilus-x-content-bar.c:138
+msgid "Contains photos and music"
+msgstr "Фотосуреттер және музыканы сақтайды"
+
+#: ../src/nautilus-x-content-bar.c:195
+msgid "Open with:"
+msgstr "Көмегімен ашу:"
+
+#~ msgid "Input Methods"
+#~ msgstr "Енгізу тәсілдері"
+
+#~ msgid "Date Accessed"
+#~ msgstr "Қатынаған уақыты"
+
+#~ msgid "Octal Permissions"
+#~ msgstr "Сегіздік түрде рұқсаттар"
+
+#~ msgid "The permissions of the file, in octal notation."
+#~ msgstr "Файл рұқсаттары, сегіздік түрде."
+
+#~ msgid "SELinux Context"
+#~ msgstr "SELinux контексті"
+
+#~ msgid "The SELinux security context of the file."
+#~ msgstr "Файлдың SELinux қауіпсіздік контексті."
+
+#, fuzzy
+#~ msgid "today at %-I:%M:%S %p"
+#~ msgstr "Бүгін, уақыты %X"
+
+#, fuzzy
+#~ msgid "today at %-I:%M %p"
+#~ msgstr "Бүгін, уақыты %X"
+
+#~ msgid "today"
+#~ msgstr "бүгін"
+
+#, fuzzy
+#~ msgid "yesterday at %-I:%M:%S %p"
+#~ msgstr "Кеше, уақыты %H:%M"
+
+#, fuzzy
+#~ msgid "yesterday at %-I:%M %p"
+#~ msgstr "Кеше, уақыты %H:%M"
+
+#, fuzzy
+#~ msgid "yesterday, %-I:%M %p"
+#~ msgstr "Кеше"
+
+#~ msgid "yesterday"
+#~ msgstr "кеше"
+
+#, fuzzy
+#~ msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+#~ msgstr "қайда:"
+
+#, fuzzy
+#~ msgid "%b %-d %Y at %-I:%M %p"
+#~ msgstr "қайда:"
+
+#~ msgid "unknown type"
+#~ msgstr "белгісіз түрі"
+
+#~ msgid "unknown MIME type"
+#~ msgstr "белгісіз MIME түрі"
+
+#~ msgid "link"
+#~ msgstr "сілтеме"
+
+#~ msgid "Edit"
+#~ msgstr "Түзету"
+
+#~ msgid "Undo Edit"
+#~ msgstr "Түзетуді болдырмау"
+
+#~ msgid "Undo the edit"
+#~ msgstr "Түзетуді болдырмау"
+
+#~ msgid "Redo Edit"
+#~ msgstr "Түзетуді қайталау"
+
+#~ msgid "Redo the edit"
+#~ msgstr "Түзетуді қайталау"
+
+#~ msgid "Date Format"
+#~ msgstr "Уақыт пішімі"
+
+#~ msgid "Send To..."
+#~ msgstr "Қайда жіберу..."
+
+#~ msgid "<b>_Bookmarks</b>"
+#~ msgstr "<b>_Бетбелгілер</b>"
+
+#~ msgid "<b>_Location</b>"
+#~ msgstr "<b>_Орналасуы</b>"
+
+#~ msgid "<b>_Name</b>"
+#~ msgstr "<b>_Аты</b>"
+
+#~ msgid "SSH"
+#~ msgstr "SSH"
+
+#~ msgid "Public FTP"
+#~ msgstr "Публикалық FTP"
+
+#~ msgid "FTP (with login)"
+#~ msgstr "FTP (кірумен)"
+
+#~ msgid "Windows share"
+#~ msgstr "Windows ортақ бумасы"
+
+#~ msgid "WebDAV (HTTP)"
+#~ msgstr "WebDAV (HTTP)"
+
+#~ msgid "Secure WebDAV (HTTPS)"
+#~ msgstr "Қауіпсіз WebDAV (HTTPS)"
+
+#~| msgid "_Connect"
+#~ msgid "Connecting..."
+#~ msgstr "Байланысу..."
+
+#~ msgid "Try Again"
+#~ msgstr "Қайтадан көру"
+
+#~ msgid "_Server:"
+#~ msgstr "_Сервер:"
+
+#~ msgid "_Port:"
+#~ msgstr "_Порт:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Түрі:"
+
+#, fuzzy
+#~ msgid "Sh_are:"
+#~ msgstr "<b>Рейтинг:</b>"
+
+#~| msgid "Use De_fault"
+#~ msgid "User Details"
+#~ msgstr "Пайд.-шы ақпараты"
+
+#~| msgid "_Domain Name:"
+#~ msgid "_Domain name:"
+#~ msgstr "_Домен аты:"
+
+#~ msgid "_User name:"
+#~ msgstr "_Пайдаланушы аты:"
+
+#~| msgid "_Keyword:"
+#~ msgid "Pass_word:"
+#~ msgstr "Пар_оль:"
+
+#~ msgid "_Remember this password"
+#~ msgstr "_Бұл парольді еске сақтау"
+
+#~ msgid "Operation cancelled"
+#~ msgstr "Әрекеттен бас тартылды"
+
+#~ msgid "<b>Behavior</b>"
+#~ msgstr "<b>Мінез-құлығы</b>"
+
+#~ msgid "<b>Compact View Defaults</b>"
+#~ msgstr "<b>Ықшам көріністің бастапқы баптаулары</b>"
+
+#~ msgid "<b>Date</b>"
+#~ msgstr "<b>Уақыты</b>"
+
+#~ msgid "<b>Folders</b>"
+#~ msgstr "<b>Бумалар</b>"
+
+#~ msgid "<b>List Columns</b>"
+#~ msgstr "<b>Тізім көріністің бағандары</b>"
+
+#~ msgid "<b>Other Previewable Files</b>"
+#~ msgstr "<b>Басқа алдын-ала қарауға болатын файлдар</b>"
+
+#~ msgid "<b>Text Files</b>"
+#~ msgstr "<b>Мәтіндік файлдар</b>"
+
+#~ msgid "<b>Trash</b>"
+#~ msgstr "<b>Қоқыс шелегі</b>"
+
+#~ msgid "<b>Tree View Defaults</b>"
+#~ msgstr "<b>Ағаш көріністің баптаулары</b>"
+
+#~ msgid "A_ll columns have the same width"
+#~ msgstr "Бар_лық бағандардың ендері бірдей"
+
+#~ msgid "Compact View"
+#~ msgstr "Ықшам көрінісі"
+
+#~ msgid "File Management Preferences"
+#~ msgstr "Файлдарды басқару баптаулары"
+
+#~ msgid "Open each _folder in its own window"
+#~ msgstr "Әр буманы бөл_ек терезеде ашу"
+
+#~ msgid "Show _only folders"
+#~ msgstr "Тек бу_маларды көрсету"
+
+#~ msgid "Show te_xt in icons:"
+#~ msgstr "Таңбашаларда мә_тінді көрсету:"
+
+#~ msgid "_Default zoom level:"
+#~ msgstr "Бастапқы мас_штабы:"
+
+#~ msgid "_Format:"
+#~ msgstr "Пі_шімі:"
+
+#~ msgid "_Text beside icons"
+#~ msgstr "Мә_тін таңбашалардың қасында"
+
+#~ msgid "by _Name"
+#~ msgstr "а_ты бойынша"
+
+#~ msgid "by _Size"
+#~ msgstr "өлше_мі бойынша"
+
+#~ msgid "by _Type"
+#~ msgstr "_түрі бойынша"
+
+#~ msgid "by Modification _Date"
+#~ msgstr "Түз_ету уақыты бойынша"
+
+#~ msgid "Arran_ge Items"
+#~ msgstr "Элементтерді ре_ттеу"
+
+#~ msgid "_Icons"
+#~ msgstr "_Таңбашалар"
+
+#~ msgid "_Compact"
+#~ msgstr "Ық_шам"
+
+#~ msgid "loading..."
+#~ msgstr "жүктеу..."
+
+#~ msgid "Go To:"
+#~ msgstr "Өту:"
+
+#~ msgid "Devices"
+#~ msgstr "Құрылғылар"
+
+#~ msgid "Mount and open %s"
+#~ msgstr "%s тіркеу мен ашу"
+
+#~ msgid "Computer"
+#~ msgstr "Компьютер"
+
+#~ msgid "File System"
+#~ msgstr "Файлдық жүйе"
+
+#~ msgid "Open the contents of the File System"
+#~ msgstr "Файлдық жүйе құрамасын шолу"
+
+#~ msgid "Open the trash"
+#~ msgstr "Қоқыс шелегін ашу"
+
+#~ msgid "Network"
+#~ msgstr "Желі"
+
+#~| msgid "Network"
+#~ msgid "Browse Network"
+#~ msgstr "Желіні шолу"
+
+#~ msgid "Browse the contents of the network"
+#~ msgstr "Желі құрамасын шолу"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "Б_етбелгіні қосу"
+
+#~ msgid "_Read"
+#~ msgstr "_Оқу"
+
+#~ msgid "_Write"
+#~ msgstr "_Жазу"
+
+#~ msgid "E_xecute"
+#~ msgstr "Жө_нелту"
+
+#~ msgid "Special flags:"
+#~ msgstr "Арнайы жалаушалар:"
+
+#~ msgid "Set _user ID"
+#~ msgstr "Па_йдаланушы ID-ін орнату"
+
+#~ msgid "Set gro_up ID"
+#~ msgstr "Т_оп ID-ін орнату"
+
+#~ msgid "_Sticky"
+#~ msgstr "Жаб_ысқақ"
+
+#~ msgid "Folder Permissions:"
+#~ msgstr "Бума рұқсаттары:"
+
+#~ msgid "File Permissions:"
+#~ msgstr "Файл рұқсаттары:"
+
+#~ msgid "Last changed:"
+#~ msgstr "Соңғы өзгертілген:"
+
+#~ msgid "Select folder to search in"
+#~ msgstr "Ішінен іздеу үшін буманы көрсетіңіз"
+
+#~ msgid "Search Folder"
+#~ msgstr "Бумадан іздеу"
+
+#~ msgid "Edit the saved search"
+#~ msgstr "Сақталған іздеуді түзету"
+
+#~ msgid "Go"
+#~ msgstr "Өту"
+
+#~ msgid "Reload"
+#~ msgstr "Қайта жүктеу"
+
+#~ msgid "Perform or update the search"
+#~ msgstr "Іздеуді орындау не жаңарту"
+
+#~ msgid "_Search for:"
+#~ msgstr "_Нені іздеу керек:"
+
+#~ msgid "Search results"
+#~ msgstr "Іздеу нәтижелері"
+
+#~ msgid "Search:"
+#~ msgstr "Іздеу:"
+
+#~ msgid "Restore Selected Items"
+#~ msgstr "Таңдалған нәрселерді қалпына келтіру"
+
+#~ msgid "There is nothing on the clipboard to paste."
+#~ msgstr "Кірістіру үшін алмасу буферінде ешнәрсе жоқ."
+
+#~ msgid "Free space: %s"
+#~ msgstr "Бос орын: %s"
+
+#~ msgid "%s, Free space: %s"
+#~ msgstr "%s, Бос орны: %s"
+
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#~ msgid "%s%s, %s"
+#~ msgstr "%s%s, %s"
+
+#~ msgid "No templates installed"
+#~ msgstr "Үлгілер орнатылмаған"
+
+#~| msgid "Documents"
+#~ msgid "_Empty Document"
+#~ msgstr "_Бос құжат"
+
+#~ msgid "Cop_y to"
+#~ msgstr "Қа_йда көшіру"
+
+#~ msgid "_Rename..."
+#~ msgstr "Атын ауысты_ру..."
+
+#~ msgid "Connect To This Server"
+#~ msgstr "Бұл серверге байланыс орнату"
+
+#~ msgid "_Desktop"
+#~ msgstr "Жұм_ыс үстелі"
+
+#~ msgid "The location \"%s\" does not exist."
+#~ msgstr "\"%s\" орналасуы жоқ болып тұр."
+
+#~ msgid "Go to the location specified by this bookmark"
+#~ msgstr "Бұл бетбелгі көрсететін жерге өту"
+
+#~ msgid "%s - File Browser"
+#~ msgstr "%s - Файлдарды шолу"
+
+#~ msgid "Nautilus"
+#~ msgstr "Nautilus"
+
+#~ msgid "Could not find \"%s\"."
+#~ msgstr "\"%s\" табу мүмкін емес."
+
+#~ msgid "Nautilus cannot handle \"%s\" locations."
+#~ msgstr "Nautilus \"%s\" орналасуларын қолдамайды."
+
+#~ msgid "Access was denied."
+#~ msgstr "Рұқсат етілмеген."
+
+#~ msgid "Could not display \"%s\", because the host could not be found."
+#~ msgstr "\"%s\" көрсету мүмкін емес, өйткені хост табылмады."
+
+#~ msgid ""
+#~ "Nautilus lets you organize files and folders, both on your computer and "
+#~ "online."
+#~ msgstr ""
+#~ "Nautilus сізге жергілікті не желідегі файл мен бумаларды басқаруға рұқсат "
+#~ "етеді."
+
+#~ msgid "Nautilus Web Site"
+#~ msgstr "Nautilus веб сайты"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "_Edit"
+#~ msgstr "Тү_зету"
+
+#~ msgid "_View"
+#~ msgstr "_Түрі"
+
+#~ msgid "Connect to _Server..."
+#~ msgstr "_Серверге байланыс орнату..."
+
+#~ msgid "_Computer"
+#~ msgstr "Ко_мпьютер"
+
+#~ msgid "_Network"
+#~ msgstr "Ж_елі"
+
+#~ msgid "T_emplates"
+#~ msgstr "Үлгіл_ер"
+
+#~ msgid "_Trash"
+#~ msgstr "Қоқ_ыс шелегі"
+
+#~ msgid "_Go"
+#~ msgstr "Ө_ту"
+
+#~ msgid "_Tabs"
+#~ msgstr "Б_еттер"
+
+#~ msgid "_Location..."
+#~ msgstr "Ор_наласуы..."
+
+#~ msgid "S_witch to Other Pane"
+#~ msgstr "Б_асқа панельге ауысу"
+
+#~ msgid "Move focus to the other pane in a split view window"
+#~ msgstr "Бөлінген терезе көрінісіндегі фокусты басқа панельге ауыстыру"
+
+#~ msgid "Sa_me Location as Other Pane"
+#~ msgstr "Ба_сқа панельдегі орналасу"
+
+#~ msgid "Go to the same location as in the extra pane"
+#~ msgstr "Қосымша панельдегі орналасуға өту"
+
+#~ msgid "_Edit Bookmarks..."
+#~ msgstr "Бе_тбелгілерді түзету..."
+
+#~| msgid "Search"
+#~ msgid "Sidebar"
+#~ msgstr "Бүйір панелі"
+
+#~ msgid "_Main Toolbar"
+#~ msgstr "Ба_с саймандар панелі"
+
+#~ msgid "St_atusbar"
+#~ msgstr "Қал_ып-күй жолағы"
+
+#~ msgid "Change the visibility of this window's statusbar"
+#~ msgstr "Бұл терезенің қалып-күй жолағын қосып/өшіреді"
+
+#~ msgid "E_xtra Pane"
+#~ msgstr "Қ_осымша панель"
+
+#~ msgid "Open an extra folder view side-by-side"
+#~ msgstr "Сыбайлас көріністі ашу"
+
+#~ msgid "Places"
+#~ msgstr "Орындар"
+
+#~ msgid "Tree"
+#~ msgstr "Ағаш"
+
+#~ msgid "Open %s"
+#~ msgstr "%s ашу"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Файл дұрыс .desktop файлы емес"
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Белгісіз desktop файлдың нұсқасы '%s'"
+
+#~ msgid "Starting %s"
+#~ msgstr "%s қосылу"
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Қолданба команда жолында құжаттарды қабылдамайды"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Белгісіз жөнелту опциясы: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr "Құжат URI-ін 'Type=Link' desktop элементіне беру мүмкін емес"
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Жөнелтілетін элемент емес"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Сессиялар менеджеріне байланыстарды сөндіру"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Сақталған баптаулары бар файлды көрсету"
+
+#~ msgid "FILE"
+#~ msgstr "ФАЙЛ"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Сессия менеджментінің ID-ін көрсету"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Сессияны басқару опциялары:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Сессияны басқару опцияларын көрсету"
+
+#~ msgid "Dots"
+#~ msgstr "Нүктелер"
+
+#~ msgid "Erase"
+#~ msgstr "Өшіру"
+
+#~ msgid "Indigo"
+#~ msgstr "Индиго"
+
+#~ msgid "Numbers"
+#~ msgstr "Сандар"
+
+#~ msgid "Ruby"
+#~ msgstr "Ruby"
+
+#~ msgid "White"
+#~ msgstr "Ақ"
+
+#~ msgid "_Emblems"
+#~ msgstr "Э_мблемалар"
+
+#~ msgid "No applications found"
+#~ msgstr "Қолданбалар табылмады"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Ешнәрсе жасамау"
+
+#~ msgid "Open Folder"
+#~ msgstr "Буманы ашу"
+
+#~ msgid "Open with other Application..."
+#~ msgstr "Басқа қолданбамен ашу..."
+
+#, fuzzy
+#~ msgid "An older"
+#~ msgstr "Бу_мадан жасау:"
+
+#, fuzzy
+#~ msgid "Another"
+#~ msgstr "%s-ң басқа көшірмесі"
+
+#~ msgid "new file"
+#~ msgstr "жаңа файл"
+
+#~ msgid "%s (%s bytes)"
+#~ msgstr "%s (%s байт)"
+
+#~ msgid "_Always"
+#~ msgstr "Әрқа_шан"
+
+#~ msgid "100 K"
+#~ msgstr "100 К"
+
+#~ msgid "Manually"
+#~ msgstr "Қолмен"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "12"
+#~ msgstr "12"
+
+#~ msgid "%s's Home"
+#~ msgstr "%s үй бумасы"
+
+#~ msgid "Default"
+#~ msgstr "Бастапқы"
+
+#~ msgid "Icon"
+#~ msgstr "Таңбаша"
+
+#, fuzzy
+#~ msgid "Could not find '%s'"
+#~ msgstr "Томды табу мүмкін емес: %s"
+
+#~ msgid "Select an Application"
+#~ msgstr "Қолданбаны таңдау"
+
+#~ msgid "_Use a custom command"
+#~ msgstr "Ба_сқа команда:"
+
+#~ msgid "Add Application"
+#~ msgstr "Қолданбаны қосу"
+
+#~ msgid "File Browser"
+#~ msgstr "Файлдық шолушы"
+
+#~ msgid "File Manager"
+#~ msgstr "Файлдық басқарушы"
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#, fuzzy
+#~ msgid "Download location?"
+#~ msgstr "<b>Қай жерге жүктеледі</b>"
+
+#~ msgid "_Download"
+#~ msgstr "Жү_ктеп алу"
+
+#~ msgid "Emblems"
+#~ msgstr "Эмблемалар"
+
+#~ msgid "[URI]"
+#~ msgstr "[URI]"
+
+#, fuzzy
+#~ msgid "Show Emblems"
+#~ msgstr "Таңбашалардың _эмблемаларын көрсету"
+
+#, fuzzy
+#~ msgid "Media"
+#~ msgstr "Медиа плеер"
+
+#, fuzzy
+#~ msgid "_DVD Video:"
+#~ msgstr "видео DVD"
+
+#, fuzzy
+#~ msgid "_Music Player:"
+#~ msgstr "%s музыка плеері"
+
+#, fuzzy
+#~ msgid "_Software:"
+#~ msgstr "Бағд. қамтамасы:"
+
+#~ msgid "History"
+#~ msgstr "Тарихы"
+
+#~ msgid "Information"
+#~ msgstr "Ақпараты"
+
+#, fuzzy
+#~ msgid "Show Information"
+#~ msgstr "Қосымша ақпарат көрсету"
+
+#~ msgid "_Side Pane"
+#~ msgstr "_Бүйір панелі"
+
+#, fuzzy
+#~ msgid "_Zoom"
+#~ msgstr "Ү_лкейту"
+
+#, fuzzy
+#~ msgid "_View As"
+#~ msgstr "Таң_башалар көрінісі"
+
+#~ msgid "_Search"
+#~ msgstr "І_здеу"
+
+#, fuzzy
+#~ msgid "Notes"
+#~ msgstr "Белгілер"
+
+#~ msgid "_Remove..."
+#~ msgstr "Ө_шіру..."
+
+#, fuzzy
+#~ msgid "Add new..."
+#~ msgstr "Жаңа ойнату тізімі"
+
+#~ msgid "_Image:"
+#~ msgstr "Суре_т:"
+
+#~ msgid "Color _name:"
+#~ msgstr "Тү_с аты:"
+
+#~ msgid "Colors:"
+#~ msgstr "Түстер:"
+
+#~ msgid "Emblems:"
+#~ msgstr "Эмблемалар:"
+
+#~ msgid "_Places"
+#~ msgstr "Орын_дар"
+
+#~ msgid "Open _Location..."
+#~ msgstr "Жо_лды ашу..."
+
+#~ msgid "_Contents"
+#~ msgstr "Құра_масы"
+
+#~ msgid "Zoom In"
+#~ msgstr "Үлкейту"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Кішірейту"
+
+#~ msgid "Zoom"
+#~ msgstr "Үлкейту"
+
+#~ msgid ""
+#~ "If you choose to empty the trash, all items in it will be permanently "
+#~ "lost. Please note that you can also delete them separately."
+#~ msgstr ""
+#~ "Қоқыс шелегін тазартуды таңдасаңыз, құрамасы жойылады. Оларды жеке-жеке "
+#~ "өшіруге болатынын есте сақтаңыз."

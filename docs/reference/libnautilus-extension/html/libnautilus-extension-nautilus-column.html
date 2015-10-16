@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Nautilus Extension Reference Manual: NautilusColumn</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Nautilus Extension Reference Manual">
+<link rel="up" href="ch01.html" title="Extension Interfaces">
+<link rel="prev" href="libnautilus-extension-nautilus-column-provider.html" title="nautilus-column-provider">
+<link rel="next" href="libnautilus-extension-nautilus-extension-types.html" title="nautilus-extension-types">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-column.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-column.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#libnautilus-extension-nautilus-column.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="libnautilus-extension-nautilus-column-provider.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libnautilus-extension-nautilus-extension-types.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="libnautilus-extension-nautilus-column"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libnautilus-extension-nautilus-column.top_of_page"></a>NautilusColumn</span></h2>
+<p>NautilusColumn</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody><tr>
+<td class="function_type">
+<a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn"><span class="returnvalue">NautilusColumn</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="libnautilus-extension-nautilus-column.html#nautilus-column-new" title="nautilus_column_new ()">nautilus_column_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--attribute" title="The “attribute” property">attribute</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint</span></td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--attribute-q" title="The “attribute-q” property">attribute-q</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">GtkSortType</span></td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--default-sort-order" title="The “default-sort-order” property">default-sort-order</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--description" title="The “description” property">description</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--label" title="The “label” property">label</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--name" title="The “name” property">name</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gfloat</span></td>
+<td class="property_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn--xalign" title="The “xalign” property">xalign</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="NautilusColumn"></a><div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumnDetails" title="NautilusColumnDetails">NautilusColumnDetails</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn-struct" title="struct NautilusColumn">NautilusColumn</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> NautilusColumn
+</pre>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="nautilus-column-new"></a><h3>nautilus_column_new ()</h3>
+<pre class="programlisting"><a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn"><span class="returnvalue">NautilusColumn</span></a> *
+nautilus_column_new (<em class="parameter"><code>const <span class="type">char</span> *name</code></em>,
+                     <em class="parameter"><code>const <span class="type">char</span> *attribute</code></em>,
+                     <em class="parameter"><code>const <span class="type">char</span> *label</code></em>,
+                     <em class="parameter"><code>const <span class="type">char</span> *description</code></em>);</pre>
+<p>Creates a new column</p>
+<div class="refsect3">
+<a name="id-1.2.2.3.9.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>identifier of the column</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attribute</p></td>
+<td class="parameter_description"><p>the file attribute to be displayed in the column</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>label</p></td>
+<td class="parameter_description"><p>the user-visible label for the column</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>description</p></td>
+<td class="parameter_description"><p>a user-visible description of the column</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.3.9.2.6"></a><h4>Returns</h4>
+<p> a newly created <a class="link" href="libnautilus-extension-nautilus-column.html#NautilusColumn"><span class="type">NautilusColumn</span></a></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="NautilusColumnDetails"></a><h3>NautilusColumnDetails</h3>
+<pre class="programlisting">typedef struct _NautilusColumnDetails NautilusColumnDetails;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn-struct"></a><h3>struct NautilusColumn</h3>
+<pre class="programlisting">struct NautilusColumn;</pre>
+<p>
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="libnautilus-extension-nautilus-column.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="NautilusColumn--attribute"></a><h3>The <code class="literal">“attribute”</code> property</h3>
+<pre class="programlisting">  “attribute”                <span class="type">gchar</span> *</pre>
+<p>The attribute name to display.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--attribute-q"></a><h3>The <code class="literal">“attribute-q”</code> property</h3>
+<pre class="programlisting">  “attribute-q”              <span class="type">guint</span></pre>
+<p>The attribute name to display, in quark form.</p>
+<p>Flags: Read</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--default-sort-order"></a><h3>The <code class="literal">“default-sort-order”</code> property</h3>
+<pre class="programlisting">  “default-sort-order”       <span class="type">GtkSortType</span></pre>
+<p>Default sort order.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GTK_SORT_ASCENDING</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--description"></a><h3>The <code class="literal">“description”</code> property</h3>
+<pre class="programlisting">  “description”              <span class="type">gchar</span> *</pre>
+<p>A user-visible description of the column.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--label"></a><h3>The <code class="literal">“label”</code> property</h3>
+<pre class="programlisting">  “label”                    <span class="type">gchar</span> *</pre>
+<p>Label to display in the column.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--name"></a><h3>The <code class="literal">“name”</code> property</h3>
+<pre class="programlisting">  “name”                     <span class="type">gchar</span> *</pre>
+<p>Name of the column.</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="NautilusColumn--xalign"></a><h3>The <code class="literal">“xalign”</code> property</h3>
+<pre class="programlisting">  “xalign”                   <span class="type">gfloat</span></pre>
+<p>The x-alignment of the column.</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: [0,1]</p>
+<p>Default value: 0</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

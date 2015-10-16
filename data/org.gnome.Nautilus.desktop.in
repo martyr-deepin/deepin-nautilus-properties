@@ -1,0 +1,17 @@
+[Desktop Entry]
+_Name=Files
+_Comment=Access and organize files
+_Keywords=folder;manager;explore;disk;filesystem;
+Exec=nautilus --new-window %U
+Icon=system-file-manager
+Terminal=false
+Type=Application
+DBusActivatable=true
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Core;FileManager;
+MimeType=inode/directory;application/x-gnome-saved-search;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=nautilus
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.14.2
+X-GNOME-UsesNotifications=true

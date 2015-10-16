@@ -1,0 +1,197 @@
+diff --git a/src/Makefile.am b/src/Makefile.am
+index 2aaea24..596b9b3 100644
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -4,6 +4,7 @@ bin_PROGRAMS=					\
+ 	nautilus				\
+ 	nautilus-autorun-software		\
+ 	nautilus-connect-server			\
++	deepin-nautilus-properties              \
+ 	$(NULL)
+ 
+ libexec_PROGRAMS=				\
+@@ -274,3 +275,97 @@ dist-hook:
+ 	cd $(distdir); rm -f $(CLEANFILES)
+ 
+ -include $(top_srcdir)/git.mk
++
++
++
++deepin_nautilus_properties_SOURCES = \
++	deepin-nautilus-properties.c \
++	nautilus-properties-window.c \
++	nautilus-actions.h			\
++	nautilus-application.c			\
++	nautilus-application.h			\
++	nautilus-application-actions.c         \
++	nautilus-application-actions.h         \
++	nautilus-dbus-manager.c                 \
++	nautilus-dbus-manager.h                 \
++	nautilus-generated.c                 \
++	nautilus-generated.h                 \
++	nautilus-bookmark-list.c		\
++	nautilus-bookmark-list.h		\
++	nautilus-bookmarks-window.c		\
++	nautilus-bookmarks-window.h		\
++	nautilus-canvas-view.c			\
++	nautilus-canvas-view.h			\
++	nautilus-canvas-view-container.c	\
++	nautilus-canvas-view-container.h	\
++	nautilus-connect-server-dialog.c	\
++	nautilus-connect-server-dialog.h	\
++	nautilus-desktop-canvas-view.c		\
++	nautilus-desktop-canvas-view.h		\
++	nautilus-desktop-item-properties.c	\
++	nautilus-desktop-item-properties.h	\
++	nautilus-desktop-window.c		\
++	nautilus-desktop-window.h		\
++	nautilus-error-reporting.c		\
++	nautilus-error-reporting.h		\
++	nautilus-file-management-properties.c	\
++	nautilus-file-management-properties.h	\
++	nautilus-floating-bar.c			\
++	nautilus-floating-bar.h			\
++	nautilus-freedesktop-dbus.c		\
++	nautilus-freedesktop-dbus.h		\
++	nautilus-image-properties-page.c	\
++	nautilus-image-properties-page.h	\
++	nautilus-list-model.c			\
++	nautilus-list-model.h			\
++	nautilus-list-view-private.h 		\
++	nautilus-list-view.c			\
++	nautilus-list-view.h 			\
++	nautilus-location-entry.c               \
++	nautilus-location-entry.h               \
++	nautilus-mime-actions.c 		\
++	nautilus-mime-actions.h 		\
++	nautilus-notebook.c			\
++	nautilus-notebook.h			\
++	nautilus-pathbar.c			\
++	nautilus-pathbar.h			\
++	nautilus-previewer.c			\
++	nautilus-previewer.h			\
++	nautilus-progress-info-widget.c		\
++	nautilus-progress-info-widget.h		\
++	nautilus-progress-ui-handler.c		\
++	nautilus-progress-ui-handler.h		\
++	nautilus-properties-window.h		\
++	nautilus-query-editor.c			\
++	nautilus-query-editor.h			\
++	nautilus-self-check-functions.c 	\
++	nautilus-self-check-functions.h 	\
++	nautilus-shell-search-provider.h	\
++	nautilus-shell-search-provider.c	\
++	nautilus-special-location-bar.c		\
++	nautilus-special-location-bar.h		\
++	nautilus-toolbar.c			\
++	nautilus-toolbar.h			\
++	nautilus-trash-bar.c			\
++	nautilus-trash-bar.h			\
++	nautilus-view.c				\
++	nautilus-view.h				\
++	nautilus-view-dnd.c			\
++	nautilus-view-dnd.h			\
++	nautilus-window-menus.c         	\
++	nautilus-window-private.h		\
++	nautilus-window-slot.c			\
++	nautilus-window-slot.h			\
++	nautilus-window-slot-dnd.c		\
++	nautilus-window-slot-dnd.h		\
++	nautilus-window.c			\
++	nautilus-window.h			\
++	nautilus-x-content-bar.c		\
++	nautilus-x-content-bar.h		\
++	$(dbus_freedesktop_built_sources) \
++	$(dbus_shell_search_provider_built_sources) \
++	nautilus-resources.c \
++	nautilus-resources.h \
++	nautilus-enum-types.h \
++	nautilus-enum-types.c \
++	$(NULL)
+diff --git a/src/deepin-nautilus-properties.c b/src/deepin-nautilus-properties.c
+new file mode 100644
+index 0000000..808d108
+--- /dev/null
++++ b/src/deepin-nautilus-properties.c
+@@ -0,0 +1,81 @@
++#include <gtk/gtk.h>
++#include <glib/gi18n.h>
++
++#include <config.h>
++#include "nautilus-properties-window.h"
++
++#define PROPERTIES_TYPE (properties_get_type ())
++#define PROPERTIES(obj) (G_TYPE_CHECK_INSTANCE_CAST ((obj), PROPERTIES_TYPE, Properties))
++
++typedef struct _Properties {
++    GtkApplication parent;
++} Properties;
++
++
++typedef struct _PropertiesClass {
++    GtkApplicationClass parent_class;
++} PropertiesClass;
++
++
++G_DEFINE_TYPE(Properties, properties, GTK_TYPE_APPLICATION);
++
++
++static
++void properties_activate(GApplication* app)
++{
++    g_printf("Please pass file uri.\n");
++}
++
++
++static
++void properties_open(GApplication* app, GFile** files, gint n_files, const gchar* hint)
++{
++    int i;
++    GList* file_list = NULL;
++
++    for (i = 0; i < n_files; ++i) {
++        char* uri = g_file_get_uri(files[i]);
++        NautilusFile *file = nautilus_file_get_by_uri(uri);
++        g_free(uri);
++        file_list = g_list_prepend(file_list, file);
++    }
++
++    file_list = g_list_reverse(file_list);
++
++    nautilus_properties_window_present (file_list, NULL, NULL);
++
++    nautilus_file_list_free (file_list);
++    gtk_main();
++}
++
++
++void properties_init(Properties* app)
++{
++}
++
++
++void properties_class_init(PropertiesClass* app)
++{
++    G_APPLICATION_CLASS(app)->activate = properties_activate;
++    G_APPLICATION_CLASS(app)->open = properties_open;
++}
++
++
++int main(int argc, char *argv[])
++{
++    /* Initialize gettext support */
++    bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);
++    bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
++    textdomain (GETTEXT_PACKAGE);
++
++    int status = -1;
++
++    GObject* app = g_object_new(PROPERTIES_TYPE,
++                                "application-id", "com.deepin.properties",
++                                "flags", G_APPLICATION_HANDLES_OPEN,
++                                NULL);
++    status = g_application_run(G_APPLICATION(app), argc, argv);
++    g_object_unref(app);
++
++    return status;
++}
