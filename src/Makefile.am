@@ -3,6 +3,7 @@ include $(top_srcdir)/Makefile.shared
 bin_PROGRAMS=					\
 	nautilus				\
 	nautilus-autorun-software		\
+	deepin-open-chooser			\
 	nautilus-connect-server			\
 	deepin-nautilus-properties              \
 	$(NULL)
@@ -276,7 +277,9 @@ dist-hook:
 
 -include $(top_srcdir)/git.mk
 
-
+deepin_open_chooser_SOURCES = \
+	deepin-open-chooser.c \	
+	$(NULL)
 
 deepin_nautilus_properties_SOURCES = \
 	deepin-nautilus-properties.c \
