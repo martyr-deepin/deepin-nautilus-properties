@@ -1,0 +1,14 @@
+deepin-nautilus-properties (3.14.2-2) unstable; urgency=medium
+
+  * Need gnome-desktop-3-10 to 3-12. add libnautilus-extension-dev build dep.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 16 Oct 2015 08:58:03 +0800
+
+deepin-nautilus-properties (3.14.2-1) unstable; urgency=medium
+
+  * Drop eject recommends - obsolete since circa 2003
+  * New upstream stable release.
+  * Drop debian/patches/01_fix-new-window-manage-desktop.patch
+    - now part of upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sun, 17 May 2015 11:15:00 +0200
